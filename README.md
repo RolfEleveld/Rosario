@@ -33,3 +33,10 @@ The pages of W3C for epub specification are used as reference: https://www.w3.or
 21. Letanías de la virgen
 22. Ángel de la Guarda
 23. Oración de San Miguel Arcángel 
+
+# Compile
+
+Create file with: 
+```PowerShell
+Compress-Archive -Path . -DestinationPath ./Rosario.epub -Force
+```

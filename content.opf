@@ -1,0 +1,67 @@
+<package … unique-identifier="bajomero-rosario-es">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <dc:identifier id="pub-id">urn:uuid:4F609627-3C33-49CC-934D-148A09B7840A</dc:identifier>
+        <dc:title>Rosario</dc:title>
+        <dc:language>es</dc:language>
+        <meta property="dcterms:modified">2022-01-12T15:29:00Z</meta>
+    </metadata>
+    <manifest>
+        <item id="main" href="./main.xhtml" media-type="application/xhtml+xml"/>
+        <item id="nav" href="./nav.xhtml" properties="nav" media-type="application/xhtml+xml"/>
+        <item id="domingo-00" href="./Resos/Senal-de-la-santa-cruz.xhtml" media-type="application/xhtml+xml"/>
+        <item id="domingo-01" href="./Resos/Credo.xhtml" media-type="application/xhtml+xml"/>
+        <item id="domingo-02" href="./Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml"/>
+        <item id="domingo-03" href="./Resos/Avemaria.xhtml" media-type="application/xhtml+xml"/>
+        <item id="domingo-04" href="./Resos/Avemaria.xhtml" media-type="application/xhtml+xml"/>
+        <item id="domingo-05" href="./Resos/Avemaria.xhtml" media-type="application/xhtml+xml"/>
+        <item id="domingo-06" href="./Resos/Gloria.xhtml" media-type="application/xhtml+xml"/>
+        <item id="domingo-07" href="./Resos/Domingo-Misterio-1.xhtml" media-type="application/xhtml+xml"/>
+        <item id="domingo-08" href="./Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml"/>
+        <item id="domingo-09" href="./Resos/Avemaria.xhtml" media-type="application/xhtml+xml"/>
+        <item id="domingo-10" href="./Resos/Avemaria.xhtml" media-type="application/xhtml+xml"/>
+        <item id="domingo-11" href="./Resos/Avemaria.xhtml" media-type="application/xhtml+xml"/>
+        <item id="domingo-12" href="./Resos/Avemaria.xhtml" media-type="application/xhtml+xml"/>
+        <item id="domingo-13" href="./Resos/Avemaria.xhtml" media-type="application/xhtml+xml"/>
+        <item id="domingo-14" href="./Resos/Avemaria.xhtml" media-type="application/xhtml+xml"/>
+        <item id="domingo-15" href="./Resos/Avemaria.xhtml" media-type="application/xhtml+xml"/>
+        <item id="domingo-16" href="./Resos/Avemaria.xhtml" media-type="application/xhtml+xml"/>
+        <item id="domingo-17" href="./Resos/Avemaria.xhtml" media-type="application/xhtml+xml"/>
+        <item id="domingo-18" href="./Resos/Avemaria.xhtml" media-type="application/xhtml+xml"/>
+        <item id="domingo-19" href="./Resos/Gloria.xhtml" media-type="application/xhtml+xml"/>
+        <item id="domingo-20" href="./Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml"/>
+        <item id="domingo-21" href="./Resos/Domingo-Misterio-2.xhtml" media-type="application/xhtml+xml"/>
+        <!--
+        <item id="cover" href="./images/cover.svg" properties="cover-image" media-type="image/svg+xml"/>
+        <item id="f1" href="./images/fig1.jpg" media-type="image/jpeg"/>
+        <item id="f2" href="./images/fig2.jpg" media-type="image/jpeg"/>
+        <item id="css" href="./style/book.css" media-type="text/css"/>
+        <item id="pls" href="./speech/dict.pls" media-type="application/pls+xml"/>
+        -->
+        <!--
+    1. Señal de la cruz
+	2. Credo
+	3. Padrenuestro
+	4. Ave Maria
+	5. Ave Maria 
+	6. Ave Maria 
+	7. Gloria
+	8. Mysterio 1
+	9. Padre Nuestro
+	10. Ave Maria x10
+	11. Gloria
+	12. Jaculatoria
+	13. Mysterio 2
+	14. ...9-12
+	15. Mysterio 3
+	16. ... 9-12
+	17. Mysterio 4
+	18. ...9-12
+	19. Mysterio 5
+	20. ..9-12
+	21. Letanías de la virgen
+	22. Ángel de la Guarda
+	23. Oración de San Miguel Arcángel 
+
+        -->
+    </manifest>
+</package>
