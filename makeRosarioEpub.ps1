@@ -115,7 +115,7 @@ $packageFileContent = '<?xml version="1.0" encoding="UTF-8"?><package xmlns="htt
 # replace @Title@ with $Title
 $packageFileContent = $packageFileContent -replace "@Title@", $Title
 # replace @Date@ with $Date
-$packageFileContent = $packageFileContent -replace "@Date@", $Date.ToUniversalTime().ToString('YYYY-MM-DDTHH:mm:ssZ')
+$packageFileContent = $packageFileContent -replace "@Date@", $Date.ToUniversalTime().ToString('yyyy-MM-ddTHH:mm:ssZ')
 # replace @ID@ with New-Guid
 $packageFileContent = $packageFileContent -replace "@ID@", (New-Guid)
 # replace @Creator@ with $Author
