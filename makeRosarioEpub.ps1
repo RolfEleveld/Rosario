@@ -143,5 +143,5 @@ $compoundName += '.epub'
 $epubFileName = $compoundName
 $allContent | Compress-Archive -DestinationPath $epubFileName -CompressionLevel Optimal -Force
               
-# Return the .epub file created
-return $epubFileName
+# open the .epub file created
+start $epubFileName
