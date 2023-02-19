@@ -1,32 +1,84 @@
 ..\Scripts\ebook-Functions.ps1
 
+
 ## Variables
+# sequence of texts
+$sequence = [string[]]@()
+$startSequence = [string[]]@('Señal de la santa cruz', 'Oración al Espíritu Santo', 'Credo', 'Padrenuestro', 'Ave Maria', 'Ave Maria', 'Ave Maria', 'Gloria')
+$mysterioSequence = [string[]]@('Mysterio', 'Padre Nuestro', 'Ave Maria', 'Ave Maria', 'Ave Maria', 'Ave Maria', 'Ave Maria', 'Ave Maria', 'Ave Maria', 'Ave Maria', 'Ave Maria', 'Ave Maria', 'Gloria', 'Jaculatoria')
+$endSequence = [string[]]@('Letanías de la virgen', 'Concluídos los Misterios', 'Divina Providencia', 'Ángel de la Guarda', 'Oración de San Miguel Arcángel', 'Bajo tu amparo', 'Oración de Santa Gertrudis la Grande', 'San Jose')
+
+$weekDays = [PSObject[]]@(
+  [PSCustomObject]@{Day = 'Lunes'; Misterio = 'Gozoso' },
+  [PSCustomObject]@{Day = 'Martes'; Misterio = 'Doloroso' },
+  [PSCustomObject]@{Day = 'Miercoles'; Misterio = 'Glorioso' },
+  [PSCustomObject]@{Day = 'Jueves'; Misterio = 'Luminoso' },
+  [PSCustomObject]@{Day = 'Viernes'; Misterio = 'Doloroso' },
+  [PSCustomObject]@{Day = 'Sabado'; Misterio = 'Gozoso' },
+  [PSCustomObject]@{Day = 'Domingo'; Misterio = 'Glorioso' }
+)
+$sequenceInstances = [int[]]@(1, 2, 3, 4, 5)
+
+$sequence += $startSequence
+$sequence += 'Dia' # choose the day
+foreach ($day in $weekDays) {
+  $sequence += "Dia-{0}" -f $day.Day # placeholder for naming as target from starting sequence
+  foreach ($i in $sequenceInstances) {
+    $sequence += $mysterioSequence | ForEach-Object -Process { if ($_ -match 'Mysterio') { "Mysterio-{0}-{1}" -f $day.Misterio, $i } else { $_ } }
+  }
+  $sequence += 'Fin' # placeholder for clicking to close on each day sequence
+}
+$sequence += $endSequence
+# full sequence
+$sequence -join ' - '
+
+
+# Content Collection
 [PSObject[]]$Collection = @() # files
 
-$Collection += [PSObject]@{id = "main"; nav=""; href = "./main.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "nav"; nav=""; href = "./nav.xhtml"; properties = "nav"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-00"; nav="Domingo"; name="Senal de la santa cruz"; href = "./Resos/Senal-de-la-santa-cruz.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-01"; nav="Domingo"; name="Credo"; href = "./Resos/Credo.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-02"; nav="Domingo"; name="Padre Nuestro"; href = "./Resos/Padre-Nuestro.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-03"; nav="Domingo"; name="Ave maria 1"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-03"; nav="Domingo"; name="Ave maria 2"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-04"; nav="Domingo"; name="Ave maria 3"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-06"; nav="Domingo"; name="Gloria"; href = "./Resos/Gloria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-07"; nav="Domingo"; name="Misterio Glorioso 1"; href = "./Resos/Domingo-Misterio-1.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-08"; nav="Domingo"; name="Padre Nuestro"; href = "./Resos/Padre-Nuestro.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-09"; nav="Domingo"; name="Ave Maria 1"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-10"; nav="Domingo"; name="Ave Maria 2"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-11"; nav="Domingo"; name="Ave Maria 3"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-12"; nav="Domingo"; name="Ave Maria 4"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-13"; nav="Domingo"; name="Ave Maria 5"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-14"; nav="Domingo"; name="Ave Maria 6"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-15"; nav="Domingo"; name="Ave Maria 7"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-16"; nav="Domingo"; name="Ave Maria 8"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-17"; nav="Domingo"; name="Ave Maria 9"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-18"; nav="Domingo"; name="Ave Maria 10"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-19"; nav="Domingo"; name="Gloria"; href = "./Resos/Gloria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-20"; nav="Domingo"; name="Jaculatoria"; href = "./Resos/Jaculatoria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-21"; nav="Domingo"; name="Misterio Glorioso 2"; href = "./Resos/Domingo-Misterio-2.xhtml"; mediatype = "application/xhtml+xml" }
+$Collection += [PSCustomObject]@{id = "main"; nav = ""; href = "./main.xhtml"; mediatype = "application/xhtml+xml" }
+$Collection += [PSCustomObject]@{id = "nav"; nav = ""; href = "./nav.xhtml"; properties = "nav"; mediatype = "application/xhtml+xml" }
+
+# loop through all segments
+$index = [int]0
+foreach ($section in $sequence) {  
+  # choose what to do with each element.
+  $id = "rosario-{0:d3}" -f $index
+  switch ($section) {
+    # should be a know word
+    'Señal de la santa cruz' { 
+      $Collection += [PSCustomObject]@{id = $id ; name = "Senal de la santa cruz"; href = "./Resos/Senal-de-la-santa-cruz.xhtml"; mediatype = "application/xhtml+xml" }
+    }
+    'Credo' { 
+      $Collection += [PSCustomObject]@{id = $id; name = "Credo"; href = "./Resos/Credo.xhtml"; mediatype = "application/xhtml+xml" }
+    }
+    'Padre Nuestro' { 
+      $Collection += [PSCustomObject]@{id = $id; name = "Padre Nuestro"; href = "./Resos/Padre-Nuestro.xhtml"; mediatype = "application/xhtml+xml" }
+    }
+    'Ave Maria' { 
+      $Collection += [PSCustomObject]@{id = $id; name = "Ave maria"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
+    }
+    'Gloria' { 
+      $Collection += [PSCustomObject]@{id = $id; name = "Gloria"; href = "./Resos/Gloria.xhtml"; mediatype = "application/xhtml+xml" }
+    }
+    'Jaculatoria' { 
+      $Collection += [PSCustomObject]@{id = $id; name = "Jaculatoria"; href = "./Resos/Jaculatoria.xhtml"; mediatype = "application/xhtml+xml" }
+    }
+    'Letanías de la virgen' {
+      $Collection += [PSCustomObject]@{id = $id; name = "Jaculatoria"; href = "./Resos/Jaculatoria.xhtml"; mediatype = "application/xhtml+xml" }
+    }
+    Default { 
+      # what to do if an unknown word appears... Mysterios, days, etc.
+      if ($section -match 'Mysterio') {
+         $Collection += [PSCustomObject]@{id = $id; name = $section -replace '-', ' '; href = "./Resos/{0}.xhtml" -f $section; mediatype = "application/xhtml+xml" }
+      } elseif ($section -match 'Dia') {
+        $Collection += [PSCustomObject]@{id = $id; name = $section -replace '-', ' '; href = "./Resos/{0}.xhtml" -f $section; mediatype = "application/xhtml+xml" }
+      }
+    }
+  }
+  $index++
+}
+$Collection | Format-List
 
 [String]$Destination = ".\" # Assuming current path
 [string]$CoverFile = "" # Assuming no cover
@@ -144,7 +196,7 @@ $segments = $groups | ForEach-Object { $entries = $_.Group | ForEach-Object { "<
 
 
 # compress the content of the temp folder into a .epub
-$allContent = Get-ChildItem -Path . -Recurse | Where-Object -Property Name -NotIn -Value @('makeRosarioEpub.ps1','Rosario.epub','.vscode','.gitignore','.git') | Where-Object -Property FullName -NotMatch '\\.git\\' | Where-Object -Property FullName -NotMatch '\\.vscode\\'
+$allContent = Get-ChildItem -Path . -Recurse | Where-Object -Property Name -NotIn -Value @('makeRosarioEpub.ps1', 'Rosario.epub', '.vscode', '.gitignore', '.git') | Where-Object -Property FullName -NotMatch '\\.git\\' | Where-Object -Property FullName -NotMatch '\\.vscode\\'
 $compoundName = "Rosario"
 if (-not(@("", $null) -contains $Author)) {
   $compoundName += ' - ' + $Author
