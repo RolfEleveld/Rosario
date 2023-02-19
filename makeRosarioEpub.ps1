@@ -3,30 +3,30 @@
 ## Variables
 [PSObject[]]$Collection = @() # files
 
-$Collection += [PSObject]@{id = "main"; href = "./main.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "nav"; href = "./nav.xhtml"; properties = "nav"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-00"; href = "./Resos/Senal-de-la-santa-cruz.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-01"; href = "./Resos/Credo.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-02"; href = "./Resos/Padre-Nuestro.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-03"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-04"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-05"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-06"; href = "./Resos/Gloria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-07"; href = "./Resos/Domingo-Misterio-1.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-08"; href = "./Resos/Padre-Nuestro.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-09"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-10"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-11"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-12"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-13"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-14"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-15"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-16"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-17"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-18"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-19"; href = "./Resos/Gloria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-20"; href = "./Resos/Jaculatoria.xhtml"; mediatype = "application/xhtml+xml" }
-$Collection += [PSObject]@{id = "domingo-21"; href = "./Resos/Domingo-Misterio-2.xhtml"; mediatype = "application/xhtml+xml" }
+$Collection += [PSObject]@{id = "main"; nav=""; href = "./main.xhtml"; mediatype = "application/xhtml+xml" }
+$Collection += [PSObject]@{id = "nav"; nav=""; href = "./nav.xhtml"; properties = "nav"; mediatype = "application/xhtml+xml" }
+$Collection += [PSObject]@{id = "domingo-00"; nav="Domingo"; name="Senal de la santa cruz"; href = "./Resos/Senal-de-la-santa-cruz.xhtml"; mediatype = "application/xhtml+xml" }
+$Collection += [PSObject]@{id = "domingo-01"; nav="Domingo"; name="Credo"; href = "./Resos/Credo.xhtml"; mediatype = "application/xhtml+xml" }
+$Collection += [PSObject]@{id = "domingo-02"; nav="Domingo"; name="Padre Nuestro"; href = "./Resos/Padre-Nuestro.xhtml"; mediatype = "application/xhtml+xml" }
+$Collection += [PSObject]@{id = "domingo-03"; nav="Domingo"; name="Ave maria 1"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
+$Collection += [PSObject]@{id = "domingo-03"; nav="Domingo"; name="Ave maria 2"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
+$Collection += [PSObject]@{id = "domingo-04"; nav="Domingo"; name="Ave maria 3"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
+$Collection += [PSObject]@{id = "domingo-06"; nav="Domingo"; name="Gloria"; href = "./Resos/Gloria.xhtml"; mediatype = "application/xhtml+xml" }
+$Collection += [PSObject]@{id = "domingo-07"; nav="Domingo"; name="Misterio Glorioso 1"; href = "./Resos/Domingo-Misterio-1.xhtml"; mediatype = "application/xhtml+xml" }
+$Collection += [PSObject]@{id = "domingo-08"; nav="Domingo"; name="Padre Nuestro"; href = "./Resos/Padre-Nuestro.xhtml"; mediatype = "application/xhtml+xml" }
+$Collection += [PSObject]@{id = "domingo-09"; nav="Domingo"; name="Ave Maria 1"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
+$Collection += [PSObject]@{id = "domingo-10"; nav="Domingo"; name="Ave Maria 2"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
+$Collection += [PSObject]@{id = "domingo-11"; nav="Domingo"; name="Ave Maria 3"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
+$Collection += [PSObject]@{id = "domingo-12"; nav="Domingo"; name="Ave Maria 4"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
+$Collection += [PSObject]@{id = "domingo-13"; nav="Domingo"; name="Ave Maria 5"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
+$Collection += [PSObject]@{id = "domingo-14"; nav="Domingo"; name="Ave Maria 6"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
+$Collection += [PSObject]@{id = "domingo-15"; nav="Domingo"; name="Ave Maria 7"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
+$Collection += [PSObject]@{id = "domingo-16"; nav="Domingo"; name="Ave Maria 8"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
+$Collection += [PSObject]@{id = "domingo-17"; nav="Domingo"; name="Ave Maria 9"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
+$Collection += [PSObject]@{id = "domingo-18"; nav="Domingo"; name="Ave Maria 10"; href = "./Resos/Avemaria.xhtml"; mediatype = "application/xhtml+xml" }
+$Collection += [PSObject]@{id = "domingo-19"; nav="Domingo"; name="Gloria"; href = "./Resos/Gloria.xhtml"; mediatype = "application/xhtml+xml" }
+$Collection += [PSObject]@{id = "domingo-20"; nav="Domingo"; name="Jaculatoria"; href = "./Resos/Jaculatoria.xhtml"; mediatype = "application/xhtml+xml" }
+$Collection += [PSObject]@{id = "domingo-21"; nav="Domingo"; name="Misterio Glorioso 2"; href = "./Resos/Domingo-Misterio-2.xhtml"; mediatype = "application/xhtml+xml" }
 
 [String]$Destination = ".\" # Assuming current path
 [string]$CoverFile = "" # Assuming no cover
@@ -40,7 +40,7 @@ $Collection += [PSObject]@{id = "domingo-21"; href = "./Resos/Domingo-Misterio-2
 $spine = @()
 $manifest = @()
 
-# Structure to create
+# ideal Structure to create
 # /EPUB/content.opf
 # /EPUB/css/stylesheet.css
 # /EPUB/media/*.jpg
@@ -131,10 +131,20 @@ $opfContentFilePath = "content.opf"
 $packageFileContent | Out-File -FilePath $opfContentFilePath -Encoding utf8 -Force
 # Copy or move files into target situation
 
+# Create the navigation
+
+$groups = $htmlSet | Group-Object -Property "nav"
+$segments = $groups | ForEach-Object { $entries = $_.Group | ForEach-Object { "<li><a href=""$($_.href)"">$($_.name)</a></li>" } -join ""; "<li><span>$($_.nav)</span><ol>$entries</ol></li>" }
+# replace @Entries@ below with the set of menu entries for @Group@
+"<li><span>@Group@</span><ol>@Entries@</ol></li>"
+# replace @Segments@ below with the collection of menu segments
+"<html xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops""><head><title>Rosario</title></head><body><nav epub:type=""list-type""><h1>Rosario</h1><ol>@Segments@</ol></nav></body></html>"
+
 # Create the epub
 
+
 # compress the content of the temp folder into a .epub
-$allContent = Get-ChildItem -Path . -Recurse -Exclude 'makeRosarioEpub.ps1', 'Rosario.epub','.vscode'
+$allContent = Get-ChildItem -Path . -Recurse | Where-Object -Property Name -NotIn -Value @('makeRosarioEpub.ps1','Rosario.epub','.vscode','.gitignore','.git') | Where-Object -Property FullName -NotMatch '\\.git\\' | Where-Object -Property FullName -NotMatch '\\.vscode\\'
 $compoundName = "Rosario"
 if (-not(@("", $null) -contains $Author)) {
   $compoundName += ' - ' + $Author
