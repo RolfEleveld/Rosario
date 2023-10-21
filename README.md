@@ -34,7 +34,15 @@ The pages of W3C for epub specification are used as reference: https://www.w3.or
 22. Ángel de la Guarda
 23. Oración de San Miguel Arcángel 
 
-# Compile
+## Challenge
+
+I do not want to include any page more than once. I could generate teh book by a powershell and duplicate teh content for each page in sequence and make sure each page is unique. Since teh file zips the content and the content can be sufficiently compact, the zip will compress a lot. An Epub is a website in a box. I would like to use javascript to get the next page at any time. It can also be used asa progress meter. In essense the following scenario:
+
+Choose Day Sun-Sat (preselected based on today!)-> senal de la cruz -> Credo -> Padre Nuestro -> Ave Maria (the javascript will indicate the next page is back to the same page but now with a second index).
+
+Thought process is to have a page query ?day=sun&mysterio=0&step=1 this means this is the first step before mysterios on a sunday reading. further in teh process the query might be: ?day=sun&mysterio=3&step=7 this means reading the 7th Ave Maria on a sunday after the third mystery.  
+
+## Compile
 
 Create file with: 
 ```PowerShell
