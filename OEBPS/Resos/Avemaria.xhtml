@@ -7,19 +7,21 @@
   <script type="text/javascript">
     function init() {
       var hash = location.hash ?? "tue-0-2";
-      document.getElementById('step').innerHTML = pages.aap + hash;
       // seek the next page
       navigateto = hash.split('-');
       navigateto[2] += 1;
       hash = navigateto.join('-');
-      document.getElementById('nextitem').href = "./Padre-Nuestro.xhtml";
+      aa = document.getElementById('nextitem1');
+      aa.innerHTML = "text for link updated " + hash;
+      aa.href = "./Padre-Nuestro.xhtml";
+      document.getElementById('step1').innerHTML = "1";
     }
   </script>
 </head>
 
 <body onload="init()">
   <h1>Avemaria</h1>
-  <h2 id="step"></h2>
+  <h2 id="step1">0</h2>
 
   Dios te salve, María,
   llena eres de gracia,
@@ -44,7 +46,7 @@
   <a href="../Misterios/Glorioso/Misterio-Glorioso-1.xhtml">Mysterio Glorioso</a>
 
   <!-- updatable link behavior -->
-  <a id="nextitem" href="./Avemaria.xhtml#tue-0-2">Next</a>
+  <a id="nextitem1" href="./Avemaria.xhtml#tue-0-2">Next 1</a>
 
 </body>
 
