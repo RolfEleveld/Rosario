@@ -1,53 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr" xml:lang="en">
 
 <head>
   <title>Avemaria</title>
   <script src="../Script/order.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    function init() {
-      var hash = location.hash ?? "tue-0-2";
-      // seek the next page
-      navigateto = hash.split('-');
-      navigateto[2] += 1;
-      hash = navigateto.join('-');
-      aa = document.getElementById('nextitem1');
-      aa.innerHTML = "text for link updated " + hash;
-      aa.href = "./Padre-Nuestro.xhtml";
-      document.getElementById('step1').innerHTML = "1";
-    }
-  </script>
+  <style>completed {text-decoration: line-through;}; hide {display: none;};</style>
 </head>
 
 <body onload="init()">
-  <h1>Avemaria</h1>
-  <h2 id="step1">0</h2>
-
-  Dios te salve, María,
-  llena eres de gracia,
-  el Seńor es contigo.
-  Bendita tú eres entre todas las mujeres,
-  y bendito es el fruto de tu vientre, Jesús.
-
-  Santa María, Madre de Dios,
-  ruega por nosotros, los pecadores,
-  ahora y en la hora de nuestra muerte.
-
-  Amén
-
-  <!-- dynamic link behavior -->
-  <a href="#" data-video="nextpage"
-    onclick="window.location.href='Avemaria.xhtml#' + hash; return false; this.preventDefault();">Siguiente</a>
-
-  <!-- fixed link behavior -->
-  <a href="./Padre-Nuestro.xhtml">Padre Nuestro</a>
-  <a href="./Gloria.xhtml">Gloria</a>
-  <a href="./Jaculatoria.xhtml">Jaculatoria</a>
-  <a href="../Misterios/Glorioso/Misterio-Glorioso-1.xhtml">Mysterio Glorioso</a>
-
-  <!-- updatable link behavior -->
-  <a id="nextitem1" href="./Avemaria.xhtml#tue-0-2">Next 1</a>
-
+  <div name="filltext">
+    <h1>Avemaria</h1>
+    Dios te salve, María,
+    llena eres de gracia,
+    el Seńor es contigo.
+    Bendita tú eres entre todas las mujeres,
+    y bendito es el fruto de tu vientre, Jesús.
+  
+    Santa María, Madre de Dios,
+    ruega por nosotros, los pecadores,
+    ahora y en la hora de nuestra muerte.
+  
+    Amén  
+  </div>  
 </body>
 
 </html>

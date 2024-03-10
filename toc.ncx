@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
     <head>
         <meta content="f814194d-0e51-4d16-8e94-92846d438a8c" name="dtb:uid" />
@@ -16,6 +16,30 @@
                 <text>Rosario</text>
             </navLabel>
             <content src="OEBPS/main.xhtml" />
+        </navPoint>
+        <navPoint class="chapter" id="c0902509-9a0b-4b2f-8088-6878756076ca" playOrder="2">
+            <navLabel>
+                <text>Gloriosos</text>
+            </navLabel>
+            <content src="OEBPS/Navigation/Gloriosos.xhtml" />
+        </navPoint>
+        <navPoint class="chapter" id="220c6c29-9826-4892-bd52-5fc9a5306ed0" playOrder="3">
+            <navLabel>
+                <text>Gosozos</text>
+            </navLabel>
+            <content src="OEBPS/Navigation/Gosozos.xhtml" />
+        </navPoint>
+        <navPoint class="chapter" id="a87a1eb8-2adf-4d90-a9a7-b88604ebebd5" playOrder="4">
+            <navLabel>
+                <text>Dolorosos</text>
+            </navLabel>
+            <content src="OEBPS/Navigation/Dolorosos.xhtml" />
+        </navPoint>
+        <navPoint class="chapter" id="d8df717-6371-401d-8ef9-38cd950a18e7" playOrder="5">
+            <navLabel>
+                <text>Luminosos</text>
+            </navLabel>
+            <content src="OEBPS/Navigation/Luminosos.xhtml" />
         </navPoint>
     </navMap>
 </ncx>

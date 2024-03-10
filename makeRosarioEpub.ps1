@@ -147,7 +147,7 @@
 #   }
 
 #   # add cover page
-#   $coverPageContent = [System.Text.StringBuilder]'<?xml version="1.0" encoding="utf-8"?><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="' + $Language + '">'
+#   $coverPageContent = [System.Text.StringBuilder]'<?xml version='1.0' encoding='utf-8'?><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="' + $Language + '">'
 #   $coverPageContent.Append('<head><title>' + $Title + '</title><meta content="http://www.w3.org/1999/xhtml; charset=utf-8" http-equiv="Content-Type" /><link href="./stylesheet.css" type="text/css" rel="stylesheet" /></head>')
 #   $coverPageContent.Append('<body><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="100%" height="100%" viewBox="0 0 ' + $coverWidth + ' ' + $coverHeight + '" preserveAspectRatio="xMidYMid meet"><image width="' + $coverWidth + '" height="' + $coverHeight + '" xlink:href="' + $coverImageName + '"/></svg></body>')
 #   $coverPageContent.Append('</html>')
@@ -159,7 +159,7 @@
 #   $spineSegment += '<itemref idref="cover"/>'
 # }
 
-# $packageFileContent = '<?xml version="1.0" encoding="UTF-8"?><package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid"><metadata xmlns:dc="http://purl.org/dc/elements/1.1/"><dc:identifier id="uid">@ID@</dc:identifier><dc:title>@Title@</dc:title><dc:creator>@Creator@</dc:creator><dc:language>@Language@</dc:language><meta property="dcterms:modified">@Date@</meta></metadata><manifest><item href="xhtml/nav.html" id="nav" media-type="application/xhtml+xml"/><item href="css/stylesheet.css" media-type="text/css" id="css"/>@Manifest@</manifest><spine><itemref idref="nav" linear="no"/>@Spine@</spine></package>'
+# $packageFileContent = '<?xml version='1.0' encoding='utf-8'?><package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid"><metadata xmlns:dc="http://purl.org/dc/elements/1.1/"><dc:identifier id="uid">@ID@</dc:identifier><dc:title>@Title@</dc:title><dc:creator>@Creator@</dc:creator><dc:language>@Language@</dc:language><meta property="dcterms:modified">@Date@</meta></metadata><manifest><item href="xhtml/nav.html" id="nav" media-type="application/xhtml+xml"/><item href="css/stylesheet.css" media-type="text/css" id="css"/>@Manifest@</manifest><spine><itemref idref="nav" linear="no"/>@Spine@</spine></package>'
 
 # # replace @Title@ with $Title
 # $packageFileContent = $packageFileContent -replace "@Title@", $Title
@@ -193,9 +193,11 @@
 
 
 # compress the content of the temp folder into a .epub
-$allContent = Get-ChildItem -Path . -Recurse | Where-Object -Property Name -NotIn -Value @('makeRosarioEpub.ps1', 'Rosario.epub', '.vscode', '.gitignore', '.git') | Where-Object -Property FullName -NotMatch '\\.git\\' | Where-Object -Property FullName -NotMatch '\\.vscode\\'
+$rootContent = Get-ChildItem -Path . -File | Where-Object -Property Name -NotIn -Value @('makeRosarioEpub.ps1', 'Rosario.epub', '.vscode', '.gitignore', '.git', 'LICENSE', 'README.md') | Where-Object -Property FullName -NotMatch '\\.git\\' | Where-Object -Property FullName -NotMatch '\\.vscode\\'
 $epubFileName = "Rosario.epub"
-$allContent | Compress-Archive -DestinationPath $epubFileName -CompressionLevel Optimal -Force
+$rootContent | Compress-Archive -DestinationPath $epubFileName -CompressionLevel Optimal -Force
+Compress-Archive -Path "META-INF" -DestinationPath $epubFileName -Update
+Compress-Archive -Path "OEBPS" -DestinationPath $epubFileName -Update
               
 # open the .epub file created
 $epubFileName
