@@ -7,9 +7,4 @@
 .vscode/
 
 # generated products used in build
-css/
-META-INF/
 epub/
-content.opf
-mimetype
-nav.xhtml
