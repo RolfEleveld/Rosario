@@ -8,3 +8,4 @@
 
 # generated products used in build
 epub/
+!mimetype

@@ -1,3 +1,34 @@
+# General Sequence
+# 1. Señal de la cruz
+# 2. ORACIÓN AL ESPÍRITU SANTO
+# 3. Credo
+# 4. Padrenuestro
+# 5. Ave Maria
+# 6. Ave Maria 
+# 7. Ave Maria 
+# 8. Gloria
+# 9. Mysterio 1
+# 10. Padre Nuestro
+# 11. Ave Maria x10
+# 12. Gloria
+# 13. Jaculatoria
+# 14. Misterio 2
+# 15. ...9-12
+# 16. Misterio 3
+# 17. ... 9-12
+# 18. Misterio 4
+# 19. ...9-12
+# 20. Misterio 5
+# 21. ..9-12
+# 22. Letanías de la virgen
+# 23. Concluidos los Misterios
+# 24. Divina Providencia
+# 25. Ángel de la Guarda
+# 26. Oración de San Miguel Arcángel 
+# 27. Bajo tu amparo
+# 28. Oración de Santa Gertrudis la Grande
+# 29. San Jose
+
 # ## Variables
 # # sequence of texts
 # $sequence = [string[]]@()
