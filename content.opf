@@ -94,6 +94,7 @@
         <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gloriosos_5_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Gloriosos_5_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Salve-Regina.xhtml" id="Salve_Regina_Gloriosos_0_0" media-type="application/xhtml+xml"/>
+        <item href="OEBPS/Resos/Soberano-Santuario.xhtml" id="Soberano_Santuario_Gloriosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Navigation/Gozosos.xhtml" id="Gozosos" media-type="application/xhtml+xml" />
         <item href="OEBPS/Resos/Senal-de-la-santa-cruz.xhtml" id="Senal-de-la-santa-cruz_Gozosos" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Oracion-Al-Espiritu-Santo.xhtml" id="Oracion_Al_Espiritu_Santo_Gozosos" media-type="application/xhtml+xml"/>
@@ -175,6 +176,7 @@
         <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gozosos_5_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Gozosos_5_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Salve-Regina.xhtml" id="Salve_Regina_Gozosos_0_0" media-type="application/xhtml+xml"/>
+        <item href="OEBPS/Resos/Soberano-Santuario.xhtml" id="Soberano_Santuario_Gozosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Navigation/Dolorosos.xhtml" id="Dolorosos" media-type="application/xhtml+xml" />
         <item href="OEBPS/Resos/Senal-de-la-santa-cruz.xhtml" id="Senal-de-la-santa-cruz_Dolorosos" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Oracion-Al-Espiritu-Santo.xhtml" id="Oracion_Al_Espiritu_Santo_Dolorosos" media-type="application/xhtml+xml"/>
@@ -256,6 +258,7 @@
         <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Dolorosos_5_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Dolorosos_5_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Salve-Regina.xhtml" id="Salve_Regina_Dolorosos_0_0" media-type="application/xhtml+xml"/>
+        <item href="OEBPS/Resos/Soberano-Santuario.xhtml" id="Soberano_Santuario_Dolorosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Navigation/Luminosos.xhtml" id="Luminosos" media-type="application/xhtml+xml" />
         <item href="OEBPS/Resos/Senal-de-la-santa-cruz.xhtml" id="Senal-de-la-santa-cruz_Luminosos" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Oracion-Al-Espiritu-Santo.xhtml" id="Oracion_Al_Espiritu_Santo_Luminosos" media-type="application/xhtml+xml"/>
@@ -337,6 +340,7 @@
         <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Luminosos_5_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Luminosos_5_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Salve-Regina.xhtml" id="Salve_Regina_Luminosos_0_0" media-type="application/xhtml+xml"/>
+        <item href="OEBPS/Resos/Soberano-Santuario.xhtml" id="Soberano_Santuario_Luminosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/styles/stylesheet.css" id="css" media-type="text/css" />
         <item href="toc.ncx" media-type="application/x-dtbncx+xml" id="ncx" />
     </manifest>
@@ -424,6 +428,7 @@
         <itemref idref="Gloria_Gloriosos_5_0" />
         <itemref idref="Jaculatoria_Gloriosos_5_0" />
         <itemref idref="Salve_Regina_Gloriosos_0_0" />
+        <itemref idref="Soberano_Santuario_Gloriosos_0_0" />        
         <itemref idref="Gozosos" />
         <itemref idref="Senal-de-la-santa-cruz_Gozosos" />
         <itemref idref="Oracion_Al_Espiritu_Santo_Gozosos" />
@@ -505,6 +510,7 @@
         <itemref idref="Gloria_Gozosos_5_0" />
         <itemref idref="Jaculatoria_Gozosos_5_0" />
         <itemref idref="Salve_Regina_Gozosos_0_0" />
+        <itemref idref="Soberano_Santuario_Gozosos_0_0" />        
         <itemref idref="Dolorosos" />
         <itemref idref="Senal-de-la-santa-cruz_Dolorosos" />
         <itemref idref="Oracion_Al_Espiritu_Santo_Dolorosos" />
@@ -586,6 +592,7 @@
         <itemref idref="Gloria_Dolorosos_5_0" />
         <itemref idref="Jaculatoria_Dolorosos_5_0" />
         <itemref idref="Salve_Regina_Dolorosos_0_0" />
+        <itemref idref="Soberano_Santuario_Dolorosos_0_0" />        
         <itemref idref="Luminosos" />
         <itemref idref="Senal-de-la-santa-cruz_Luminosos" />
         <itemref idref="Oracion_Al_Espiritu_Santo_Luminosos" />
@@ -667,6 +674,7 @@
         <itemref idref="Gloria_Luminosos_5_0" />
         <itemref idref="Jaculatoria_Luminosos_5_0" />
         <itemref idref="Salve_Regina_Luminosos_0_0" />
+        <itemref idref="Soberano_Santuario_Luminosos_0_0" />        
     </spine>
     <guide>
         <reference href="OEBPS/main.xhtml" type="index" title="Main" />
