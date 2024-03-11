@@ -96,6 +96,7 @@
         <item href="OEBPS/Resos/Salve-Regina.xhtml" id="Salve_Regina_Gloriosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Soberano-Santuario.xhtml" id="Soberano_Santuario_Gloriosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Divina-Providencia.xhtml" id="Divina_Providencia_Gloriosos_0_0" media-type="application/xhtml+xml"/>
+        <item href="OEBPS/Resos/Angel-de-la-guarda.xhtml" id="Angel_de_la_guarda_Gloriosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Navigation/Gozosos.xhtml" id="Gozosos" media-type="application/xhtml+xml" />
         <item href="OEBPS/Resos/Senal-de-la-santa-cruz.xhtml" id="Senal-de-la-santa-cruz_Gozosos" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Oracion-Al-Espiritu-Santo.xhtml" id="Oracion_Al_Espiritu_Santo_Gozosos" media-type="application/xhtml+xml"/>
@@ -179,6 +180,7 @@
         <item href="OEBPS/Resos/Salve-Regina.xhtml" id="Salve_Regina_Gozosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Soberano-Santuario.xhtml" id="Soberano_Santuario_Gozosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Divina-Providencia.xhtml" id="Divina_Providencia_Gozosos_0_0" media-type="application/xhtml+xml"/>
+        <item href="OEBPS/Resos/Angel-de-la-guarda.xhtml" id="Angel_de_la_guarda_Gozosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Navigation/Dolorosos.xhtml" id="Dolorosos" media-type="application/xhtml+xml" />
         <item href="OEBPS/Resos/Senal-de-la-santa-cruz.xhtml" id="Senal-de-la-santa-cruz_Dolorosos" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Oracion-Al-Espiritu-Santo.xhtml" id="Oracion_Al_Espiritu_Santo_Dolorosos" media-type="application/xhtml+xml"/>
@@ -262,6 +264,7 @@
         <item href="OEBPS/Resos/Salve-Regina.xhtml" id="Salve_Regina_Dolorosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Soberano-Santuario.xhtml" id="Soberano_Santuario_Dolorosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Divina-Providencia.xhtml" id="Divina_Providencia_Dolorosos_0_0" media-type="application/xhtml+xml"/>
+        <item href="OEBPS/Resos/Angel-de-la-guarda.xhtml" id="Angel_de_la_guarda_Dolorosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Navigation/Luminosos.xhtml" id="Luminosos" media-type="application/xhtml+xml" />
         <item href="OEBPS/Resos/Senal-de-la-santa-cruz.xhtml" id="Senal-de-la-santa-cruz_Luminosos" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Oracion-Al-Espiritu-Santo.xhtml" id="Oracion_Al_Espiritu_Santo_Luminosos" media-type="application/xhtml+xml"/>
@@ -345,6 +348,7 @@
         <item href="OEBPS/Resos/Salve-Regina.xhtml" id="Salve_Regina_Luminosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Soberano-Santuario.xhtml" id="Soberano_Santuario_Luminosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Divina-Providencia.xhtml" id="Divina_Providencia_Luminosos_0_0" media-type="application/xhtml+xml"/>
+        <item href="OEBPS/Resos/Angel-de-la-guarda.xhtml" id="Angel_de_la_guarda_Luminosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/styles/stylesheet.css" id="css" media-type="text/css" />
         <item href="toc.ncx" media-type="application/x-dtbncx+xml" id="ncx" />
     </manifest>
@@ -434,6 +438,7 @@
         <itemref idref="Salve_Regina_Gloriosos_0_0" />
         <itemref idref="Soberano_Santuario_Gloriosos_0_0" />
         <itemref idref="Divina_Providencia_Gloriosos_0_0" />
+        <itemref idref="Angel_de_la_guarda_Gloriosos_0_0" />
         <itemref idref="Gozosos" />
         <itemref idref="Senal-de-la-santa-cruz_Gozosos" />
         <itemref idref="Oracion_Al_Espiritu_Santo_Gozosos" />
@@ -517,6 +522,7 @@
         <itemref idref="Salve_Regina_Gozosos_0_0" />
         <itemref idref="Soberano_Santuario_Gozosos_0_0" />
         <itemref idref="Divina_Providencia_Gozosos_0_0" />
+        <itemref idref="Angel_de_la_guarda_Gozosos_0_0" />
         <itemref idref="Dolorosos" />
         <itemref idref="Senal-de-la-santa-cruz_Dolorosos" />
         <itemref idref="Oracion_Al_Espiritu_Santo_Dolorosos" />
@@ -600,6 +606,7 @@
         <itemref idref="Salve_Regina_Dolorosos_0_0" />
         <itemref idref="Soberano_Santuario_Dolorosos_0_0" />
         <itemref idref="Divina_Providencia_Dolorosos_0_0" />
+        <itemref idref="Angel_de_la_guarda_Dolorosos_0_0" />
         <itemref idref="Luminosos" />
         <itemref idref="Senal-de-la-santa-cruz_Luminosos" />
         <itemref idref="Oracion_Al_Espiritu_Santo_Luminosos" />
@@ -683,6 +690,7 @@
         <itemref idref="Salve_Regina_Luminosos_0_0" />
         <itemref idref="Soberano_Santuario_Luminosos_0_0" />
         <itemref idref="Divina_Providencia_Luminosos_0_0" />
+        <itemref idref="Angel_de_la_guarda_Luminosos_0_0" />
     </spine>
     <guide>
         <reference href="OEBPS/main.xhtml" type="index" title="Main" />
