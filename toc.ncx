@@ -25,9 +25,9 @@
         </navPoint>
         <navPoint class="chapter" id="220c6c29-9826-4892-bd52-5fc9a5306ed0" playOrder="3">
             <navLabel>
-                <text>Gosozos</text>
+                <text>Gozosos</text>
             </navLabel>
-            <content src="OEBPS/Navigation/Gosozos.xhtml" />
+            <content src="OEBPS/Navigation/Gozosos.xhtml" />
         </navPoint>
         <navPoint class="chapter" id="a87a1eb8-2adf-4d90-a9a7-b88604ebebd5" playOrder="4">
             <navLabel>
