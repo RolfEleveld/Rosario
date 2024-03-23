@@ -102,6 +102,7 @@
         <item href="OEBPS/Resos/Santa-Gertrudis.xhtml" id="Santa_Gertrudis_Gloriosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/San-Jose.xhtml" id="San_Jose_Gloriosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Oh-Senora-Mia.xhtml" id="Oh_Senora_Mia_Gloriosos_0_0" media-type="application/xhtml+xml"/>
+        <item href="OEBPS/Resos/Oracion-del-Alma-de-Cristo.xhtml" id="Oracion_del_Alma_de_Cristo_Gloriosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Navigation/Gozosos.xhtml" id="Gozosos" media-type="application/xhtml+xml" />
         <item href="OEBPS/Resos/Senal-de-la-santa-cruz.xhtml" id="Senal-de-la-santa-cruz_Gozosos" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Oracion-Al-Espiritu-Santo.xhtml" id="Oracion_Al_Espiritu_Santo_Gozosos" media-type="application/xhtml+xml"/>
@@ -191,6 +192,7 @@
         <item href="OEBPS/Resos/Santa-Gertrudis.xhtml" id="Santa_Gertrudis_Gozosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/San-Jose.xhtml" id="San_Jose_Gozosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Oh-Senora-Mia.xhtml" id="Oh_Senora_Mia_Gozosos_0_0" media-type="application/xhtml+xml"/>
+        <item href="OEBPS/Resos/Oracion-del-Alma-de-Cristo.xhtml" id="Oracion_del_Alma_de_Cristo_Gozosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Navigation/Dolorosos.xhtml" id="Dolorosos" media-type="application/xhtml+xml" />
         <item href="OEBPS/Resos/Senal-de-la-santa-cruz.xhtml" id="Senal-de-la-santa-cruz_Dolorosos" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Oracion-Al-Espiritu-Santo.xhtml" id="Oracion_Al_Espiritu_Santo_Dolorosos" media-type="application/xhtml+xml"/>
@@ -280,6 +282,7 @@
         <item href="OEBPS/Resos/Santa-Gertrudis.xhtml" id="Santa_Gertrudis_Dolorosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/San-Jose.xhtml" id="San_Jose_Dolorosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Oh-Senora-Mia.xhtml" id="Oh_Senora_Mia_Dolorosos_0_0" media-type="application/xhtml+xml"/>
+        <item href="OEBPS/Resos/Oracion-del-Alma-de-Cristo.xhtml" id="Oracion_del_Alma_de_Cristo_Dolorosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Navigation/Luminosos.xhtml" id="Luminosos" media-type="application/xhtml+xml" />
         <item href="OEBPS/Resos/Senal-de-la-santa-cruz.xhtml" id="Senal-de-la-santa-cruz_Luminosos" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Oracion-Al-Espiritu-Santo.xhtml" id="Oracion_Al_Espiritu_Santo_Luminosos" media-type="application/xhtml+xml"/>
@@ -369,6 +372,7 @@
         <item href="OEBPS/Resos/Santa-Gertrudis.xhtml" id="Santa_Gertrudis_Luminosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/San-Jose.xhtml" id="San_Jose_Luminosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Oh-Senora-Mia.xhtml" id="Oh_Senora_Mia_Luminosos_0_0" media-type="application/xhtml+xml"/>
+        <item href="OEBPS/Resos/Oracion-del-Alma-de-Cristo.xhtml" id="Oracion_del_Alma_de_Cristo_Luminosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/styles/stylesheet.css" id="css" media-type="text/css" />
         <item href="toc.ncx" media-type="application/x-dtbncx+xml" id="ncx" />
     </manifest>
@@ -464,6 +468,7 @@
         <itemref idref="Santa_Gertrudis_Gloriosos_0_0" />
         <itemref idref="San_Jose_Gloriosos_0_0" />
         <itemref idref="Oh_Senora_Mia_Gloriosos_0_0" />
+        <itemref idref="Oracion_del_Alma_de_Cristo_Gloriosos_0_0" />
         <itemref idref="Gozosos" />
         <itemref idref="Senal-de-la-santa-cruz_Gozosos" />
         <itemref idref="Oracion_Al_Espiritu_Santo_Gozosos" />
@@ -553,6 +558,7 @@
         <itemref idref="Santa_Gertrudis_Gozosos_0_0" />
         <itemref idref="San_Jose_Gozosos_0_0" />
         <itemref idref="Oh_Senora_Mia_Gozosos_0_0" />
+        <itemref idref="Oracion_del_Alma_de_Cristo_Gozosos_0_0" />
         <itemref idref="Dolorosos" />
         <itemref idref="Senal-de-la-santa-cruz_Dolorosos" />
         <itemref idref="Oracion_Al_Espiritu_Santo_Dolorosos" />
@@ -642,6 +648,7 @@
         <itemref idref="Santa_Gertrudis_Dolorosos_0_0" />
         <itemref idref="San_Jose_Dolorosos_0_0" />
         <itemref idref="Oh_Senora_Mia_Dolorosos_0_0" />
+        <itemref idref="Oracion_del_Alma_de_Cristo_Dolorosos_0_0" />
         <itemref idref="Luminosos" />
         <itemref idref="Senal-de-la-santa-cruz_Luminosos" />
         <itemref idref="Oracion_Al_Espiritu_Santo_Luminosos" />
@@ -731,6 +738,7 @@
         <itemref idref="Santa_Gertrudis_Luminosos_0_0" />
         <itemref idref="San_Jose_Luminosos_0_0" />
         <itemref idref="Oh_Senora_Mia_Luminosos_0_0" />
+        <itemref idref="Oracion_del_Alma_de_Cristo_Luminosos_0_0" />
     </spine>
     <guide>
         <reference href="OEBPS/main.xhtml" type="index" title="Main" />
