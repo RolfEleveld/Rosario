@@ -17,23 +17,23 @@
             </navLabel>
             <content src="OEBPS/main.xhtml" />
         </navPoint>
-        <navPoint class="chapter" id="c0902509-9a0b-4b2f-8088-6878756076ca" playOrder="2">
-            <navLabel>
-                <text>Gloriosos</text>
-            </navLabel>
-            <content src="OEBPS/Navigation/Gloriosos.xhtml" />
-        </navPoint>
-        <navPoint class="chapter" id="220c6c29-9826-4892-bd52-5fc9a5306ed0" playOrder="3">
+        <navPoint class="chapter" id="f20c6c29-9826-4892-bd52-5fc9a5306ed0" playOrder="2">
             <navLabel>
                 <text>Gozosos</text>
             </navLabel>
             <content src="OEBPS/Navigation/Gozosos.xhtml" />
         </navPoint>
-        <navPoint class="chapter" id="a87a1eb8-2adf-4d90-a9a7-b88604ebebd5" playOrder="4">
+        <navPoint class="chapter" id="a87a1eb8-2adf-4d90-a9a7-b88604ebebd5" playOrder="3">
             <navLabel>
                 <text>Dolorosos</text>
             </navLabel>
             <content src="OEBPS/Navigation/Dolorosos.xhtml" />
+        </navPoint>
+        <navPoint class="chapter" id="c0902509-9a0b-4b2f-8088-6878756076ca" playOrder="4">
+            <navLabel>
+                <text>Gloriosos</text>
+            </navLabel>
+            <content src="OEBPS/Navigation/Gloriosos.xhtml" />
         </navPoint>
         <navPoint class="chapter" id="d8df717-6371-401d-8ef9-38cd950a18e7" playOrder="5">
             <navLabel>
