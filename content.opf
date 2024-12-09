@@ -93,6 +93,7 @@
         <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gozosos_5_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Gozosos_5_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Salve-Regina.xhtml" id="Salve_Regina_Gozosos_0_0" media-type="application/xhtml+xml"/>
+        <item href="OEBPS/Resos/Letania-de-la-Virgen-Maria.xhtml" id="Letania_Maria_Gozosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Soberano-Santuario.xhtml" id="Soberano_Santuario_Gozosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Divina-Providencia.xhtml" id="Divina_Providencia_Gozosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Angel-de-la-guarda.xhtml" id="Angel_de_la_guarda_Gozosos_0_0" media-type="application/xhtml+xml"/>
@@ -184,6 +185,7 @@
         <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Dolorosos_5_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Dolorosos_5_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Salve-Regina.xhtml" id="Salve_Regina_Dolorosos_0_0" media-type="application/xhtml+xml"/>
+        <item href="OEBPS/Resos/Letania-de-la-Virgen-Maria.xhtml" id="Letania_Maria_Dolorosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Soberano-Santuario.xhtml" id="Soberano_Santuario_Dolorosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Divina-Providencia.xhtml" id="Divina_Providencia_Dolorosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Angel-de-la-guarda.xhtml" id="Angel_de_la_guarda_Dolorosos_0_0" media-type="application/xhtml+xml"/>
@@ -275,6 +277,7 @@
         <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gloriosos_5_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Gloriosos_5_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Salve-Regina.xhtml" id="Salve_Regina_Gloriosos_0_0" media-type="application/xhtml+xml"/>
+        <item href="OEBPS/Resos/Letania-de-la-Virgen-Maria.xhtml" id="Letania_Maria_Gloriosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Soberano-Santuario.xhtml" id="Soberano_Santuario_Gloriosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Divina-Providencia.xhtml" id="Divina_Providencia_Gloriosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Angel-de-la-guarda.xhtml" id="Angel_de_la_guarda_Gloriosos_0_0" media-type="application/xhtml+xml"/>
@@ -366,6 +369,7 @@
         <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Luminosos_5_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Luminosos_5_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Salve-Regina.xhtml" id="Salve_Regina_Luminosos_0_0" media-type="application/xhtml+xml"/>
+        <item href="OEBPS/Resos/Letania-de-la-Virgen-Maria.xhtml" id="Letania_Maria_Luminosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Soberano-Santuario.xhtml" id="Soberano_Santuario_Luminosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Divina-Providencia.xhtml" id="Divina_Providencia_Luminosos_0_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Angel-de-la-guarda.xhtml" id="Angel_de_la_guarda_Luminosos_0_0" media-type="application/xhtml+xml"/>
@@ -464,6 +468,7 @@
         <itemref idref="Gloria_Gozosos_5_0" />
         <itemref idref="Jaculatoria_Gozosos_5_0" />
         <itemref idref="Salve_Regina_Gozosos_0_0" />
+        <itemref idref="Letania_Maria_Gozosos_0_0" />
         <itemref idref="Soberano_Santuario_Gozosos_0_0" />
         <itemref idref="Divina_Providencia_Gozosos_0_0" />
         <itemref idref="Angel_de_la_guarda_Gozosos_0_0" />
@@ -555,6 +560,7 @@
         <itemref idref="Gloria_Dolorosos_5_0" />
         <itemref idref="Jaculatoria_Dolorosos_5_0" />
         <itemref idref="Salve_Regina_Dolorosos_0_0" />
+        <itemref idref="Letania_Maria_Dolorosos_0_0" />
         <itemref idref="Soberano_Santuario_Dolorosos_0_0" />
         <itemref idref="Divina_Providencia_Dolorosos_0_0" />
         <itemref idref="Angel_de_la_guarda_Dolorosos_0_0" />
@@ -646,6 +652,7 @@
         <itemref idref="Gloria_Gloriosos_5_0" />
         <itemref idref="Jaculatoria_Gloriosos_5_0" />
         <itemref idref="Salve_Regina_Gloriosos_0_0" />
+        <itemref idref="Letania_Maria_Gloriosos_0_0" />
         <itemref idref="Soberano_Santuario_Gloriosos_0_0" />
         <itemref idref="Divina_Providencia_Gloriosos_0_0" />
         <itemref idref="Angel_de_la_guarda_Gloriosos_0_0" />
@@ -737,6 +744,7 @@
         <itemref idref="Gloria_Luminosos_5_0" />
         <itemref idref="Jaculatoria_Luminosos_5_0" />
         <itemref idref="Salve_Regina_Luminosos_0_0" />
+        <itemref idref="Letania_Maria_Luminosos_0_0" />
         <itemref idref="Soberano_Santuario_Luminosos_0_0" />
         <itemref idref="Divina_Providencia_Luminosos_0_0" />
         <itemref idref="Angel_de_la_guarda_Luminosos_0_0" />
