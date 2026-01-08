@@ -1,0 +1,51 @@
+name: Build and Release Rosario EPUB
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:  # Allows manual triggering
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: windows-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Run PowerShell build script
+        shell: pwsh
+        run: |
+          ./makeRosarioEpub.ps1
+      
+      - name: Generate version
+        id: get_version
+        shell: pwsh
+        run: |
+          $version = "v$(Get-Date -Format 'yyyy.MM.dd.HHmm')"
+          $shortSha = "${{ github.sha }}".Substring(0, 7)
+          $tag = "$version-$shortSha"
+          echo "version=$version" >> $env:GITHUB_OUTPUT
+          echo "tag=$tag" >> $env:GITHUB_OUTPUT
+      
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.get_version.outputs.tag }}
+          name: Rosario EPUB ${{ steps.get_version.outputs.version }}
+          body: |
+            📖 Rosario EPUB - Auto-generated from commit ${{ github.sha }}
+            
+            **Commit:** ${{ github.event.head_commit.message }}
+            **Generated:** ${{ github.event.head_commit.timestamp }}
+            
+            Download the EPUB file below.
+          files: Rosario.epub
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
