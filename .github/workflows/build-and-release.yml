@@ -42,6 +42,7 @@ jobs:
           release_name: Rosario EPUB ${{ steps.get_version.outputs.version }}
           body: |
             📖 Rosario EPUB - Auto-generated from commit ${{ github.sha }}
+            **Commit:** ${{ github.event.head_commit.message }}
           draft: false
           prerelease: false
 
