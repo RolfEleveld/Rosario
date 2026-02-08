@@ -31,21 +31,26 @@ jobs:
           $tag = "$version-$shortSha"
           echo "version=$version" >> $env:GITHUB_OUTPUT
           echo "tag=$tag" >> $env:GITHUB_OUTPUT
-      
+
       - name: Create Release
-        uses: softprops/action-gh-release@v1
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ steps.get_version.outputs.tag }}
-          name: Rosario EPUB ${{ steps.get_version.outputs.version }}
+          release_name: Rosario EPUB ${{ steps.get_version.outputs.version }}
           body: |
             📖 Rosario EPUB - Auto-generated from commit ${{ github.sha }}
-            
-            **Commit:** ${{ github.event.head_commit.message }}
-            **Generated:** ${{ github.event.head_commit.timestamp }}
-            
-            Download the EPUB file below.
-          files: Rosario.epub
           draft: false
           prerelease: false
+
+      - name: Upload EPUB as release asset
+        uses: actions/upload-release-asset@v1
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./Rosario.epub  # change if your build writes to a different path
+          asset_name: Rosario.epub
+          asset_content_type: application/epub+zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
