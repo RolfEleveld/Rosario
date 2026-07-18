@@ -204,8 +204,8 @@
         <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_0_1" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_0_2" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gloriosos_miercoles_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Intensiones/Intensiones.xhtml" id="Intensiones_Gloriosos_miercoles_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-1.xhtml" id="Mysterio_Glorioso_1_0" media-type="application/xhtml+xml"/>
+        <item href="OEBPS/Intensiones/Intensiones.xhtml" id="Intensiones_Gloriosos_miercoles_0" media-type="application/xhtml+xml"/>
+        <item href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-1.xhtml" id="Mysterio_Glorioso_miercoles_1" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Gloriosos_miercoles_1_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_1_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_1_1" media-type="application/xhtml+xml"/>
@@ -219,7 +219,7 @@
         <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_1_9" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gloriosos_miercoles_1_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Gloriosos_miercoles_1_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-2.xhtml" id="Mysterio_Glorioso_2" media-type="application/xhtml+xml"/>
+        <item href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-2.xhtml" id="Mysterio_Glorioso_miercoles_2" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Gloriosos_miercoles_2_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_2_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_2_1" media-type="application/xhtml+xml"/>
@@ -233,7 +233,7 @@
         <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_2_9" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gloriosos_miercoles_2_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Gloriosos_miercoles_2_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-3.xhtml" id="Mysterio_Glorioso_3" media-type="application/xhtml+xml"/>
+        <item href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-3.xhtml" id="Mysterio_Glorioso_miercoles_3" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Gloriosos_miercoles_3_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_3_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_3_1" media-type="application/xhtml+xml"/>
@@ -247,7 +247,7 @@
         <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_3_9" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gloriosos_miercoles_3_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Gloriosos_miercoles_3_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-4.xhtml" id="Mysterio_Glorioso_4" media-type="application/xhtml+xml"/>
+        <item href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-4.xhtml" id="Mysterio_Glorioso_miercoles_4" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Gloriosos_miercoles_4_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_4_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_4_1" media-type="application/xhtml+xml"/>
@@ -261,7 +261,7 @@
         <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_4_9" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gloriosos_miercoles_4_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Gloriosos_miercoles_4_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-5.xhtml" id="Mysterio_Glorioso_5" media-type="application/xhtml+xml"/>
+        <item href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-5.xhtml" id="Mysterio_Glorioso_miercoles_5" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Gloriosos_miercoles_5_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_5_0" media-type="application/xhtml+xml"/>
         <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_5_1" media-type="application/xhtml+xml"/>
@@ -671,8 +671,8 @@
         <itemref idref="Ave-Maria_Gloriosos_miercoles_0_1" />
         <itemref idref="Ave-Maria_Gloriosos_miercoles_0_2" />
         <itemref idref="Gloria_Gloriosos_miercoles_0_0" />
-        <itemref idref="Intensiones_Gloriosos_miercoles_0_0" />
-        <itemref idref="Mysterio_Glorioso_1_0" />
+        <itemref idref="Intensiones_Gloriosos_miercoles_0" />
+        <itemref idref="Mysterio_Glorioso_miercoles_1" />
         <itemref idref="Padre-Nuestro_Gloriosos_miercoles_1_0" />
         <itemref idref="Ave-Maria_Gloriosos_miercoles_1_0" />
         <itemref idref="Ave-Maria_Gloriosos_miercoles_1_1" />
@@ -686,7 +686,7 @@
         <itemref idref="Ave-Maria_Gloriosos_miercoles_1_9" />
         <itemref idref="Gloria_Gloriosos_miercoles_1_0" />
         <itemref idref="Jaculatoria_Gloriosos_miercoles_1_0" />
-        <itemref idref="Mysterio_Glorioso_2" />
+        <itemref idref="Mysterio_Glorioso_miercoles_2" />
         <itemref idref="Padre-Nuestro_Gloriosos_miercoles_2_0" />
         <itemref idref="Ave-Maria_Gloriosos_miercoles_2_0" />
         <itemref idref="Ave-Maria_Gloriosos_miercoles_2_1" />
@@ -700,7 +700,7 @@
         <itemref idref="Ave-Maria_Gloriosos_miercoles_2_9" />
         <itemref idref="Gloria_Gloriosos_miercoles_2_0" />
         <itemref idref="Jaculatoria_Gloriosos_miercoles_2_0" />
-        <itemref idref="Mysterio_Glorioso_3" />
+        <itemref idref="Mysterio_Glorioso_miercoles_3" />
         <itemref idref="Padre-Nuestro_Gloriosos_miercoles_3_0" />
         <itemref idref="Ave-Maria_Gloriosos_miercoles_3_0" />
         <itemref idref="Ave-Maria_Gloriosos_miercoles_3_1" />
@@ -714,7 +714,7 @@
         <itemref idref="Ave-Maria_Gloriosos_miercoles_3_9" />
         <itemref idref="Gloria_Gloriosos_miercoles_3_0" />
         <itemref idref="Jaculatoria_Gloriosos_miercoles_3_0" />
-        <itemref idref="Mysterio_Glorioso_4" />
+        <itemref idref="Mysterio_Glorioso_miercoles_4" />
         <itemref idref="Padre-Nuestro_Gloriosos_miercoles_4_0" />
         <itemref idref="Ave-Maria_Gloriosos_miercoles_4_0" />
         <itemref idref="Ave-Maria_Gloriosos_miercoles_4_1" />
@@ -723,12 +723,12 @@
         <itemref idref="Ave-Maria_Gloriosos_miercoles_4_4" />
         <itemref idref="Ave-Maria_Gloriosos_miercoles_4_5" />
         <itemref idref="Ave-Maria_Gloriosos_miercoles_4_6" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_4_7" />
+        <itemref idref="Ave-Maria_Gloriosos_miercolMises_4_7" />
         <itemref idref="Ave-Maria_Gloriosos_miercoles_4_8" />
         <itemref idref="Ave-Maria_Gloriosos_miercoles_4_9" />
         <itemref idref="Gloria_Gloriosos_miercoles_4_0" />
         <itemref idref="Jaculatoria_Gloriosos_miercoles_4_0" />
-        <itemref idref="Mysterio_Glorioso_5" />
+        <itemref idref="Mysterio_Glorioso_miercoles_5" />
         <itemref idref="Padre-Nuestro_Gloriosos_miercoles_5_0" />
         <itemref idref="Ave-Maria_Gloriosos_miercoles_5_0" />
         <itemref idref="Ave-Maria_Gloriosos_miercoles_5_1" />
