@@ -3,10 +3,9 @@
     <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xmlns:opf="http://www.idpf.org/2007/opf"
         xmlns:dc="http://purl.org/dc/elements/1.1/">
-        <dc:language>UND</dc:language>
-        <dc:creator opf:file-as="Rosario" opf:role="aut">PowerShell</dc:creator>
+        <dc:language>es</dc:language>
         <dc:title>Rosario</dc:title>
-        <dc:date>2023-10-22T01:23:20</dc:date>
+        <dc:date>2026-07-19T00:21:20</dc:date>
         <dc:identifier id="uuid_id" opf:scheme="uuid">f814194d-0e51-4d16-8e94-92846d438a8c</dc:identifier>
     </metadata>
     <manifest>
