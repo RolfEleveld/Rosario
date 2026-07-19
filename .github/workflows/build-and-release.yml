@@ -39,4 +39,4 @@ jobs:
         shell: pwsh
         run: |
           $tag = gh release list --limit 1 --json tagName --jq ".[0].tagName"
-          gh release upload $tag ./dist/*.epub --clobber
+          gh release upload $tag ./*.epub --clobber

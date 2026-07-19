@@ -1,7 +1,6 @@
 # Epum generated filed by the powershell, that are not source files for the Rosario.
 
 # Build results
-./dist/
 *.epub
 
 # Visual Studio 2015/2017 cache/options directory
