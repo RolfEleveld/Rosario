@@ -178,7 +178,7 @@
 #   }
 
 #   # add cover page
-#   $coverPageContent = [System.Text.StringBuilder]'<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="' + $Language + '">'
+#   $coverPageContent = [System.Text.StringBuilder]'<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="' + $Language + '">'
 #   $coverPageContent.Append('<head><title>' + $Title + '</title><meta content="http://www.w3.org/1999/xhtml; charset=utf-8" http-equiv="Content-Type" /><link href="./stylesheet.css" type="text/css" rel="stylesheet" /></head>')
 #   $coverPageContent.Append('<body><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="100%" height="100%" viewBox="0 0 ' + $coverWidth + ' ' + $coverHeight + '" preserveAspectRatio="xMidYMid meet"><image width="' + $coverWidth + '" height="' + $coverHeight + '" xlink:href="' + $coverImageName + '"/></svg></body>')
 #   $coverPageContent.Append('</html>')
@@ -190,7 +190,7 @@
 #   $spineSegment += '<itemref idref="cover"/>'
 # }
 
-# $packageFileContent = '<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html><package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid"><metadata xmlns:dc="http://purl.org/dc/elements/1.1/"><dc:identifier id="uid">@ID@</dc:identifier><dc:title>@Title@</dc:title><dc:creator>@Creator@</dc:creator><dc:language>@Language@</dc:language><meta property="dcterms:modified">@Date@</meta></metadata><manifest><item href="xhtml/nav.html" id="nav" media-type="application/xhtml+xml"/><item href="css/stylesheet.css" media-type="text/css" id="css"/>@Manifest@</manifest><spine><itemref idref="nav" linear="no"/>@Spine@</spine></package>'
+# $packageFileContent = '<?xml version="1.0" encoding="UTF-8"?><package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid"><metadata xmlns:dc="http://purl.org/dc/elements/1.1/"><dc:identifier id="uid">@ID@</dc:identifier><dc:title>@Title@</dc:title><dc:creator>@Creator@</dc:creator><dc:language>@Language@</dc:language><meta property="dcterms:modified">@Date@</meta></metadata><manifest><item href="xhtml/nav.html" id="nav" media-type="application/xhtml+xml"/><item href="css/stylesheet.css" media-type="text/css" id="css"/>@Manifest@</manifest><spine><itemref idref="nav" linear="no"/>@Spine@</spine></package>'
 
 # # replace @Title@ with $Title
 # $packageFileContent = $packageFileContent -replace "@Title@", $Title
@@ -224,11 +224,37 @@
 
 # Make sure we have a ./dist folder
 # compress the content of the current folder into a .epub
-$rootContent = Get-ChildItem -Path . -File | Where-Object -Property Name -NotIn -Value @('makeRosarioEpub.ps1', 'Rosario.epub', '.vscode', '.gitignore', '.git', 'LICENSE', 'README.md') | Where-Object -Property FullName -NotMatch '\\.git\\' | Where-Object -Property FullName -NotMatch '\\.vscode\\' | Where-Object -Property FullName -NotMatch '\\.gitignore\\'
+
 $epubFileName = "Rosario.epub"
-$rootContent | Compress-Archive -DestinationPath $epubFileName -CompressionLevel Optimal -Force
-Compress-Archive -Path "META-INF" -DestinationPath $epubFileName -Update
-Compress-Archive -Path "OEBPS" -DestinationPath $epubFileName -Update
-              
-# open the .epub file created
-$epubFileName
+$sourceFolder = "OEBPS"
+$metaFolder = "META-INF"
+
+# Remove old file
+if (Test-Path $epubFileName) { Remove-Item $epubFileName }
+
+# Create the ZIP archive manually
+$zip = [System.IO.Compression.ZipFile]::Open($epubFileName, 'Create')
+
+# 1. Add mimetype FIRST and STORED (no compression)
+$relativePath = "mimetype"
+$mimetypeEntry = $zip.CreateEntry($relativePath, [System.IO.Compression.CompressionLevel]::NoCompression)
+$writer = New-Object System.IO.StreamWriter($mimetypeEntry.Open())
+write-output "Adding file: $relativePath Stored (no compression)"
+$writer.Write("application/epub+zip")
+$writer.Flush()
+$writer.Close()
+
+# 2. Add all other files in Folder Except the ones we do not want.
+Get-ChildItem -Path . -Recurse -File | Where-Object -Property Name -NotIn -Value @('mimetype', 'makeRosarioEpub.ps1', 'Rosario.epub', '.vscode', '.gitignore', '.github', '.git', 'LICENSE', 'README.md') | Where-Object -Property FullName -NotMatch '\\.git\\' | Where-Object -Property FullName -NotMatch '\\.vscode\\' | Where-Object -Property FullName -NotMatch '\\.gitignore\\' | Where-Object -Property FullName -NotMatch '\\.github\\' | Where-Object -Property FullName -NotMatch '\\mimetype\\' | ForEach-Object {
+    $relativePath = $_.FullName.Substring((Get-Item ".").FullName.Length + 1).Replace('\', '/')
+    write-output "Adding file: $relativePath"
+    $fileEntry = $zip.CreateEntry($relativePath, [System.IO.Compression.CompressionLevel]::Optimal)
+    $writer = New-Object System.IO.StreamWriter($fileEntry.Open())
+    $content = Get-Content -Path $_.FullName -Raw
+    $writer.Write($content)
+    $writer.Flush()
+    $writer.Close()
+}
+
+$zip.Dispose()
+
