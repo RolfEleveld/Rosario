@@ -222,9 +222,14 @@
 
 # # Create the epub
 
-# compress the content of the temp folder into a .epub
-$rootContent = Get-ChildItem -Path . -File | Where-Object -Property Name -NotIn -Value @('makeRosarioEpub.ps1', 'Rosario.epub', '.vscode', '.gitignore', '.git', 'LICENSE', 'README.md') | Where-Object -Property FullName -NotMatch '\\.git\\' | Where-Object -Property FullName -NotMatch '\\.vscode\\' | Where-Object -Property FullName -NotMatch '\\.gitignore\\'
-$epubFileName = "Rosario.epub"
+# Make sure we have a ./dist folder
+$distFolder = ".\.dist"
+if (-not (Test-Path -Path $distFolder)) {
+    New-Item -Path $distFolder -ItemType Directory -Force | Out-Null
+}
+# compress the content of the current folder into a .epub
+$rootContent = Get-ChildItem -Path . -File | Where-Object -Property Name -NotIn -Value @('makeRosarioEpub.ps1', 'Rosario.epub', '.vscode', '.gitignore', '.git', 'LICENSE', 'README.md') | Where-Object -Property FullName -NotMatch '\\.git\\' | Where-Object -Property FullName -NotMatch '\\.vscode\\' | Where-Object -Property FullName -NotMatch '\\.dist\\' | Where-Object -Property FullName -NotMatch '\\.gitignore\\'
+$epubFileName = ".\.dist\Rosario.epub"
 $rootContent | Compress-Archive -DestinationPath $epubFileName -CompressionLevel Optimal -Force
 Compress-Archive -Path "META-INF" -DestinationPath $epubFileName -Update
 Compress-Archive -Path "OEBPS" -DestinationPath $epubFileName -Update
