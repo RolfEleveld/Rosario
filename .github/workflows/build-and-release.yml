@@ -21,37 +21,22 @@ jobs:
         shell: pwsh
         run: |
           ./makeRosarioEpub.ps1
-      
-      - name: Generate version
-        id: get_version
+
+      - name: Authenticate GitHub CLI
+        shell: pwsh
+        run: |
+          echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
+
+      - name: Create release
         shell: pwsh
         run: |
           $version = "v$(Get-Date -Format 'yyyy.MM.dd.HHmm')"
           $shortSha = "${{ github.sha }}".Substring(0, 7)
           $tag = "$version-$shortSha"
-          echo "version=$version" >> $env:GITHUB_OUTPUT
-          echo "tag=$tag" >> $env:GITHUB_OUTPUT
-
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ steps.get_version.outputs.tag }}
-          release_name: Rosario EPUB ${{ steps.get_version.outputs.version }}
-          body: |
-            📖 Rosario EPUB - Auto-generated from commit ${{ github.sha }}
-            **Commit:** ${{ github.event.head_commit.message }}
-          draft: false
-          prerelease: false
-
-      - name: Upload EPUB as release asset
-        uses: actions/upload-release-asset@v1
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./Rosario.epub  # change if your build writes to a different path
-          asset_name: Rosario.epub
-          asset_content_type: application/epub+zip
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          gh release create $tag --title "Release $tag" --notes "Automated Rosario EPUB build"
+          
+      - name: Upload EPUB assets
+        shell: pwsh
+        run: |
+          $tag = gh release list --limit 1 --json tagName --jq ".[0].tagName"
+          gh release upload $tag ./dist/*.epub --clobber
