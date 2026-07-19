@@ -225,7 +225,7 @@
 # Make sure we have a ./dist folder
 # compress the content of the current folder into a .epub
 $rootContent = Get-ChildItem -Path . -File | Where-Object -Property Name -NotIn -Value @('makeRosarioEpub.ps1', 'Rosario.epub', '.vscode', '.gitignore', '.git', 'LICENSE', 'README.md') | Where-Object -Property FullName -NotMatch '\\.git\\' | Where-Object -Property FullName -NotMatch '\\.vscode\\' | Where-Object -Property FullName -NotMatch '\\.gitignore\\'
-$epubFileName = ".\.dist\Rosario.epub"
+$epubFileName = "Rosario.epub"
 $rootContent | Compress-Archive -DestinationPath $epubFileName -CompressionLevel Optimal -Force
 Compress-Archive -Path "META-INF" -DestinationPath $epubFileName -Update
 Compress-Archive -Path "OEBPS" -DestinationPath $epubFileName -Update
