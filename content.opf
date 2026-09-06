@@ -1,946 +1,1298 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="uuid_id">
-    <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns:opf="http://www.idpf.org/2007/opf"
-        xmlns:dc="http://purl.org/dc/elements/1.1/">
-        <dc:language>es</dc:language>
-        <dc:title>Rosario</dc:title>
-        <dc:date>2026-07-19T00:21:20</dc:date>
-        <dc:identifier id="uuid_id" opf:scheme="uuid">f814194d-0e51-4d16-8e94-92846d438a8c</dc:identifier>
-    </metadata>
-    <manifest>
-        <item href="title.xhtml" id="title" media-type="application/xhtml+xml" />
-        <item href="OEBPS/main.xhtml" id="main" media-type="application/xhtml+xml" />
-        <item href="OEBPS/Navigation/Gozosos.xhtml" id="Gozosos" media-type="application/xhtml+xml" />
-        <item href="OEBPS/Resos/Senal-de-la-santa-cruz.xhtml" id="Senal-de-la-santa-cruz_Gozosos" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Oracion-Al-Espiritu-Santo.xhtml" id="Oracion_Al_Espiritu_Santo_Gozosos" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Credo.xhtml" id="Credo_Gozosos" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Gozosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_0_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_0_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gozosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Intensiones/Intensiones.xhtml" id="Intensiones_Gozosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Gozoso/Misterio-Gozoso-1.xhtml" id="Mysterio_Gozoso_1_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Gozosos_1_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_1_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_1_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_1_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_1_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_1_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_1_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_1_6" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_1_7" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_1_8" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_1_9" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gozosos_1_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Gozosos_1_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Gozoso/Misterio-Gozoso-2.xhtml" id="Mysterio_Gozoso_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Gozosos_2_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_2_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_2_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_2_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_2_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_2_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_2_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_2_6" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_2_7" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_2_8" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_2_9" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gozosos_2_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Gozosos_2_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Gozoso/Misterio-Gozoso-3.xhtml" id="Mysterio_Gozoso_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Gozosos_3_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_3_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_3_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_3_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_3_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_3_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_3_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_3_6" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_3_7" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_3_8" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_3_9" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gozosos_3_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Gozosos_3_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Gozoso/Misterio-Gozoso-4.xhtml" id="Mysterio_Gozoso_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Gozosos_4_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_4_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_4_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_4_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_4_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_4_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_4_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_4_6" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_4_7" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_4_8" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_4_9" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gozosos_4_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Gozosos_4_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Gozoso/Misterio-Gozoso-5.xhtml" id="Mysterio_Gozoso_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Gozosos_5_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_5_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_5_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_5_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_5_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_5_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_5_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_5_6" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_5_7" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_5_8" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gozosos_5_9" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gozosos_5_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Gozosos_5_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Salve-Regina.xhtml" id="Salve_Regina_Gozosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Letania-de-la-Virgen-Maria.xhtml" id="Letania_Maria_Gozosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Soberano-Santuario.xhtml" id="Soberano_Santuario_Gozosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Divina-Providencia.xhtml" id="Divina_Providencia_Gozosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Angel-de-la-guarda.xhtml" id="Angel_de_la_guarda_Gozosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/San-Miguel-Arcangel.xhtml" id="San_Miguel_Arcangel_Gozosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Bajo-tu-amparo.xhtml" id="Bajo_tu_Amparo_Gozosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Santa-Gertrudis.xhtml" id="Santa_Gertrudis_Gozosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/San-Jose.xhtml" id="San_Jose_Gozosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Oh-Senora-Mia.xhtml" id="Oh_Senora_Mia_Gozosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Oracion-del-Alma-de-Cristo.xhtml" id="Oracion_del_Alma_de_Cristo_Gozosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Dulce-Madre.xhtml" id="Dulce_Madre_Gozosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Navigation/Dolorosos.xhtml" id="Dolorosos" media-type="application/xhtml+xml" />
-        <item href="OEBPS/Resos/Senal-de-la-santa-cruz.xhtml" id="Senal-de-la-santa-cruz_Dolorosos" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Oracion-Al-Espiritu-Santo.xhtml" id="Oracion_Al_Espiritu_Santo_Dolorosos" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Credo.xhtml" id="Credo_Dolorosos" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Dolorosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_0_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_0_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Dolorosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Intensiones/Intensiones.xhtml" id="Intensiones_Dolorosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Doloroso/Misterio-Doloroso-1.xhtml" id="Mysterio_Doloroso_1_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Dolorosos_1_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_1_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_1_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_1_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_1_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_1_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_1_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_1_6" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_1_7" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_1_8" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_1_9" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Dolorosos_1_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Dolorosos_1_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Doloroso/Misterio-Doloroso-2.xhtml" id="Mysterio_Doloroso_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Dolorosos_2_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_2_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_2_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_2_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_2_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_2_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_2_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_2_6" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_2_7" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_2_8" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_2_9" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Dolorosos_2_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Dolorosos_2_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Doloroso/Misterio-Doloroso-3.xhtml" id="Mysterio_Doloroso_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Dolorosos_3_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_3_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_3_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_3_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_3_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_3_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_3_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_3_6" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_3_7" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_3_8" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_3_9" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Dolorosos_3_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Dolorosos_3_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Doloroso/Misterio-Doloroso-4.xhtml" id="Mysterio_Doloroso_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Dolorosos_4_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_4_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_4_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_4_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_4_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_4_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_4_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_4_6" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_4_7" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_4_8" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_4_9" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Dolorosos_4_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Dolorosos_4_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Doloroso/Misterio-Doloroso-5.xhtml" id="Mysterio_Doloroso_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Dolorosos_5_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_5_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_5_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_5_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_5_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_5_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_5_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_5_6" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_5_7" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_5_8" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Dolorosos_5_9" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Dolorosos_5_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Dolorosos_5_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Salve-Regina.xhtml" id="Salve_Regina_Dolorosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Letania-de-la-Virgen-Maria.xhtml" id="Letania_Maria_Dolorosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Soberano-Santuario.xhtml" id="Soberano_Santuario_Dolorosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Divina-Providencia.xhtml" id="Divina_Providencia_Dolorosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Angel-de-la-guarda.xhtml" id="Angel_de_la_guarda_Dolorosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/San-Miguel-Arcangel.xhtml" id="San_Miguel_Arcangel_Dolorosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Bajo-tu-amparo.xhtml" id="Bajo_tu_Amparo_Dolorosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Santa-Gertrudis.xhtml" id="Santa_Gertrudis_Dolorosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/San-Jose.xhtml" id="San_Jose_Dolorosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Oh-Senora-Mia.xhtml" id="Oh_Senora_Mia_Dolorosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Oracion-del-Alma-de-Cristo.xhtml" id="Oracion_del_Alma_de_Cristo_Dolorosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Dulce-Madre.xhtml" id="Dulce_Madre_Dolorosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Navigation/Gloriosos-miercoles.xhtml" id="Gloriosos_miercoles" media-type="application/xhtml+xml" />
-        <item href="OEBPS/Resos/Senal-de-la-santa-cruz.xhtml" id="Senal-de-la-santa-cruz_Gloriosos_miercoles" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Oracion-Al-Espiritu-Santo.xhtml" id="Oracion_Al_Espiritu_Santo_Gloriosos_miercoles" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Credo.xhtml" id="Credo_Gloriosos_miercoles" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Gloriosos_miercoles_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_0_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_0_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gloriosos_miercoles_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Intensiones/Intensiones.xhtml" id="Intensiones_Gloriosos_miercoles_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-1.xhtml" id="Mysterio_Glorioso_miercoles_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Gloriosos_miercoles_1_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_1_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_1_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_1_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_1_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_1_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_1_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_1_6" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_1_7" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_1_8" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_1_9" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gloriosos_miercoles_1_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Gloriosos_miercoles_1_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-2.xhtml" id="Mysterio_Glorioso_miercoles_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Gloriosos_miercoles_2_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_2_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_2_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_2_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_2_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_2_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_2_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_2_6" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_2_7" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_2_8" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_2_9" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gloriosos_miercoles_2_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Gloriosos_miercoles_2_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-3.xhtml" id="Mysterio_Glorioso_miercoles_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Gloriosos_miercoles_3_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_3_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_3_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_3_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_3_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_3_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_3_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_3_6" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_3_7" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_3_8" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_3_9" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gloriosos_miercoles_3_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Gloriosos_miercoles_3_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-4.xhtml" id="Mysterio_Glorioso_miercoles_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Gloriosos_miercoles_4_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_4_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_4_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_4_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_4_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_4_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_4_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_4_6" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_4_7" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_4_8" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_4_9" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gloriosos_miercoles_4_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Gloriosos_miercoles_4_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-5.xhtml" id="Mysterio_Glorioso_miercoles_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Gloriosos_miercoles_5_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_5_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_5_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_5_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_5_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_5_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_5_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_5_6" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_5_7" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_5_8" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_miercoles_5_9" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gloriosos_miercoles_5_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Gloriosos_miercoles_5_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Salve-Regina.xhtml" id="Salve_Regina_Gloriosos_miercoles_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Letania-de-San-Jose.xhtml" id="Letania_San_Jose_Gloriosos_miercoles_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Soberano-Santuario.xhtml" id="Soberano_Santuario_Gloriosos_miercoles_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Divina-Providencia.xhtml" id="Divina_Providencia_Gloriosos_miercoles_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Angel-de-la-guarda.xhtml" id="Angel_de_la_guarda_Gloriosos_miercoles_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/San-Miguel-Arcangel.xhtml" id="San_Miguel_Arcangel_Gloriosos_miercoles_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Bajo-tu-amparo.xhtml" id="Bajo_tu_Amparo_Gloriosos_miercoles_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Santa-Gertrudis.xhtml" id="Santa_Gertrudis_Gloriosos_miercoles_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/San-Jose.xhtml" id="San_Jose_Gloriosos_miercoles_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Oh-Senora-Mia.xhtml" id="Oh_Senora_Mia_Gloriosos_miercoles_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Oracion-del-Alma-de-Cristo.xhtml" id="Oracion_del_Alma_de_Cristo_Gloriosos_miercoles_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Dulce-Madre.xhtml" id="Dulce_Madre_Gloriosos_miercoles_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Navigation/Luminosos.xhtml" id="Luminosos" media-type="application/xhtml+xml" />
-        <item href="OEBPS/Resos/Senal-de-la-santa-cruz.xhtml" id="Senal-de-la-santa-cruz_Luminosos" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Oracion-Al-Espiritu-Santo.xhtml" id="Oracion_Al_Espiritu_Santo_Luminosos" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Credo.xhtml" id="Credo_Luminosos" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Luminosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_0_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_0_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Luminosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Intensiones/Intensiones.xhtml" id="Intensiones_Luminosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Luminoso/Misterio-Luminoso-1.xhtml" id="Mysterio_Luminoso_1_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Luminosos_1_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_1_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_1_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_1_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_1_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_1_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_1_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_1_6" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_1_7" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_1_8" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_1_9" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Luminosos_1_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Luminosos_1_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Luminoso/Misterio-Luminoso-2.xhtml" id="Mysterio_Luminoso_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Luminosos_2_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_2_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_2_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_2_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_2_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_2_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_2_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_2_6" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_2_7" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_2_8" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_2_9" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Luminosos_2_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Luminosos_2_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Luminoso/Misterio-Luminoso-3.xhtml" id="Mysterio_Luminoso_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Luminosos_3_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_3_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_3_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_3_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_3_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_3_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_3_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_3_6" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_3_7" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_3_8" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_3_9" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Luminosos_3_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Luminosos_3_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Luminoso/Misterio-Luminoso-4.xhtml" id="Mysterio_Luminoso_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Luminosos_4_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_4_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_4_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_4_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_4_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_4_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_4_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_4_6" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_4_7" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_4_8" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_4_9" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Luminosos_4_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Luminosos_4_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Luminoso/Misterio-Luminoso-5.xhtml" id="Mysterio_Luminoso_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Luminosos_5_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_5_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_5_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_5_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_5_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_5_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_5_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_5_6" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_5_7" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_5_8" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Luminosos_5_9" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Luminosos_5_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Luminosos_5_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Salve-Regina.xhtml" id="Salve_Regina_Luminosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Letania-de-la-Virgen-Maria.xhtml" id="Letania_Maria_Luminosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Soberano-Santuario.xhtml" id="Soberano_Santuario_Luminosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Divina-Providencia.xhtml" id="Divina_Providencia_Luminosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Angel-de-la-guarda.xhtml" id="Angel_de_la_guarda_Luminosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/San-Miguel-Arcangel.xhtml" id="San_Miguel_Arcangel_Luminosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Bajo-tu-amparo.xhtml" id="Bajo_tu_Amparo_Luminosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Santa-Gertrudis.xhtml" id="Santa_Gertrudis_Luminosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/San-Jose.xhtml" id="San_Jose_Luminosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Oh-Senora-Mia.xhtml" id="Oh_Senora_Mia_Luminosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Oracion-del-Alma-de-Cristo.xhtml" id="Oracion_del_Alma_de_Cristo_Luminosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Dulce-Madre.xhtml" id="Dulce_Madre_Luminosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Navigation/Gloriosos.xhtml" id="Gloriosos" media-type="application/xhtml+xml" />
-        <item href="OEBPS/Resos/Senal-de-la-santa-cruz.xhtml" id="Senal-de-la-santa-cruz_Gloriosos" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Oracion-Al-Espiritu-Santo.xhtml" id="Oracion_Al_Espiritu_Santo_Gloriosos" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Credo.xhtml" id="Credo_Gloriosos" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Gloriosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_0_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_0_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gloriosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Intensiones/Intensiones.xhtml" id="Intensiones_Gloriosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-1.xhtml" id="Mysterio_Glorioso_1_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Gloriosos_1_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_1_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_1_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_1_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_1_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_1_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_1_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_1_6" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_1_7" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_1_8" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_1_9" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gloriosos_1_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Gloriosos_1_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-2.xhtml" id="Mysterio_Glorioso_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Gloriosos_2_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_2_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_2_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_2_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_2_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_2_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_2_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_2_6" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_2_7" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_2_8" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_2_9" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gloriosos_2_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Gloriosos_2_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-3.xhtml" id="Mysterio_Glorioso_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Gloriosos_3_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_3_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_3_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_3_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_3_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_3_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_3_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_3_6" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_3_7" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_3_8" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_3_9" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gloriosos_3_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Gloriosos_3_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-4.xhtml" id="Mysterio_Glorioso_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Gloriosos_4_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_4_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_4_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_4_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_4_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_4_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_4_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_4_6" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_4_7" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_4_8" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_4_9" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gloriosos_4_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Gloriosos_4_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-5.xhtml" id="Mysterio_Glorioso_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Padre-Nuestro.xhtml" id="Padre-Nuestro_Gloriosos_5_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_5_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_5_1" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_5_2" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_5_3" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_5_4" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_5_5" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_5_6" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_5_7" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_5_8" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Avemaria.xhtml" id="Ave-Maria_Gloriosos_5_9" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Gloria.xhtml" id="Gloria_Gloriosos_5_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Jaculatoria.xhtml" id="Jaculatoria_Gloriosos_5_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Salve-Regina.xhtml" id="Salve_Regina_Gloriosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Letania-de-la-Virgen-Maria.xhtml" id="Letania_Maria_Gloriosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Soberano-Santuario.xhtml" id="Soberano_Santuario_Gloriosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Divina-Providencia.xhtml" id="Divina_Providencia_Gloriosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Angel-de-la-guarda.xhtml" id="Angel_de_la_guarda_Gloriosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/San-Miguel-Arcangel.xhtml" id="San_Miguel_Arcangel_Gloriosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Bajo-tu-amparo.xhtml" id="Bajo_tu_Amparo_Gloriosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Santa-Gertrudis.xhtml" id="Santa_Gertrudis_Gloriosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/San-Jose.xhtml" id="San_Jose_Gloriosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Oh-Senora-Mia.xhtml" id="Oh_Senora_Mia_Gloriosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Oracion-del-Alma-de-Cristo.xhtml" id="Oracion_del_Alma_de_Cristo_Gloriosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/Resos/Dulce-Madre.xhtml" id="Dulce_Madre_Gloriosos_0_0" media-type="application/xhtml+xml"/>
-        <item href="OEBPS/styles/stylesheet.css" id="css" media-type="text/css" />
-        <item href="toc.ncx" media-type="application/x-dtbncx+xml" id="ncx" />
-        <item href="OEBPS/nav.xhtml" id="nav" media-type="application/xhtml+xml" />
-    </manifest>
-    <spine toc="ncx">
-        <itemref idref="title" />
-        <itemref idref="main" />
-        <itemref idref="Gozosos" />
-        <itemref idref="Senal-de-la-santa-cruz_Gozosos" />
-        <itemref idref="Oracion_Al_Espiritu_Santo_Gozosos" />
-        <itemref idref="Credo_Gozosos" />
-        <itemref idref="Padre-Nuestro_Gozosos_0_0" />
-        <itemref idref="Ave-Maria_Gozosos_0_0" />
-        <itemref idref="Ave-Maria_Gozosos_0_1" />
-        <itemref idref="Ave-Maria_Gozosos_0_2" />
-        <itemref idref="Gloria_Gozosos_0_0" />
-        <itemref idref="Intensiones_Gozosos_0_0" />
-        <itemref idref="Mysterio_Gozoso_1_0" />
-        <itemref idref="Padre-Nuestro_Gozosos_1_0" />
-        <itemref idref="Ave-Maria_Gozosos_1_0" />
-        <itemref idref="Ave-Maria_Gozosos_1_1" />
-        <itemref idref="Ave-Maria_Gozosos_1_2" />
-        <itemref idref="Ave-Maria_Gozosos_1_3" />
-        <itemref idref="Ave-Maria_Gozosos_1_4" />
-        <itemref idref="Ave-Maria_Gozosos_1_5" />
-        <itemref idref="Ave-Maria_Gozosos_1_6" />
-        <itemref idref="Ave-Maria_Gozosos_1_7" />
-        <itemref idref="Ave-Maria_Gozosos_1_8" />
-        <itemref idref="Ave-Maria_Gozosos_1_9" />
-        <itemref idref="Gloria_Gozosos_1_0" />
-        <itemref idref="Jaculatoria_Gozosos_1_0" />
-        <itemref idref="Mysterio_Gozoso_2" />
-        <itemref idref="Padre-Nuestro_Gozosos_2_0" />
-        <itemref idref="Ave-Maria_Gozosos_2_0" />
-        <itemref idref="Ave-Maria_Gozosos_2_1" />
-        <itemref idref="Ave-Maria_Gozosos_2_2" />
-        <itemref idref="Ave-Maria_Gozosos_2_3" />
-        <itemref idref="Ave-Maria_Gozosos_2_4" />
-        <itemref idref="Ave-Maria_Gozosos_2_5" />
-        <itemref idref="Ave-Maria_Gozosos_2_6" />
-        <itemref idref="Ave-Maria_Gozosos_2_7" />
-        <itemref idref="Ave-Maria_Gozosos_2_8" />
-        <itemref idref="Ave-Maria_Gozosos_2_9" />
-        <itemref idref="Gloria_Gozosos_2_0" />
-        <itemref idref="Jaculatoria_Gozosos_2_0" />
-        <itemref idref="Mysterio_Gozoso_3" />
-        <itemref idref="Padre-Nuestro_Gozosos_3_0" />
-        <itemref idref="Ave-Maria_Gozosos_3_0" />
-        <itemref idref="Ave-Maria_Gozosos_3_1" />
-        <itemref idref="Ave-Maria_Gozosos_3_2" />
-        <itemref idref="Ave-Maria_Gozosos_3_3" />
-        <itemref idref="Ave-Maria_Gozosos_3_4" />
-        <itemref idref="Ave-Maria_Gozosos_3_5" />
-        <itemref idref="Ave-Maria_Gozosos_3_6" />
-        <itemref idref="Ave-Maria_Gozosos_3_7" />
-        <itemref idref="Ave-Maria_Gozosos_3_8" />
-        <itemref idref="Ave-Maria_Gozosos_3_9" />
-        <itemref idref="Gloria_Gozosos_3_0" />
-        <itemref idref="Jaculatoria_Gozosos_3_0" />
-        <itemref idref="Mysterio_Gozoso_4" />
-        <itemref idref="Padre-Nuestro_Gozosos_4_0" />
-        <itemref idref="Ave-Maria_Gozosos_4_0" />
-        <itemref idref="Ave-Maria_Gozosos_4_1" />
-        <itemref idref="Ave-Maria_Gozosos_4_2" />
-        <itemref idref="Ave-Maria_Gozosos_4_3" />
-        <itemref idref="Ave-Maria_Gozosos_4_4" />
-        <itemref idref="Ave-Maria_Gozosos_4_5" />
-        <itemref idref="Ave-Maria_Gozosos_4_6" />
-        <itemref idref="Ave-Maria_Gozosos_4_7" />
-        <itemref idref="Ave-Maria_Gozosos_4_8" />
-        <itemref idref="Ave-Maria_Gozosos_4_9" />
-        <itemref idref="Gloria_Gozosos_4_0" />
-        <itemref idref="Jaculatoria_Gozosos_4_0" />
-        <itemref idref="Mysterio_Gozoso_5" />
-        <itemref idref="Padre-Nuestro_Gozosos_5_0" />
-        <itemref idref="Ave-Maria_Gozosos_5_0" />
-        <itemref idref="Ave-Maria_Gozosos_5_1" />
-        <itemref idref="Ave-Maria_Gozosos_5_2" />
-        <itemref idref="Ave-Maria_Gozosos_5_3" />
-        <itemref idref="Ave-Maria_Gozosos_5_4" />
-        <itemref idref="Ave-Maria_Gozosos_5_5" />
-        <itemref idref="Ave-Maria_Gozosos_5_6" />
-        <itemref idref="Ave-Maria_Gozosos_5_7" />
-        <itemref idref="Ave-Maria_Gozosos_5_8" />
-        <itemref idref="Ave-Maria_Gozosos_5_9" />
-        <itemref idref="Gloria_Gozosos_5_0" />
-        <itemref idref="Jaculatoria_Gozosos_5_0" />
-        <itemref idref="Salve_Regina_Gozosos_0_0" />
-        <itemref idref="Letania_Maria_Gozosos_0_0" />
-        <itemref idref="Soberano_Santuario_Gozosos_0_0" />
-        <itemref idref="Divina_Providencia_Gozosos_0_0" />
-        <itemref idref="Angel_de_la_guarda_Gozosos_0_0" />
-        <itemref idref="San_Miguel_Arcangel_Gozosos_0_0" />
-        <itemref idref="Bajo_tu_Amparo_Gozosos_0_0" />
-        <itemref idref="Santa_Gertrudis_Gozosos_0_0" />
-        <itemref idref="San_Jose_Gozosos_0_0" />
-        <itemref idref="Oh_Senora_Mia_Gozosos_0_0" />
-        <itemref idref="Oracion_del_Alma_de_Cristo_Gozosos_0_0" />
-        <itemref idref="Dulce_Madre_Gozosos_0_0" />
-        <itemref idref="Dolorosos" />
-        <itemref idref="Senal-de-la-santa-cruz_Dolorosos" />
-        <itemref idref="Oracion_Al_Espiritu_Santo_Dolorosos" />
-        <itemref idref="Credo_Dolorosos" />
-        <itemref idref="Padre-Nuestro_Dolorosos_0_0" />
-        <itemref idref="Ave-Maria_Dolorosos_0_0" />
-        <itemref idref="Ave-Maria_Dolorosos_0_1" />
-        <itemref idref="Ave-Maria_Dolorosos_0_2" />
-        <itemref idref="Gloria_Dolorosos_0_0" />
-        <itemref idref="Intensiones_Dolorosos_0_0" />
-        <itemref idref="Mysterio_Doloroso_1_0" />
-        <itemref idref="Padre-Nuestro_Dolorosos_1_0" />
-        <itemref idref="Ave-Maria_Dolorosos_1_0" />
-        <itemref idref="Ave-Maria_Dolorosos_1_1" />
-        <itemref idref="Ave-Maria_Dolorosos_1_2" />
-        <itemref idref="Ave-Maria_Dolorosos_1_3" />
-        <itemref idref="Ave-Maria_Dolorosos_1_4" />
-        <itemref idref="Ave-Maria_Dolorosos_1_5" />
-        <itemref idref="Ave-Maria_Dolorosos_1_6" />
-        <itemref idref="Ave-Maria_Dolorosos_1_7" />
-        <itemref idref="Ave-Maria_Dolorosos_1_8" />
-        <itemref idref="Ave-Maria_Dolorosos_1_9" />
-        <itemref idref="Gloria_Dolorosos_1_0" />
-        <itemref idref="Jaculatoria_Dolorosos_1_0" />
-        <itemref idref="Mysterio_Doloroso_2" />
-        <itemref idref="Padre-Nuestro_Dolorosos_2_0" />
-        <itemref idref="Ave-Maria_Dolorosos_2_0" />
-        <itemref idref="Ave-Maria_Dolorosos_2_1" />
-        <itemref idref="Ave-Maria_Dolorosos_2_2" />
-        <itemref idref="Ave-Maria_Dolorosos_2_3" />
-        <itemref idref="Ave-Maria_Dolorosos_2_4" />
-        <itemref idref="Ave-Maria_Dolorosos_2_5" />
-        <itemref idref="Ave-Maria_Dolorosos_2_6" />
-        <itemref idref="Ave-Maria_Dolorosos_2_7" />
-        <itemref idref="Ave-Maria_Dolorosos_2_8" />
-        <itemref idref="Ave-Maria_Dolorosos_2_9" />
-        <itemref idref="Gloria_Dolorosos_2_0" />
-        <itemref idref="Jaculatoria_Dolorosos_2_0" />
-        <itemref idref="Mysterio_Doloroso_3" />
-        <itemref idref="Padre-Nuestro_Dolorosos_3_0" />
-        <itemref idref="Ave-Maria_Dolorosos_3_0" />
-        <itemref idref="Ave-Maria_Dolorosos_3_1" />
-        <itemref idref="Ave-Maria_Dolorosos_3_2" />
-        <itemref idref="Ave-Maria_Dolorosos_3_3" />
-        <itemref idref="Ave-Maria_Dolorosos_3_4" />
-        <itemref idref="Ave-Maria_Dolorosos_3_5" />
-        <itemref idref="Ave-Maria_Dolorosos_3_6" />
-        <itemref idref="Ave-Maria_Dolorosos_3_7" />
-        <itemref idref="Ave-Maria_Dolorosos_3_8" />
-        <itemref idref="Ave-Maria_Dolorosos_3_9" />
-        <itemref idref="Gloria_Dolorosos_3_0" />
-        <itemref idref="Jaculatoria_Dolorosos_3_0" />
-        <itemref idref="Mysterio_Doloroso_4" />
-        <itemref idref="Padre-Nuestro_Dolorosos_4_0" />
-        <itemref idref="Ave-Maria_Dolorosos_4_0" />
-        <itemref idref="Ave-Maria_Dolorosos_4_1" />
-        <itemref idref="Ave-Maria_Dolorosos_4_2" />
-        <itemref idref="Ave-Maria_Dolorosos_4_3" />
-        <itemref idref="Ave-Maria_Dolorosos_4_4" />
-        <itemref idref="Ave-Maria_Dolorosos_4_5" />
-        <itemref idref="Ave-Maria_Dolorosos_4_6" />
-        <itemref idref="Ave-Maria_Dolorosos_4_7" />
-        <itemref idref="Ave-Maria_Dolorosos_4_8" />
-        <itemref idref="Ave-Maria_Dolorosos_4_9" />
-        <itemref idref="Gloria_Dolorosos_4_0" />
-        <itemref idref="Jaculatoria_Dolorosos_4_0" />
-        <itemref idref="Mysterio_Doloroso_5" />
-        <itemref idref="Padre-Nuestro_Dolorosos_5_0" />
-        <itemref idref="Ave-Maria_Dolorosos_5_0" />
-        <itemref idref="Ave-Maria_Dolorosos_5_1" />
-        <itemref idref="Ave-Maria_Dolorosos_5_2" />
-        <itemref idref="Ave-Maria_Dolorosos_5_3" />
-        <itemref idref="Ave-Maria_Dolorosos_5_4" />
-        <itemref idref="Ave-Maria_Dolorosos_5_5" />
-        <itemref idref="Ave-Maria_Dolorosos_5_6" />
-        <itemref idref="Ave-Maria_Dolorosos_5_7" />
-        <itemref idref="Ave-Maria_Dolorosos_5_8" />
-        <itemref idref="Ave-Maria_Dolorosos_5_9" />
-        <itemref idref="Gloria_Dolorosos_5_0" />
-        <itemref idref="Jaculatoria_Dolorosos_5_0" />
-        <itemref idref="Salve_Regina_Dolorosos_0_0" />
-        <itemref idref="Letania_Maria_Dolorosos_0_0" />
-        <itemref idref="Soberano_Santuario_Dolorosos_0_0" />
-        <itemref idref="Divina_Providencia_Dolorosos_0_0" />
-        <itemref idref="Angel_de_la_guarda_Dolorosos_0_0" />
-        <itemref idref="San_Miguel_Arcangel_Dolorosos_0_0" />
-        <itemref idref="Bajo_tu_Amparo_Dolorosos_0_0" />
-        <itemref idref="Santa_Gertrudis_Dolorosos_0_0" />
-        <itemref idref="San_Jose_Dolorosos_0_0" />
-        <itemref idref="Oh_Senora_Mia_Dolorosos_0_0" />
-        <itemref idref="Oracion_del_Alma_de_Cristo_Dolorosos_0_0" />
-        <itemref idref="Dulce_Madre_Dolorosos_0_0" />
-        <itemref idref="Gloriosos_miercoles" />
-        <itemref idref="Senal-de-la-santa-cruz_Gloriosos_miercoles" />
-        <itemref idref="Oracion_Al_Espiritu_Santo_Gloriosos_miercoles" />
-        <itemref idref="Credo_Gloriosos_miercoles" />
-        <itemref idref="Padre-Nuestro_Gloriosos_miercoles_0_0" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_0_0" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_0_1" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_0_2" />
-        <itemref idref="Gloria_Gloriosos_miercoles_0_0" />
-        <itemref idref="Intensiones_Gloriosos_miercoles_0" />
-        <itemref idref="Mysterio_Glorioso_miercoles_1" />
-        <itemref idref="Padre-Nuestro_Gloriosos_miercoles_1_0" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_1_0" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_1_1" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_1_2" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_1_3" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_1_4" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_1_5" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_1_6" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_1_7" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_1_8" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_1_9" />
-        <itemref idref="Gloria_Gloriosos_miercoles_1_0" />
-        <itemref idref="Jaculatoria_Gloriosos_miercoles_1_0" />
-        <itemref idref="Mysterio_Glorioso_miercoles_2" />
-        <itemref idref="Padre-Nuestro_Gloriosos_miercoles_2_0" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_2_0" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_2_1" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_2_2" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_2_3" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_2_4" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_2_5" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_2_6" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_2_7" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_2_8" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_2_9" />
-        <itemref idref="Gloria_Gloriosos_miercoles_2_0" />
-        <itemref idref="Jaculatoria_Gloriosos_miercoles_2_0" />
-        <itemref idref="Mysterio_Glorioso_miercoles_3" />
-        <itemref idref="Padre-Nuestro_Gloriosos_miercoles_3_0" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_3_0" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_3_1" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_3_2" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_3_3" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_3_4" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_3_5" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_3_6" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_3_7" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_3_8" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_3_9" />
-        <itemref idref="Gloria_Gloriosos_miercoles_3_0" />
-        <itemref idref="Jaculatoria_Gloriosos_miercoles_3_0" />
-        <itemref idref="Mysterio_Glorioso_miercoles_4" />
-        <itemref idref="Padre-Nuestro_Gloriosos_miercoles_4_0" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_4_0" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_4_1" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_4_2" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_4_3" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_4_4" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_4_5" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_4_6" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_4_7" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_4_8" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_4_9" />
-        <itemref idref="Gloria_Gloriosos_miercoles_4_0" />
-        <itemref idref="Jaculatoria_Gloriosos_miercoles_4_0" />
-        <itemref idref="Mysterio_Glorioso_miercoles_5" />
-        <itemref idref="Padre-Nuestro_Gloriosos_miercoles_5_0" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_5_0" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_5_1" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_5_2" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_5_3" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_5_4" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_5_5" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_5_6" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_5_7" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_5_8" />
-        <itemref idref="Ave-Maria_Gloriosos_miercoles_5_9" />
-        <itemref idref="Gloria_Gloriosos_miercoles_5_0" />
-        <itemref idref="Jaculatoria_Gloriosos_miercoles_5_0" />
-        <itemref idref="Salve_Regina_Gloriosos_miercoles_0_0" />
-        <itemref idref="Letania_San_Jose_Gloriosos_miercoles_0_0" />
-        <itemref idref="Soberano_Santuario_Gloriosos_miercoles_0_0" />
-        <itemref idref="Divina_Providencia_Gloriosos_miercoles_0_0" />
-        <itemref idref="Angel_de_la_guarda_Gloriosos_miercoles_0_0" />
-        <itemref idref="San_Miguel_Arcangel_Gloriosos_miercoles_0_0" />
-        <itemref idref="Bajo_tu_Amparo_Gloriosos_miercoles_0_0" />
-        <itemref idref="Santa_Gertrudis_Gloriosos_miercoles_0_0" />
-        <itemref idref="San_Jose_Gloriosos_miercoles_0_0" />
-        <itemref idref="Oh_Senora_Mia_Gloriosos_miercoles_0_0" />
-        <itemref idref="Oracion_del_Alma_de_Cristo_Gloriosos_miercoles_0_0" />
-        <itemref idref="Dulce_Madre_Gloriosos_miercoles_0_0" />
-        <itemref idref="Luminosos" />
-        <itemref idref="Senal-de-la-santa-cruz_Luminosos" />
-        <itemref idref="Oracion_Al_Espiritu_Santo_Luminosos" />
-        <itemref idref="Credo_Luminosos" />
-        <itemref idref="Padre-Nuestro_Luminosos_0_0" />
-        <itemref idref="Ave-Maria_Luminosos_0_0" />
-        <itemref idref="Ave-Maria_Luminosos_0_1" />
-        <itemref idref="Ave-Maria_Luminosos_0_2" />
-        <itemref idref="Gloria_Luminosos_0_0" />
-        <itemref idref="Intensiones_Luminosos_0_0" />
-        <itemref idref="Mysterio_Luminoso_1_0" />
-        <itemref idref="Padre-Nuestro_Luminosos_1_0" />
-        <itemref idref="Ave-Maria_Luminosos_1_0" />
-        <itemref idref="Ave-Maria_Luminosos_1_1" />
-        <itemref idref="Ave-Maria_Luminosos_1_2" />
-        <itemref idref="Ave-Maria_Luminosos_1_3" />
-        <itemref idref="Ave-Maria_Luminosos_1_4" />
-        <itemref idref="Ave-Maria_Luminosos_1_5" />
-        <itemref idref="Ave-Maria_Luminosos_1_6" />
-        <itemref idref="Ave-Maria_Luminosos_1_7" />
-        <itemref idref="Ave-Maria_Luminosos_1_8" />
-        <itemref idref="Ave-Maria_Luminosos_1_9" />
-        <itemref idref="Gloria_Luminosos_1_0" />
-        <itemref idref="Jaculatoria_Luminosos_1_0" />
-        <itemref idref="Mysterio_Luminoso_2" />
-        <itemref idref="Padre-Nuestro_Luminosos_2_0" />
-        <itemref idref="Ave-Maria_Luminosos_2_0" />
-        <itemref idref="Ave-Maria_Luminosos_2_1" />
-        <itemref idref="Ave-Maria_Luminosos_2_2" />
-        <itemref idref="Ave-Maria_Luminosos_2_3" />
-        <itemref idref="Ave-Maria_Luminosos_2_4" />
-        <itemref idref="Ave-Maria_Luminosos_2_5" />
-        <itemref idref="Ave-Maria_Luminosos_2_6" />
-        <itemref idref="Ave-Maria_Luminosos_2_7" />
-        <itemref idref="Ave-Maria_Luminosos_2_8" />
-        <itemref idref="Ave-Maria_Luminosos_2_9" />
-        <itemref idref="Gloria_Luminosos_2_0" />
-        <itemref idref="Jaculatoria_Luminosos_2_0" />
-        <itemref idref="Mysterio_Luminoso_3" />
-        <itemref idref="Padre-Nuestro_Luminosos_3_0" />
-        <itemref idref="Ave-Maria_Luminosos_3_0" />
-        <itemref idref="Ave-Maria_Luminosos_3_1" />
-        <itemref idref="Ave-Maria_Luminosos_3_2" />
-        <itemref idref="Ave-Maria_Luminosos_3_3" />
-        <itemref idref="Ave-Maria_Luminosos_3_4" />
-        <itemref idref="Ave-Maria_Luminosos_3_5" />
-        <itemref idref="Ave-Maria_Luminosos_3_6" />
-        <itemref idref="Ave-Maria_Luminosos_3_7" />
-        <itemref idref="Ave-Maria_Luminosos_3_8" />
-        <itemref idref="Ave-Maria_Luminosos_3_9" />
-        <itemref idref="Gloria_Luminosos_3_0" />
-        <itemref idref="Jaculatoria_Luminosos_3_0" />
-        <itemref idref="Mysterio_Luminoso_4" />
-        <itemref idref="Padre-Nuestro_Luminosos_4_0" />
-        <itemref idref="Ave-Maria_Luminosos_4_0" />
-        <itemref idref="Ave-Maria_Luminosos_4_1" />
-        <itemref idref="Ave-Maria_Luminosos_4_2" />
-        <itemref idref="Ave-Maria_Luminosos_4_3" />
-        <itemref idref="Ave-Maria_Luminosos_4_4" />
-        <itemref idref="Ave-Maria_Luminosos_4_5" />
-        <itemref idref="Ave-Maria_Luminosos_4_6" />
-        <itemref idref="Ave-Maria_Luminosos_4_7" />
-        <itemref idref="Ave-Maria_Luminosos_4_8" />
-        <itemref idref="Ave-Maria_Luminosos_4_9" />
-        <itemref idref="Gloria_Luminosos_4_0" />
-        <itemref idref="Jaculatoria_Luminosos_4_0" />
-        <itemref idref="Mysterio_Luminoso_5" />
-        <itemref idref="Padre-Nuestro_Luminosos_5_0" />
-        <itemref idref="Ave-Maria_Luminosos_5_0" />
-        <itemref idref="Ave-Maria_Luminosos_5_1" />
-        <itemref idref="Ave-Maria_Luminosos_5_2" />
-        <itemref idref="Ave-Maria_Luminosos_5_3" />
-        <itemref idref="Ave-Maria_Luminosos_5_4" />
-        <itemref idref="Ave-Maria_Luminosos_5_5" />
-        <itemref idref="Ave-Maria_Luminosos_5_6" />
-        <itemref idref="Ave-Maria_Luminosos_5_7" />
-        <itemref idref="Ave-Maria_Luminosos_5_8" />
-        <itemref idref="Ave-Maria_Luminosos_5_9" />
-        <itemref idref="Gloria_Luminosos_5_0" />
-        <itemref idref="Jaculatoria_Luminosos_5_0" />
-        <itemref idref="Salve_Regina_Luminosos_0_0" />
-        <itemref idref="Letania_Maria_Luminosos_0_0" />
-        <itemref idref="Soberano_Santuario_Luminosos_0_0" />
-        <itemref idref="Divina_Providencia_Luminosos_0_0" />
-        <itemref idref="Angel_de_la_guarda_Luminosos_0_0" />
-        <itemref idref="San_Miguel_Arcangel_Luminosos_0_0" />
-        <itemref idref="Bajo_tu_Amparo_Luminosos_0_0" />
-        <itemref idref="Santa_Gertrudis_Luminosos_0_0" />
-        <itemref idref="San_Jose_Luminosos_0_0" />
-        <itemref idref="Oh_Senora_Mia_Luminosos_0_0" />
-        <itemref idref="Oracion_del_Alma_de_Cristo_Luminosos_0_0" />
-        <itemref idref="Dulce_Madre_Luminosos_0_0" />
-        <itemref idref="Gloriosos" />
-        <itemref idref="Senal-de-la-santa-cruz_Gloriosos" />
-        <itemref idref="Oracion_Al_Espiritu_Santo_Gloriosos" />
-        <itemref idref="Credo_Gloriosos" />
-        <itemref idref="Padre-Nuestro_Gloriosos_0_0" />
-        <itemref idref="Ave-Maria_Gloriosos_0_0" />
-        <itemref idref="Ave-Maria_Gloriosos_0_1" />
-        <itemref idref="Ave-Maria_Gloriosos_0_2" />
-        <itemref idref="Gloria_Gloriosos_0_0" />
-        <itemref idref="Intensiones_Gloriosos_0_0" />
-        <itemref idref="Mysterio_Glorioso_1_0" />
-        <itemref idref="Padre-Nuestro_Gloriosos_1_0" />
-        <itemref idref="Ave-Maria_Gloriosos_1_0" />
-        <itemref idref="Ave-Maria_Gloriosos_1_1" />
-        <itemref idref="Ave-Maria_Gloriosos_1_2" />
-        <itemref idref="Ave-Maria_Gloriosos_1_3" />
-        <itemref idref="Ave-Maria_Gloriosos_1_4" />
-        <itemref idref="Ave-Maria_Gloriosos_1_5" />
-        <itemref idref="Ave-Maria_Gloriosos_1_6" />
-        <itemref idref="Ave-Maria_Gloriosos_1_7" />
-        <itemref idref="Ave-Maria_Gloriosos_1_8" />
-        <itemref idref="Ave-Maria_Gloriosos_1_9" />
-        <itemref idref="Gloria_Gloriosos_1_0" />
-        <itemref idref="Jaculatoria_Gloriosos_1_0" />
-        <itemref idref="Mysterio_Glorioso_2" />
-        <itemref idref="Padre-Nuestro_Gloriosos_2_0" />
-        <itemref idref="Ave-Maria_Gloriosos_2_0" />
-        <itemref idref="Ave-Maria_Gloriosos_2_1" />
-        <itemref idref="Ave-Maria_Gloriosos_2_2" />
-        <itemref idref="Ave-Maria_Gloriosos_2_3" />
-        <itemref idref="Ave-Maria_Gloriosos_2_4" />
-        <itemref idref="Ave-Maria_Gloriosos_2_5" />
-        <itemref idref="Ave-Maria_Gloriosos_2_6" />
-        <itemref idref="Ave-Maria_Gloriosos_2_7" />
-        <itemref idref="Ave-Maria_Gloriosos_2_8" />
-        <itemref idref="Ave-Maria_Gloriosos_2_9" />
-        <itemref idref="Gloria_Gloriosos_2_0" />
-        <itemref idref="Jaculatoria_Gloriosos_2_0" />
-        <itemref idref="Mysterio_Glorioso_3" />
-        <itemref idref="Padre-Nuestro_Gloriosos_3_0" />
-        <itemref idref="Ave-Maria_Gloriosos_3_0" />
-        <itemref idref="Ave-Maria_Gloriosos_3_1" />
-        <itemref idref="Ave-Maria_Gloriosos_3_2" />
-        <itemref idref="Ave-Maria_Gloriosos_3_3" />
-        <itemref idref="Ave-Maria_Gloriosos_3_4" />
-        <itemref idref="Ave-Maria_Gloriosos_3_5" />
-        <itemref idref="Ave-Maria_Gloriosos_3_6" />
-        <itemref idref="Ave-Maria_Gloriosos_3_7" />
-        <itemref idref="Ave-Maria_Gloriosos_3_8" />
-        <itemref idref="Ave-Maria_Gloriosos_3_9" />
-        <itemref idref="Gloria_Gloriosos_3_0" />
-        <itemref idref="Jaculatoria_Gloriosos_3_0" />
-        <itemref idref="Mysterio_Glorioso_4" />
-        <itemref idref="Padre-Nuestro_Gloriosos_4_0" />
-        <itemref idref="Ave-Maria_Gloriosos_4_0" />
-        <itemref idref="Ave-Maria_Gloriosos_4_1" />
-        <itemref idref="Ave-Maria_Gloriosos_4_2" />
-        <itemref idref="Ave-Maria_Gloriosos_4_3" />
-        <itemref idref="Ave-Maria_Gloriosos_4_4" />
-        <itemref idref="Ave-Maria_Gloriosos_4_5" />
-        <itemref idref="Ave-Maria_Gloriosos_4_6" />
-        <itemref idref="Ave-Maria_Gloriosos_4_7" />
-        <itemref idref="Ave-Maria_Gloriosos_4_8" />
-        <itemref idref="Ave-Maria_Gloriosos_4_9" />
-        <itemref idref="Gloria_Gloriosos_4_0" />
-        <itemref idref="Jaculatoria_Gloriosos_4_0" />
-        <itemref idref="Mysterio_Glorioso_5" />
-        <itemref idref="Padre-Nuestro_Gloriosos_5_0" />
-        <itemref idref="Ave-Maria_Gloriosos_5_0" />
-        <itemref idref="Ave-Maria_Gloriosos_5_1" />
-        <itemref idref="Ave-Maria_Gloriosos_5_2" />
-        <itemref idref="Ave-Maria_Gloriosos_5_3" />
-        <itemref idref="Ave-Maria_Gloriosos_5_4" />
-        <itemref idref="Ave-Maria_Gloriosos_5_5" />
-        <itemref idref="Ave-Maria_Gloriosos_5_6" />
-        <itemref idref="Ave-Maria_Gloriosos_5_7" />
-        <itemref idref="Ave-Maria_Gloriosos_5_8" />
-        <itemref idref="Ave-Maria_Gloriosos_5_9" />
-        <itemref idref="Gloria_Gloriosos_5_0" />
-        <itemref idref="Jaculatoria_Gloriosos_5_0" />
-        <itemref idref="Salve_Regina_Gloriosos_0_0" />
-        <itemref idref="Letania_Maria_Gloriosos_0_0" />
-        <itemref idref="Soberano_Santuario_Gloriosos_0_0" />
-        <itemref idref="Divina_Providencia_Gloriosos_0_0" />
-        <itemref idref="Angel_de_la_guarda_Gloriosos_0_0" />
-        <itemref idref="San_Miguel_Arcangel_Gloriosos_0_0" />
-        <itemref idref="Bajo_tu_Amparo_Gloriosos_0_0" />
-        <itemref idref="Santa_Gertrudis_Gloriosos_0_0" />
-        <itemref idref="San_Jose_Gloriosos_0_0" />
-        <itemref idref="Oh_Senora_Mia_Gloriosos_0_0" />
-        <itemref idref="Oracion_del_Alma_de_Cristo_Gloriosos_0_0" />
-        <itemref idref="Dulce_Madre_Gloriosos_0_0" />
-        <itemref idref="nav" />
-    </spine>
-    <guide>
-        <reference href="OEBPS/main.xhtml" type="index" title="Main" />
-    </guide>
+  <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:language>es</dc:language>
+    <dc:title>Rosario</dc:title>
+    <dc:date>2026-07-19T00:21:20</dc:date>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">f814194d-0e51-4d16-8e94-92846d438a8c</dc:identifier>
+  </metadata>
+  <manifest>
+    <item id="title" href="title.xhtml" media-type="application/xhtml+xml" />
+    <item id="main" href="OEBPS/main.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_0_01" href="OEBPS/Navigation/Lunes.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_0_02" href="OEBPS/Resos/Senal-de-la-santa-cruz.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_0_03" href="OEBPS/Resos/Oracion-Al-Espiritu-Santo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_0_04" href="OEBPS/Resos/Credo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_0_05" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_0_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_0_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_0_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_0_09" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_0_10" href="OEBPS/Intensiones/Intensiones.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_1_01" href="OEBPS/Misterios/Gozoso/Misterio-Gozoso-1.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_1_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_1_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_1_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_1_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_1_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_1_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_1_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_1_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_1_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_1_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_1_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_1_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_1_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_2_01" href="OEBPS/Misterios/Gozoso/Misterio-Gozoso-2.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_2_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_2_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_2_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_2_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_2_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_2_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_2_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_2_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_2_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_2_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_2_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_2_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_2_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_3_01" href="OEBPS/Misterios/Gozoso/Misterio-Gozoso-3.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_3_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_3_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_3_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_3_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_3_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_3_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_3_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_3_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_3_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_3_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_3_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_3_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_4_01" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_4_02" href="OEBPS/Misterios/Gozoso/Misterio-Gozoso-4.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_4_03" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_4_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_4_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_4_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_4_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_4_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_4_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_4_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_4_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_4_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_4_13" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_4_14" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_4_15" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_5_01" href="OEBPS/Misterios/Gozoso/Misterio-Gozoso-5.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_5_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_5_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_5_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_5_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_5_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_5_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_5_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_5_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_5_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_5_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_5_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_5_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_5_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_6_01" href="OEBPS/Resos/Salve-Regina.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_6_02" href="OEBPS/Resos/Letania-de-la-Virgen-Maria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_6_03" href="OEBPS/Resos/Divina-Providencia.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_6_04" href="OEBPS/Resos/Dulce-Madre.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_0_01" href="OEBPS/Navigation/Martes.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_0_02" href="OEBPS/Resos/Senal-de-la-santa-cruz.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_0_03" href="OEBPS/Resos/Oracion-Al-Espiritu-Santo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_0_04" href="OEBPS/Resos/Credo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_0_05" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_0_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_0_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_0_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_0_09" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_0_10" href="OEBPS/Intensiones/Intensiones.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_1_01" href="OEBPS/Misterios/Doloroso/Misterio-Doloroso-1.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_1_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_1_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_1_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_1_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_1_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_1_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_1_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_1_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_1_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_1_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_1_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_1_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_1_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_2_01" href="OEBPS/Misterios/Doloroso/Misterio-Doloroso-2.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_2_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_2_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_2_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_2_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_2_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_2_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_2_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_2_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_2_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_2_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_2_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_2_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_2_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_3_01" href="OEBPS/Misterios/Doloroso/Misterio-Doloroso-3.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_3_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_3_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_3_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_3_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_3_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_3_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_3_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_3_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_3_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_3_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_3_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_3_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_3_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_4_01" href="OEBPS/Misterios/Doloroso/Misterio-Doloroso-4.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_4_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_4_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_4_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_4_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_4_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_4_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_4_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_4_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_4_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_4_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_4_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_4_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_4_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_5_01" href="OEBPS/Misterios/Doloroso/Misterio-Doloroso-5.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_5_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_5_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_5_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_5_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_5_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_5_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_5_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_5_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_5_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_5_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_5_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_5_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_5_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_6_01" href="OEBPS/Resos/Salve-Regina.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_6_02" href="OEBPS/Resos/Letania-de-la-Virgen-Maria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_6_03" href="OEBPS/Resos/Angel-de-la-guarda.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_6_04" href="OEBPS/Resos/San-Miguel-Arcangel.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mar_6_05" href="OEBPS/Resos/Dulce-Madre.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_0_01" href="OEBPS/Navigation/Miercoles.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_0_02" href="OEBPS/Resos/Senal-de-la-santa-cruz.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_0_03" href="OEBPS/Resos/Oracion-Al-Espiritu-Santo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_0_04" href="OEBPS/Resos/Credo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_0_05" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_0_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_0_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_0_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_0_09" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_0_10" href="OEBPS/Intensiones/Intensiones.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_1_01" href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-1.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_1_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_1_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_1_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_1_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_1_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_1_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_1_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_1_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_1_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_1_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_1_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_1_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_1_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_2_01" href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-2.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_2_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_2_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_2_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_2_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_2_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_2_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_2_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_2_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_2_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_2_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_2_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_2_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_2_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_3_01" href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-3.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_3_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_3_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_3_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_3_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_3_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_3_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_3_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_3_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_3_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_3_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_3_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_3_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_3_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_4_01" href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-4.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_4_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_4_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_4_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_4_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_4_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_4_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_4_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_4_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_4_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_4_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_4_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_4_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_4_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_5_01" href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-5.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_5_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_5_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_5_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_5_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_5_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_5_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_5_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_5_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_5_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_5_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_5_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_5_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_5_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_6_01" href="OEBPS/Resos/Salve-Regina.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_6_02" href="OEBPS/Resos/Letania-de-San-Jose.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_6_03" href="OEBPS/Resos/Consagracion-a-San-Jose.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Mie_6_04" href="OEBPS/Resos/Dulce-Madre.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_0_01" href="OEBPS/Navigation/Jueves.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_0_02" href="OEBPS/Resos/Senal-de-la-santa-cruz.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_0_03" href="OEBPS/Resos/Oracion-Al-Espiritu-Santo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_0_04" href="OEBPS/Resos/Credo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_0_05" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_0_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_0_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_0_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_0_09" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_0_10" href="OEBPS/Intensiones/Intensiones.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_1_01" href="OEBPS/Misterios/Luminoso/Misterio-Luminoso-1.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_1_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_1_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_1_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_1_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_1_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_1_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_1_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_1_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_1_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_1_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_1_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_1_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_1_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_2_01" href="OEBPS/Misterios/Luminoso/Misterio-Luminoso-2.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_2_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_2_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_2_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_2_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_2_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_2_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_2_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_2_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_2_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_2_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_2_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_2_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_2_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_3_01" href="OEBPS/Misterios/Luminoso/Misterio-Luminoso-3.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_3_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_3_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_3_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_3_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_3_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_3_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_3_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_3_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_3_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_3_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_3_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_3_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_3_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_4_01" href="OEBPS/Misterios/Luminoso/Misterio-Luminoso-4.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_4_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_4_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_4_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_4_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_4_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_4_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_4_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_4_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_4_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_4_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_4_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_4_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_4_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_5_01" href="OEBPS/Misterios/Luminoso/Misterio-Luminoso-5.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_5_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_5_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_5_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_5_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_5_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_5_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_5_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_5_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_5_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_5_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_5_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_5_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_5_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_6_01" href="OEBPS/Resos/Salve-Regina.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_6_02" href="OEBPS/Resos/Letania-de-la-Virgen-Maria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_6_03" href="OEBPS/Resos/Soberano-Santuario.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_6_04" href="OEBPS/Resos/Divina-Providencia.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_6_05" href="OEBPS/Resos/Angel-de-la-guarda.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_6_06" href="OEBPS/Resos/San-Miguel-Arcangel.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_6_07" href="OEBPS/Resos/Bajo-tu-amparo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_6_08" href="OEBPS/Resos/Santa-Gertrudis.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_6_09" href="OEBPS/Resos/San-Jose.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_6_10" href="OEBPS/Resos/Oh-Senora-Mia.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_6_11" href="OEBPS/Resos/Oracion-del-Alma-de-Cristo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_6_12" href="OEBPS/Resos/Dulce-Madre.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_0_01" href="OEBPS/Navigation/Viernes.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_0_02" href="OEBPS/Resos/Senal-de-la-santa-cruz.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_0_03" href="OEBPS/Resos/Oracion-Al-Espiritu-Santo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_0_04" href="OEBPS/Resos/Credo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_0_05" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_0_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_0_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_0_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_0_09" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_0_10" href="OEBPS/Intensiones/Intensiones.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_1_01" href="OEBPS/Misterios/Doloroso/Misterio-Doloroso-1.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_1_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_1_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_1_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_1_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_1_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_1_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_1_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_1_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_1_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_1_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_1_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_1_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_1_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_2_01" href="OEBPS/Misterios/Doloroso/Misterio-Doloroso-2.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_2_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_2_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_2_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_2_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_2_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_2_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_2_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_2_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_2_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_2_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_2_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_2_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_2_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_3_01" href="OEBPS/Misterios/Doloroso/Misterio-Doloroso-3.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_3_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_3_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_3_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_3_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_3_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_3_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_3_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_3_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_3_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_3_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_3_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_3_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_3_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_4_01" href="OEBPS/Misterios/Doloroso/Misterio-Doloroso-4.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_4_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_4_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_4_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_4_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_4_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_4_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_4_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_4_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_4_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_4_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_4_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_4_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_4_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_5_01" href="OEBPS/Misterios/Doloroso/Misterio-Doloroso-5.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_5_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_5_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_5_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_5_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_5_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_5_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_5_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_5_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_5_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_5_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_5_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_5_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_5_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_6_01" href="OEBPS/Resos/Salve-Regina.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_6_02" href="OEBPS/Resos/Letania-de-la-Virgen-Maria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_6_03" href="OEBPS/Resos/Soberano-Santuario.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_6_04" href="OEBPS/Resos/Divina-Providencia.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_6_05" href="OEBPS/Resos/Angel-de-la-guarda.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_6_06" href="OEBPS/Resos/San-Miguel-Arcangel.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_6_07" href="OEBPS/Resos/Bajo-tu-amparo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_6_08" href="OEBPS/Resos/Santa-Gertrudis.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_6_09" href="OEBPS/Resos/San-Jose.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_6_10" href="OEBPS/Resos/Oh-Senora-Mia.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_6_11" href="OEBPS/Resos/Oracion-del-Alma-de-Cristo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Vie_6_12" href="OEBPS/Resos/Dulce-Madre.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_0_01" href="OEBPS/Navigation/Sabado.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_0_02" href="OEBPS/Resos/Senal-de-la-santa-cruz.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_0_03" href="OEBPS/Resos/Oracion-Al-Espiritu-Santo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_0_04" href="OEBPS/Resos/Credo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_0_05" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_0_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_0_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_0_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_0_09" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_0_10" href="OEBPS/Intensiones/Intensiones.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_1_01" href="OEBPS/Misterios/Gozoso/Misterio-Gozoso-1.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_1_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_1_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_1_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_1_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_1_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_1_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_1_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_1_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_1_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_1_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_1_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_1_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_1_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_2_01" href="OEBPS/Misterios/Gozoso/Misterio-Gozoso-2.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_2_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_2_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_2_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_2_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_2_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_2_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_2_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_2_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_2_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_2_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_2_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_2_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_2_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_3_01" href="OEBPS/Misterios/Gozoso/Misterio-Gozoso-3.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_3_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_3_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_3_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_3_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_3_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_3_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_3_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_3_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_3_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_3_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_3_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_3_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_4_01" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_4_02" href="OEBPS/Misterios/Gozoso/Misterio-Gozoso-4.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_4_03" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_4_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_4_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_4_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_4_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_4_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_4_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_4_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_4_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_4_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_4_13" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_4_14" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_4_15" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_5_01" href="OEBPS/Misterios/Gozoso/Misterio-Gozoso-5.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_5_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_5_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_5_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_5_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_5_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_5_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_5_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_5_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_5_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_5_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_5_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_5_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_5_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_6_01" href="OEBPS/Resos/Salve-Regina.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_6_02" href="OEBPS/Resos/Letania-de-la-Virgen-Maria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_6_03" href="OEBPS/Resos/Soberano-Santuario.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_6_04" href="OEBPS/Resos/Divina-Providencia.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_6_05" href="OEBPS/Resos/Angel-de-la-guarda.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_6_06" href="OEBPS/Resos/San-Miguel-Arcangel.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_6_07" href="OEBPS/Resos/Bajo-tu-amparo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_6_08" href="OEBPS/Resos/Santa-Gertrudis.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_6_09" href="OEBPS/Resos/San-Jose.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_6_10" href="OEBPS/Resos/Oh-Senora-Mia.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_6_11" href="OEBPS/Resos/Oracion-del-Alma-de-Cristo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Sab_6_12" href="OEBPS/Resos/Dulce-Madre.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_0_01" href="OEBPS/Navigation/Domingo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_0_02" href="OEBPS/Resos/Senal-de-la-santa-cruz.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_0_03" href="OEBPS/Resos/Oracion-Al-Espiritu-Santo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_0_04" href="OEBPS/Resos/Credo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_0_05" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_0_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_0_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_0_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_0_09" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_0_10" href="OEBPS/Intensiones/Intensiones.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_1_01" href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-1.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_1_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_1_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_1_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_1_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_1_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_1_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_1_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_1_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_1_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_1_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_1_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_1_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_1_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_2_01" href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-2.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_2_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_2_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_2_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_2_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_2_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_2_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_2_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_2_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_2_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_2_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_2_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_2_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_2_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_3_01" href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-3.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_3_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_3_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_3_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_3_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_3_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_3_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_3_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_3_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_3_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_3_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_3_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_3_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_3_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_4_01" href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-4.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_4_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_4_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_4_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_4_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_4_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_4_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_4_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_4_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_4_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_4_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_4_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_4_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_4_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_5_01" href="OEBPS/Misterios/Glorioso/Misterio-Glorioso-5.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_5_02" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_5_03" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_5_04" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_5_05" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_5_06" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_5_07" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_5_08" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_5_09" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_5_10" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_5_11" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_5_12" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_5_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_5_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_6_01" href="OEBPS/Resos/Salve-Regina.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_6_02" href="OEBPS/Resos/Letania-de-la-Virgen-Maria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_6_03" href="OEBPS/Resos/Soberano-Santuario.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_6_04" href="OEBPS/Resos/Divina-Providencia.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_6_05" href="OEBPS/Resos/Angel-de-la-guarda.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_6_06" href="OEBPS/Resos/San-Miguel-Arcangel.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_6_07" href="OEBPS/Resos/Bajo-tu-amparo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_6_08" href="OEBPS/Resos/Santa-Gertrudis.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_6_09" href="OEBPS/Resos/San-Jose.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_6_10" href="OEBPS/Resos/Oh-Senora-Mia.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_6_11" href="OEBPS/Resos/Oracion-del-Alma-de-Cristo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Dom_6_12" href="OEBPS/Resos/Dulce-Madre.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_01" href="OEBPS/Resos/Avemaria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_02" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_03" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_04" href="OEBPS/Resos/Salve-Regina.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_05" href="OEBPS/Resos/Letania-de-la-Virgen-Maria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_06" href="OEBPS/Resos/Soberano-Santuario.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_07" href="OEBPS/Resos/Divina-Providencia.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_08" href="OEBPS/Resos/Angel-de-la-guarda.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_09" href="OEBPS/Resos/San-Miguel-Arcangel.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_10" href="OEBPS/Resos/Bajo-tu-amparo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_11" href="OEBPS/Resos/Santa-Gertrudis.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_12" href="OEBPS/Resos/San-Jose.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_13" href="OEBPS/Resos/Consagracion-a-San-Jose.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_14" href="OEBPS/Resos/Oh-Senora-Mia.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_15" href="OEBPS/Resos/Oracion-del-Alma-de-Cristo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_16" href="OEBPS/Resos/Dulce-Madre.xhtml" media-type="application/xhtml+xml" />
+    <item id="css" href="OEBPS/styles/stylesheet.css" media-type="text/css" />
+    <item id="toc" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+    <item id="nav" href="OEBPS/nav.xhtml" media-type="application/xhtml+xml" />
+  </manifest>
+  <spine toc="toc">
+    <itemref idref="title" />
+    <itemref idref="main" />
+    <itemref idref="Ros_Lun_0_01" />
+    <itemref idref="Ros_Lun_0_02" />
+    <itemref idref="Ros_Lun_0_03" />
+    <itemref idref="Ros_Lun_0_04" />
+    <itemref idref="Ros_Lun_0_05" />
+    <itemref idref="Ros_Lun_0_06" />
+    <itemref idref="Ros_Lun_0_07" />
+    <itemref idref="Ros_Lun_0_08" />
+    <itemref idref="Ros_Lun_0_09" />
+    <itemref idref="Ros_Lun_0_10" />
+    <itemref idref="Ros_Lun_1_01" />
+    <itemref idref="Ros_Lun_1_02" />
+    <itemref idref="Ros_Lun_1_03" />
+    <itemref idref="Ros_Lun_1_04" />
+    <itemref idref="Ros_Lun_1_05" />
+    <itemref idref="Ros_Lun_1_06" />
+    <itemref idref="Ros_Lun_1_07" />
+    <itemref idref="Ros_Lun_1_08" />
+    <itemref idref="Ros_Lun_1_09" />
+    <itemref idref="Ros_Lun_1_10" />
+    <itemref idref="Ros_Lun_1_11" />
+    <itemref idref="Ros_Lun_1_12" />
+    <itemref idref="Ros_Lun_1_13" />
+    <itemref idref="Ros_Lun_1_14" />
+    <itemref idref="Ros_Lun_2_01" />
+    <itemref idref="Ros_Lun_2_02" />
+    <itemref idref="Ros_Lun_2_03" />
+    <itemref idref="Ros_Lun_2_04" />
+    <itemref idref="Ros_Lun_2_05" />
+    <itemref idref="Ros_Lun_2_06" />
+    <itemref idref="Ros_Lun_2_07" />
+    <itemref idref="Ros_Lun_2_08" />
+    <itemref idref="Ros_Lun_2_09" />
+    <itemref idref="Ros_Lun_2_10" />
+    <itemref idref="Ros_Lun_2_11" />
+    <itemref idref="Ros_Lun_2_12" />
+    <itemref idref="Ros_Lun_2_13" />
+    <itemref idref="Ros_Lun_2_14" />
+    <itemref idref="Ros_Lun_3_01" />
+    <itemref idref="Ros_Lun_3_02" />
+    <itemref idref="Ros_Lun_3_03" />
+    <itemref idref="Ros_Lun_3_04" />
+    <itemref idref="Ros_Lun_3_05" />
+    <itemref idref="Ros_Lun_3_06" />
+    <itemref idref="Ros_Lun_3_07" />
+    <itemref idref="Ros_Lun_3_08" />
+    <itemref idref="Ros_Lun_3_09" />
+    <itemref idref="Ros_Lun_3_10" />
+    <itemref idref="Ros_Lun_3_11" />
+    <itemref idref="Ros_Lun_3_12" />
+    <itemref idref="Ros_Lun_3_13" />
+    <itemref idref="Ros_Lun_4_01" />
+    <itemref idref="Ros_Lun_4_02" />
+    <itemref idref="Ros_Lun_4_03" />
+    <itemref idref="Ros_Lun_4_04" />
+    <itemref idref="Ros_Lun_4_05" />
+    <itemref idref="Ros_Lun_4_06" />
+    <itemref idref="Ros_Lun_4_07" />
+    <itemref idref="Ros_Lun_4_08" />
+    <itemref idref="Ros_Lun_4_09" />
+    <itemref idref="Ros_Lun_4_10" />
+    <itemref idref="Ros_Lun_4_11" />
+    <itemref idref="Ros_Lun_4_12" />
+    <itemref idref="Ros_Lun_4_13" />
+    <itemref idref="Ros_Lun_4_14" />
+    <itemref idref="Ros_Lun_4_15" />
+    <itemref idref="Ros_Lun_5_01" />
+    <itemref idref="Ros_Lun_5_02" />
+    <itemref idref="Ros_Lun_5_03" />
+    <itemref idref="Ros_Lun_5_04" />
+    <itemref idref="Ros_Lun_5_05" />
+    <itemref idref="Ros_Lun_5_06" />
+    <itemref idref="Ros_Lun_5_07" />
+    <itemref idref="Ros_Lun_5_08" />
+    <itemref idref="Ros_Lun_5_09" />
+    <itemref idref="Ros_Lun_5_10" />
+    <itemref idref="Ros_Lun_5_11" />
+    <itemref idref="Ros_Lun_5_12" />
+    <itemref idref="Ros_Lun_5_13" />
+    <itemref idref="Ros_Lun_5_14" />
+    <itemref idref="Ros_Lun_6_01" />
+    <itemref idref="Ros_Lun_6_02" />
+    <itemref idref="Ros_Lun_6_03" />
+    <itemref idref="Ros_Lun_6_04" />
+    <itemref idref="Ros_Mar_0_01" />
+    <itemref idref="Ros_Mar_0_02" />
+    <itemref idref="Ros_Mar_0_03" />
+    <itemref idref="Ros_Mar_0_04" />
+    <itemref idref="Ros_Mar_0_05" />
+    <itemref idref="Ros_Mar_0_06" />
+    <itemref idref="Ros_Mar_0_07" />
+    <itemref idref="Ros_Mar_0_08" />
+    <itemref idref="Ros_Mar_0_09" />
+    <itemref idref="Ros_Mar_0_10" />
+    <itemref idref="Ros_Mar_1_01" />
+    <itemref idref="Ros_Mar_1_02" />
+    <itemref idref="Ros_Mar_1_03" />
+    <itemref idref="Ros_Mar_1_04" />
+    <itemref idref="Ros_Mar_1_05" />
+    <itemref idref="Ros_Mar_1_06" />
+    <itemref idref="Ros_Mar_1_07" />
+    <itemref idref="Ros_Mar_1_08" />
+    <itemref idref="Ros_Mar_1_09" />
+    <itemref idref="Ros_Mar_1_10" />
+    <itemref idref="Ros_Mar_1_11" />
+    <itemref idref="Ros_Mar_1_12" />
+    <itemref idref="Ros_Mar_1_13" />
+    <itemref idref="Ros_Mar_1_14" />
+    <itemref idref="Ros_Mar_2_01" />
+    <itemref idref="Ros_Mar_2_02" />
+    <itemref idref="Ros_Mar_2_03" />
+    <itemref idref="Ros_Mar_2_04" />
+    <itemref idref="Ros_Mar_2_05" />
+    <itemref idref="Ros_Mar_2_06" />
+    <itemref idref="Ros_Mar_2_07" />
+    <itemref idref="Ros_Mar_2_08" />
+    <itemref idref="Ros_Mar_2_09" />
+    <itemref idref="Ros_Mar_2_10" />
+    <itemref idref="Ros_Mar_2_11" />
+    <itemref idref="Ros_Mar_2_12" />
+    <itemref idref="Ros_Mar_2_13" />
+    <itemref idref="Ros_Mar_2_14" />
+    <itemref idref="Ros_Mar_3_01" />
+    <itemref idref="Ros_Mar_3_02" />
+    <itemref idref="Ros_Mar_3_03" />
+    <itemref idref="Ros_Mar_3_04" />
+    <itemref idref="Ros_Mar_3_05" />
+    <itemref idref="Ros_Mar_3_06" />
+    <itemref idref="Ros_Mar_3_07" />
+    <itemref idref="Ros_Mar_3_08" />
+    <itemref idref="Ros_Mar_3_09" />
+    <itemref idref="Ros_Mar_3_10" />
+    <itemref idref="Ros_Mar_3_11" />
+    <itemref idref="Ros_Mar_3_12" />
+    <itemref idref="Ros_Mar_3_13" />
+    <itemref idref="Ros_Mar_3_14" />
+    <itemref idref="Ros_Mar_4_01" />
+    <itemref idref="Ros_Mar_4_02" />
+    <itemref idref="Ros_Mar_4_03" />
+    <itemref idref="Ros_Mar_4_04" />
+    <itemref idref="Ros_Mar_4_05" />
+    <itemref idref="Ros_Mar_4_06" />
+    <itemref idref="Ros_Mar_4_07" />
+    <itemref idref="Ros_Mar_4_08" />
+    <itemref idref="Ros_Mar_4_09" />
+    <itemref idref="Ros_Mar_4_10" />
+    <itemref idref="Ros_Mar_4_11" />
+    <itemref idref="Ros_Mar_4_12" />
+    <itemref idref="Ros_Mar_4_13" />
+    <itemref idref="Ros_Mar_4_14" />
+    <itemref idref="Ros_Mar_5_01" />
+    <itemref idref="Ros_Mar_5_02" />
+    <itemref idref="Ros_Mar_5_03" />
+    <itemref idref="Ros_Mar_5_04" />
+    <itemref idref="Ros_Mar_5_05" />
+    <itemref idref="Ros_Mar_5_06" />
+    <itemref idref="Ros_Mar_5_07" />
+    <itemref idref="Ros_Mar_5_08" />
+    <itemref idref="Ros_Mar_5_09" />
+    <itemref idref="Ros_Mar_5_10" />
+    <itemref idref="Ros_Mar_5_11" />
+    <itemref idref="Ros_Mar_5_12" />
+    <itemref idref="Ros_Mar_5_13" />
+    <itemref idref="Ros_Mar_5_14" />
+    <itemref idref="Ros_Mar_6_01" />
+    <itemref idref="Ros_Mar_6_02" />
+    <itemref idref="Ros_Mar_6_03" />
+    <itemref idref="Ros_Mar_6_04" />
+    <itemref idref="Ros_Mar_6_05" />
+    <itemref idref="Ros_Mie_0_01" />
+    <itemref idref="Ros_Mie_0_02" />
+    <itemref idref="Ros_Mie_0_03" />
+    <itemref idref="Ros_Mie_0_04" />
+    <itemref idref="Ros_Mie_0_05" />
+    <itemref idref="Ros_Mie_0_06" />
+    <itemref idref="Ros_Mie_0_07" />
+    <itemref idref="Ros_Mie_0_08" />
+    <itemref idref="Ros_Mie_0_09" />
+    <itemref idref="Ros_Mie_0_10" />
+    <itemref idref="Ros_Mie_1_01" />
+    <itemref idref="Ros_Mie_1_02" />
+    <itemref idref="Ros_Mie_1_03" />
+    <itemref idref="Ros_Mie_1_04" />
+    <itemref idref="Ros_Mie_1_05" />
+    <itemref idref="Ros_Mie_1_06" />
+    <itemref idref="Ros_Mie_1_07" />
+    <itemref idref="Ros_Mie_1_08" />
+    <itemref idref="Ros_Mie_1_09" />
+    <itemref idref="Ros_Mie_1_10" />
+    <itemref idref="Ros_Mie_1_11" />
+    <itemref idref="Ros_Mie_1_12" />
+    <itemref idref="Ros_Mie_1_13" />
+    <itemref idref="Ros_Mie_1_14" />
+    <itemref idref="Ros_Mie_2_01" />
+    <itemref idref="Ros_Mie_2_02" />
+    <itemref idref="Ros_Mie_2_03" />
+    <itemref idref="Ros_Mie_2_04" />
+    <itemref idref="Ros_Mie_2_05" />
+    <itemref idref="Ros_Mie_2_06" />
+    <itemref idref="Ros_Mie_2_07" />
+    <itemref idref="Ros_Mie_2_08" />
+    <itemref idref="Ros_Mie_2_09" />
+    <itemref idref="Ros_Mie_2_10" />
+    <itemref idref="Ros_Mie_2_11" />
+    <itemref idref="Ros_Mie_2_12" />
+    <itemref idref="Ros_Mie_2_13" />
+    <itemref idref="Ros_Mie_2_14" />
+    <itemref idref="Ros_Mie_3_01" />
+    <itemref idref="Ros_Mie_3_02" />
+    <itemref idref="Ros_Mie_3_03" />
+    <itemref idref="Ros_Mie_3_04" />
+    <itemref idref="Ros_Mie_3_05" />
+    <itemref idref="Ros_Mie_3_06" />
+    <itemref idref="Ros_Mie_3_07" />
+    <itemref idref="Ros_Mie_3_08" />
+    <itemref idref="Ros_Mie_3_09" />
+    <itemref idref="Ros_Mie_3_10" />
+    <itemref idref="Ros_Mie_3_11" />
+    <itemref idref="Ros_Mie_3_12" />
+    <itemref idref="Ros_Mie_3_13" />
+    <itemref idref="Ros_Mie_3_14" />
+    <itemref idref="Ros_Mie_4_01" />
+    <itemref idref="Ros_Mie_4_02" />
+    <itemref idref="Ros_Mie_4_03" />
+    <itemref idref="Ros_Mie_4_04" />
+    <itemref idref="Ros_Mie_4_05" />
+    <itemref idref="Ros_Mie_4_06" />
+    <itemref idref="Ros_Mie_4_07" />
+    <itemref idref="Ros_Mie_4_08" />
+    <itemref idref="Ros_Mie_4_09" />
+    <itemref idref="Ros_Mie_4_10" />
+    <itemref idref="Ros_Mie_4_11" />
+    <itemref idref="Ros_Mie_4_12" />
+    <itemref idref="Ros_Mie_4_13" />
+    <itemref idref="Ros_Mie_4_14" />
+    <itemref idref="Ros_Mie_5_01" />
+    <itemref idref="Ros_Mie_5_02" />
+    <itemref idref="Ros_Mie_5_03" />
+    <itemref idref="Ros_Mie_5_04" />
+    <itemref idref="Ros_Mie_5_05" />
+    <itemref idref="Ros_Mie_5_06" />
+    <itemref idref="Ros_Mie_5_07" />
+    <itemref idref="Ros_Mie_5_08" />
+    <itemref idref="Ros_Mie_5_09" />
+    <itemref idref="Ros_Mie_5_10" />
+    <itemref idref="Ros_Mie_5_11" />
+    <itemref idref="Ros_Mie_5_12" />
+    <itemref idref="Ros_Mie_5_13" />
+    <itemref idref="Ros_Mie_5_14" />
+    <itemref idref="Ros_Mie_6_01" />
+    <itemref idref="Ros_Mie_6_02" />
+    <itemref idref="Ros_Mie_6_03" />
+    <itemref idref="Ros_Mie_6_04" />
+    <itemref idref="Ros_Jue_0_01" />
+    <itemref idref="Ros_Jue_0_02" />
+    <itemref idref="Ros_Jue_0_03" />
+    <itemref idref="Ros_Jue_0_04" />
+    <itemref idref="Ros_Jue_0_05" />
+    <itemref idref="Ros_Jue_0_06" />
+    <itemref idref="Ros_Jue_0_07" />
+    <itemref idref="Ros_Jue_0_08" />
+    <itemref idref="Ros_Jue_0_09" />
+    <itemref idref="Ros_Jue_0_10" />
+    <itemref idref="Ros_Jue_1_01" />
+    <itemref idref="Ros_Jue_1_02" />
+    <itemref idref="Ros_Jue_1_03" />
+    <itemref idref="Ros_Jue_1_04" />
+    <itemref idref="Ros_Jue_1_05" />
+    <itemref idref="Ros_Jue_1_06" />
+    <itemref idref="Ros_Jue_1_07" />
+    <itemref idref="Ros_Jue_1_08" />
+    <itemref idref="Ros_Jue_1_09" />
+    <itemref idref="Ros_Jue_1_10" />
+    <itemref idref="Ros_Jue_1_11" />
+    <itemref idref="Ros_Jue_1_12" />
+    <itemref idref="Ros_Jue_1_13" />
+    <itemref idref="Ros_Jue_1_14" />
+    <itemref idref="Ros_Jue_2_01" />
+    <itemref idref="Ros_Jue_2_02" />
+    <itemref idref="Ros_Jue_2_03" />
+    <itemref idref="Ros_Jue_2_04" />
+    <itemref idref="Ros_Jue_2_05" />
+    <itemref idref="Ros_Jue_2_06" />
+    <itemref idref="Ros_Jue_2_07" />
+    <itemref idref="Ros_Jue_2_08" />
+    <itemref idref="Ros_Jue_2_09" />
+    <itemref idref="Ros_Jue_2_10" />
+    <itemref idref="Ros_Jue_2_11" />
+    <itemref idref="Ros_Jue_2_12" />
+    <itemref idref="Ros_Jue_2_13" />
+    <itemref idref="Ros_Jue_2_14" />
+    <itemref idref="Ros_Jue_3_01" />
+    <itemref idref="Ros_Jue_3_02" />
+    <itemref idref="Ros_Jue_3_03" />
+    <itemref idref="Ros_Jue_3_04" />
+    <itemref idref="Ros_Jue_3_05" />
+    <itemref idref="Ros_Jue_3_06" />
+    <itemref idref="Ros_Jue_3_07" />
+    <itemref idref="Ros_Jue_3_08" />
+    <itemref idref="Ros_Jue_3_09" />
+    <itemref idref="Ros_Jue_3_10" />
+    <itemref idref="Ros_Jue_3_11" />
+    <itemref idref="Ros_Jue_3_12" />
+    <itemref idref="Ros_Jue_3_13" />
+    <itemref idref="Ros_Jue_3_14" />
+    <itemref idref="Ros_Jue_4_01" />
+    <itemref idref="Ros_Jue_4_02" />
+    <itemref idref="Ros_Jue_4_03" />
+    <itemref idref="Ros_Jue_4_04" />
+    <itemref idref="Ros_Jue_4_05" />
+    <itemref idref="Ros_Jue_4_06" />
+    <itemref idref="Ros_Jue_4_07" />
+    <itemref idref="Ros_Jue_4_08" />
+    <itemref idref="Ros_Jue_4_09" />
+    <itemref idref="Ros_Jue_4_10" />
+    <itemref idref="Ros_Jue_4_11" />
+    <itemref idref="Ros_Jue_4_12" />
+    <itemref idref="Ros_Jue_4_13" />
+    <itemref idref="Ros_Jue_4_14" />
+    <itemref idref="Ros_Jue_5_01" />
+    <itemref idref="Ros_Jue_5_02" />
+    <itemref idref="Ros_Jue_5_03" />
+    <itemref idref="Ros_Jue_5_04" />
+    <itemref idref="Ros_Jue_5_05" />
+    <itemref idref="Ros_Jue_5_06" />
+    <itemref idref="Ros_Jue_5_07" />
+    <itemref idref="Ros_Jue_5_08" />
+    <itemref idref="Ros_Jue_5_09" />
+    <itemref idref="Ros_Jue_5_10" />
+    <itemref idref="Ros_Jue_5_11" />
+    <itemref idref="Ros_Jue_5_12" />
+    <itemref idref="Ros_Jue_5_13" />
+    <itemref idref="Ros_Jue_5_14" />
+    <itemref idref="Ros_Jue_6_01" />
+    <itemref idref="Ros_Jue_6_02" />
+    <itemref idref="Ros_Jue_6_03" />
+    <itemref idref="Ros_Jue_6_04" />
+    <itemref idref="Ros_Jue_6_05" />
+    <itemref idref="Ros_Jue_6_06" />
+    <itemref idref="Ros_Jue_6_07" />
+    <itemref idref="Ros_Jue_6_08" />
+    <itemref idref="Ros_Jue_6_09" />
+    <itemref idref="Ros_Jue_6_10" />
+    <itemref idref="Ros_Jue_6_11" />
+    <itemref idref="Ros_Jue_6_12" />
+    <itemref idref="Ros_Vie_0_01" />
+    <itemref idref="Ros_Vie_0_02" />
+    <itemref idref="Ros_Vie_0_03" />
+    <itemref idref="Ros_Vie_0_04" />
+    <itemref idref="Ros_Vie_0_05" />
+    <itemref idref="Ros_Vie_0_06" />
+    <itemref idref="Ros_Vie_0_07" />
+    <itemref idref="Ros_Vie_0_08" />
+    <itemref idref="Ros_Vie_0_09" />
+    <itemref idref="Ros_Vie_0_10" />
+    <itemref idref="Ros_Vie_1_01" />
+    <itemref idref="Ros_Vie_1_02" />
+    <itemref idref="Ros_Vie_1_03" />
+    <itemref idref="Ros_Vie_1_04" />
+    <itemref idref="Ros_Vie_1_05" />
+    <itemref idref="Ros_Vie_1_06" />
+    <itemref idref="Ros_Vie_1_07" />
+    <itemref idref="Ros_Vie_1_08" />
+    <itemref idref="Ros_Vie_1_09" />
+    <itemref idref="Ros_Vie_1_10" />
+    <itemref idref="Ros_Vie_1_11" />
+    <itemref idref="Ros_Vie_1_12" />
+    <itemref idref="Ros_Vie_1_13" />
+    <itemref idref="Ros_Vie_1_14" />
+    <itemref idref="Ros_Vie_2_01" />
+    <itemref idref="Ros_Vie_2_02" />
+    <itemref idref="Ros_Vie_2_03" />
+    <itemref idref="Ros_Vie_2_04" />
+    <itemref idref="Ros_Vie_2_05" />
+    <itemref idref="Ros_Vie_2_06" />
+    <itemref idref="Ros_Vie_2_07" />
+    <itemref idref="Ros_Vie_2_08" />
+    <itemref idref="Ros_Vie_2_09" />
+    <itemref idref="Ros_Vie_2_10" />
+    <itemref idref="Ros_Vie_2_11" />
+    <itemref idref="Ros_Vie_2_12" />
+    <itemref idref="Ros_Vie_2_13" />
+    <itemref idref="Ros_Vie_2_14" />
+    <itemref idref="Ros_Vie_3_01" />
+    <itemref idref="Ros_Vie_3_02" />
+    <itemref idref="Ros_Vie_3_03" />
+    <itemref idref="Ros_Vie_3_04" />
+    <itemref idref="Ros_Vie_3_05" />
+    <itemref idref="Ros_Vie_3_06" />
+    <itemref idref="Ros_Vie_3_07" />
+    <itemref idref="Ros_Vie_3_08" />
+    <itemref idref="Ros_Vie_3_09" />
+    <itemref idref="Ros_Vie_3_10" />
+    <itemref idref="Ros_Vie_3_11" />
+    <itemref idref="Ros_Vie_3_12" />
+    <itemref idref="Ros_Vie_3_13" />
+    <itemref idref="Ros_Vie_3_14" />
+    <itemref idref="Ros_Vie_4_01" />
+    <itemref idref="Ros_Vie_4_02" />
+    <itemref idref="Ros_Vie_4_03" />
+    <itemref idref="Ros_Vie_4_04" />
+    <itemref idref="Ros_Vie_4_05" />
+    <itemref idref="Ros_Vie_4_06" />
+    <itemref idref="Ros_Vie_4_07" />
+    <itemref idref="Ros_Vie_4_08" />
+    <itemref idref="Ros_Vie_4_09" />
+    <itemref idref="Ros_Vie_4_10" />
+    <itemref idref="Ros_Vie_4_11" />
+    <itemref idref="Ros_Vie_4_12" />
+    <itemref idref="Ros_Vie_4_13" />
+    <itemref idref="Ros_Vie_4_14" />
+    <itemref idref="Ros_Vie_5_01" />
+    <itemref idref="Ros_Vie_5_02" />
+    <itemref idref="Ros_Vie_5_03" />
+    <itemref idref="Ros_Vie_5_04" />
+    <itemref idref="Ros_Vie_5_05" />
+    <itemref idref="Ros_Vie_5_06" />
+    <itemref idref="Ros_Vie_5_07" />
+    <itemref idref="Ros_Vie_5_08" />
+    <itemref idref="Ros_Vie_5_09" />
+    <itemref idref="Ros_Vie_5_10" />
+    <itemref idref="Ros_Vie_5_11" />
+    <itemref idref="Ros_Vie_5_12" />
+    <itemref idref="Ros_Vie_5_13" />
+    <itemref idref="Ros_Vie_5_14" />
+    <itemref idref="Ros_Vie_6_01" />
+    <itemref idref="Ros_Vie_6_02" />
+    <itemref idref="Ros_Vie_6_03" />
+    <itemref idref="Ros_Vie_6_04" />
+    <itemref idref="Ros_Vie_6_05" />
+    <itemref idref="Ros_Vie_6_06" />
+    <itemref idref="Ros_Vie_6_07" />
+    <itemref idref="Ros_Vie_6_08" />
+    <itemref idref="Ros_Vie_6_09" />
+    <itemref idref="Ros_Vie_6_10" />
+    <itemref idref="Ros_Vie_6_11" />
+    <itemref idref="Ros_Vie_6_12" />
+    <itemref idref="Ros_Sab_0_01" />
+    <itemref idref="Ros_Sab_0_02" />
+    <itemref idref="Ros_Sab_0_03" />
+    <itemref idref="Ros_Sab_0_04" />
+    <itemref idref="Ros_Sab_0_05" />
+    <itemref idref="Ros_Sab_0_06" />
+    <itemref idref="Ros_Sab_0_07" />
+    <itemref idref="Ros_Sab_0_08" />
+    <itemref idref="Ros_Sab_0_09" />
+    <itemref idref="Ros_Sab_0_10" />
+    <itemref idref="Ros_Sab_1_01" />
+    <itemref idref="Ros_Sab_1_02" />
+    <itemref idref="Ros_Sab_1_03" />
+    <itemref idref="Ros_Sab_1_04" />
+    <itemref idref="Ros_Sab_1_05" />
+    <itemref idref="Ros_Sab_1_06" />
+    <itemref idref="Ros_Sab_1_07" />
+    <itemref idref="Ros_Sab_1_08" />
+    <itemref idref="Ros_Sab_1_09" />
+    <itemref idref="Ros_Sab_1_10" />
+    <itemref idref="Ros_Sab_1_11" />
+    <itemref idref="Ros_Sab_1_12" />
+    <itemref idref="Ros_Sab_1_13" />
+    <itemref idref="Ros_Sab_1_14" />
+    <itemref idref="Ros_Sab_2_01" />
+    <itemref idref="Ros_Sab_2_02" />
+    <itemref idref="Ros_Sab_2_03" />
+    <itemref idref="Ros_Sab_2_04" />
+    <itemref idref="Ros_Sab_2_05" />
+    <itemref idref="Ros_Sab_2_06" />
+    <itemref idref="Ros_Sab_2_07" />
+    <itemref idref="Ros_Sab_2_08" />
+    <itemref idref="Ros_Sab_2_09" />
+    <itemref idref="Ros_Sab_2_10" />
+    <itemref idref="Ros_Sab_2_11" />
+    <itemref idref="Ros_Sab_2_12" />
+    <itemref idref="Ros_Sab_2_13" />
+    <itemref idref="Ros_Sab_2_14" />
+    <itemref idref="Ros_Sab_3_01" />
+    <itemref idref="Ros_Sab_3_02" />
+    <itemref idref="Ros_Sab_3_03" />
+    <itemref idref="Ros_Sab_3_04" />
+    <itemref idref="Ros_Sab_3_05" />
+    <itemref idref="Ros_Sab_3_06" />
+    <itemref idref="Ros_Sab_3_07" />
+    <itemref idref="Ros_Sab_3_08" />
+    <itemref idref="Ros_Sab_3_09" />
+    <itemref idref="Ros_Sab_3_10" />
+    <itemref idref="Ros_Sab_3_11" />
+    <itemref idref="Ros_Sab_3_12" />
+    <itemref idref="Ros_Sab_3_13" />
+    <itemref idref="Ros_Sab_4_01" />
+    <itemref idref="Ros_Sab_4_02" />
+    <itemref idref="Ros_Sab_4_03" />
+    <itemref idref="Ros_Sab_4_04" />
+    <itemref idref="Ros_Sab_4_05" />
+    <itemref idref="Ros_Sab_4_06" />
+    <itemref idref="Ros_Sab_4_07" />
+    <itemref idref="Ros_Sab_4_08" />
+    <itemref idref="Ros_Sab_4_09" />
+    <itemref idref="Ros_Sab_4_10" />
+    <itemref idref="Ros_Sab_4_11" />
+    <itemref idref="Ros_Sab_4_12" />
+    <itemref idref="Ros_Sab_4_13" />
+    <itemref idref="Ros_Sab_4_14" />
+    <itemref idref="Ros_Sab_4_15" />
+    <itemref idref="Ros_Sab_5_01" />
+    <itemref idref="Ros_Sab_5_02" />
+    <itemref idref="Ros_Sab_5_03" />
+    <itemref idref="Ros_Sab_5_04" />
+    <itemref idref="Ros_Sab_5_05" />
+    <itemref idref="Ros_Sab_5_06" />
+    <itemref idref="Ros_Sab_5_07" />
+    <itemref idref="Ros_Sab_5_08" />
+    <itemref idref="Ros_Sab_5_09" />
+    <itemref idref="Ros_Sab_5_10" />
+    <itemref idref="Ros_Sab_5_11" />
+    <itemref idref="Ros_Sab_5_12" />
+    <itemref idref="Ros_Sab_5_13" />
+    <itemref idref="Ros_Sab_5_14" />
+    <itemref idref="Ros_Sab_6_01" />
+    <itemref idref="Ros_Sab_6_02" />
+    <itemref idref="Ros_Sab_6_03" />
+    <itemref idref="Ros_Sab_6_04" />
+    <itemref idref="Ros_Sab_6_05" />
+    <itemref idref="Ros_Sab_6_06" />
+    <itemref idref="Ros_Sab_6_07" />
+    <itemref idref="Ros_Sab_6_08" />
+    <itemref idref="Ros_Sab_6_09" />
+    <itemref idref="Ros_Sab_6_10" />
+    <itemref idref="Ros_Sab_6_11" />
+    <itemref idref="Ros_Sab_6_12" />
+    <itemref idref="Ros_Dom_0_01" />
+    <itemref idref="Ros_Dom_0_02" />
+    <itemref idref="Ros_Dom_0_03" />
+    <itemref idref="Ros_Dom_0_04" />
+    <itemref idref="Ros_Dom_0_05" />
+    <itemref idref="Ros_Dom_0_06" />
+    <itemref idref="Ros_Dom_0_07" />
+    <itemref idref="Ros_Dom_0_08" />
+    <itemref idref="Ros_Dom_0_09" />
+    <itemref idref="Ros_Dom_0_10" />
+    <itemref idref="Ros_Dom_1_01" />
+    <itemref idref="Ros_Dom_1_02" />
+    <itemref idref="Ros_Dom_1_03" />
+    <itemref idref="Ros_Dom_1_04" />
+    <itemref idref="Ros_Dom_1_05" />
+    <itemref idref="Ros_Dom_1_06" />
+    <itemref idref="Ros_Dom_1_07" />
+    <itemref idref="Ros_Dom_1_08" />
+    <itemref idref="Ros_Dom_1_09" />
+    <itemref idref="Ros_Dom_1_10" />
+    <itemref idref="Ros_Dom_1_11" />
+    <itemref idref="Ros_Dom_1_12" />
+    <itemref idref="Ros_Dom_1_13" />
+    <itemref idref="Ros_Dom_1_14" />
+    <itemref idref="Ros_Dom_2_01" />
+    <itemref idref="Ros_Dom_2_02" />
+    <itemref idref="Ros_Dom_2_03" />
+    <itemref idref="Ros_Dom_2_04" />
+    <itemref idref="Ros_Dom_2_05" />
+    <itemref idref="Ros_Dom_2_06" />
+    <itemref idref="Ros_Dom_2_07" />
+    <itemref idref="Ros_Dom_2_08" />
+    <itemref idref="Ros_Dom_2_09" />
+    <itemref idref="Ros_Dom_2_10" />
+    <itemref idref="Ros_Dom_2_11" />
+    <itemref idref="Ros_Dom_2_12" />
+    <itemref idref="Ros_Dom_2_13" />
+    <itemref idref="Ros_Dom_2_14" />
+    <itemref idref="Ros_Dom_3_01" />
+    <itemref idref="Ros_Dom_3_02" />
+    <itemref idref="Ros_Dom_3_03" />
+    <itemref idref="Ros_Dom_3_04" />
+    <itemref idref="Ros_Dom_3_05" />
+    <itemref idref="Ros_Dom_3_06" />
+    <itemref idref="Ros_Dom_3_07" />
+    <itemref idref="Ros_Dom_3_08" />
+    <itemref idref="Ros_Dom_3_09" />
+    <itemref idref="Ros_Dom_3_10" />
+    <itemref idref="Ros_Dom_3_11" />
+    <itemref idref="Ros_Dom_3_12" />
+    <itemref idref="Ros_Dom_3_13" />
+    <itemref idref="Ros_Dom_3_14" />
+    <itemref idref="Ros_Dom_4_01" />
+    <itemref idref="Ros_Dom_4_02" />
+    <itemref idref="Ros_Dom_4_03" />
+    <itemref idref="Ros_Dom_4_04" />
+    <itemref idref="Ros_Dom_4_05" />
+    <itemref idref="Ros_Dom_4_06" />
+    <itemref idref="Ros_Dom_4_07" />
+    <itemref idref="Ros_Dom_4_08" />
+    <itemref idref="Ros_Dom_4_09" />
+    <itemref idref="Ros_Dom_4_10" />
+    <itemref idref="Ros_Dom_4_11" />
+    <itemref idref="Ros_Dom_4_12" />
+    <itemref idref="Ros_Dom_4_13" />
+    <itemref idref="Ros_Dom_4_14" />
+    <itemref idref="Ros_Dom_5_01" />
+    <itemref idref="Ros_Dom_5_02" />
+    <itemref idref="Ros_Dom_5_03" />
+    <itemref idref="Ros_Dom_5_04" />
+    <itemref idref="Ros_Dom_5_05" />
+    <itemref idref="Ros_Dom_5_06" />
+    <itemref idref="Ros_Dom_5_07" />
+    <itemref idref="Ros_Dom_5_08" />
+    <itemref idref="Ros_Dom_5_09" />
+    <itemref idref="Ros_Dom_5_10" />
+    <itemref idref="Ros_Dom_5_11" />
+    <itemref idref="Ros_Dom_5_12" />
+    <itemref idref="Ros_Dom_5_13" />
+    <itemref idref="Ros_Dom_5_14" />
+    <itemref idref="Ros_Dom_6_01" />
+    <itemref idref="Ros_Dom_6_02" />
+    <itemref idref="Ros_Dom_6_03" />
+    <itemref idref="Ros_Dom_6_04" />
+    <itemref idref="Ros_Dom_6_05" />
+    <itemref idref="Ros_Dom_6_06" />
+    <itemref idref="Ros_Dom_6_07" />
+    <itemref idref="Ros_Dom_6_08" />
+    <itemref idref="Ros_Dom_6_09" />
+    <itemref idref="Ros_Dom_6_10" />
+    <itemref idref="Ros_Dom_6_11" />
+    <itemref idref="Ros_Dom_6_12" />
+    <itemref idref="Ros_r_s_01" />
+    <itemref idref="Ros_r_s_02" />
+    <itemref idref="Ros_r_s_03" />
+    <itemref idref="Ros_r_s_04" />
+    <itemref idref="Ros_r_s_05" />
+    <itemref idref="Ros_r_s_06" />
+    <itemref idref="Ros_r_s_07" />
+    <itemref idref="Ros_r_s_08" />
+    <itemref idref="Ros_r_s_09" />
+    <itemref idref="Ros_r_s_10" />
+    <itemref idref="Ros_r_s_11" />
+    <itemref idref="Ros_r_s_12" />
+    <itemref idref="Ros_r_s_13" />
+    <itemref idref="Ros_r_s_14" />
+    <itemref idref="Ros_r_s_15" />
+    <itemref idref="Ros_r_s_16" />
+    <itemref idref="nav" />
+  </spine>
+  <guide>
+    <reference href="OEBPS/main.xhtml" type="index" title="Main" />
+  </guide>
 </package>

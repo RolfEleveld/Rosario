@@ -19,27 +19,45 @@
         </navPoint>
         <navPoint class="chapter" id="f20c6c29-9826-4892-bd52-5fc9a5306ed0" playOrder="2">
             <navLabel>
-                <text>Gozosos</text>
+                <text>Gozosos - Lunes</text>
             </navLabel>
-            <content src="OEBPS/Navigation/Gozosos.xhtml" />
+            <content src="OEBPS/Navigation/Lunes.xhtml" />
         </navPoint>
         <navPoint class="chapter" id="a87a1eb8-2adf-4d90-a9a7-b88604ebebd5" playOrder="3">
             <navLabel>
-                <text>Dolorosos</text>
+                <text>Dolorosos - Martes</text>
             </navLabel>
-            <content src="OEBPS/Navigation/Dolorosos.xhtml" />
+            <content src="OEBPS/Navigation/Martes.xhtml" />
         </navPoint>
         <navPoint class="chapter" id="c0902509-9a0b-4b2f-8088-6878756076ca" playOrder="4">
             <navLabel>
-                <text>Gloriosos</text>
+                <text>Gloriosos - Miercoles</text>
             </navLabel>
-            <content src="OEBPS/Navigation/Gloriosos.xhtml" />
+            <content src="OEBPS/Navigation/Miercoles.xhtml" />
         </navPoint>
         <navPoint class="chapter" id="d8df717-6371-401d-8ef9-38cd950a18e7" playOrder="5">
             <navLabel>
-                <text>Luminosos</text>
+                <text>Luminosos - Jueves</text>
             </navLabel>
-            <content src="OEBPS/Navigation/Luminosos.xhtml" />
+            <content src="OEBPS/Navigation/Jueves.xhtml" />
+        </navPoint>
+        <navPoint class="chapter" id="b90e9163-1ca3-4002-89b7-b6dc635f9d8c" playOrder="6">
+            <navLabel>
+                <text>Dolorosos - Viernes</text>
+            </navLabel>
+            <content src="OEBPS/Navigation/Viernes.xhtml" />
+        </navPoint>
+        <navPoint class="chapter" id="b6dc635f-9ca3-4002-89b7-990e91631ca3" playOrder="7">
+            <navLabel>
+                <text>Gozosos - Sabado</text>
+            </navLabel>
+            <content src="OEBPS/Navigation/Sabado.xhtml" />
+        </navPoint>
+        <navPoint class="chapter" id="c1b2c3d4-5678-90ab-cdef-1234567890ab" playOrder="8">
+            <navLabel>
+                <text>Gloriosos - Domingo</text>
+            </navLabel>
+            <content src="OEBPS/Navigation/Domingo.xhtml" />
         </navPoint>
     </navMap>
 </ncx>

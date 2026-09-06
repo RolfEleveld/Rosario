@@ -245,7 +245,7 @@ $writer.Flush()
 $writer.Close()
 
 # 2. Add all other files in Folder Except the ones we do not want.
-Get-ChildItem -Path . -Recurse -File | Where-Object -Property Name -NotIn -Value @('mimetype', 'makeRosarioEpub.ps1', 'Rosario.epub', '.vscode', '.gitignore', '.github', '.git', 'LICENSE', 'README.md') | Where-Object -Property FullName -NotMatch '\\.git\\' | Where-Object -Property FullName -NotMatch '\\.vscode\\' | Where-Object -Property FullName -NotMatch '\\.gitignore\\' | Where-Object -Property FullName -NotMatch '\\.github\\' | Where-Object -Property FullName -NotMatch '\\mimetype\\' | ForEach-Object {
+Get-ChildItem -Path . -Recurse -File | Where-Object -Property Name -NotIn -Value @('mimetype', 'makeRosarioEpub.ps1', 'ManifestManipulations.ps1', 'Manifest.csv', 'Manifest.xlsx', 'Rosario.epub', '.vscode', '.gitignore', '.github', '.git', 'LICENSE', 'README.md') | Where-Object -Property FullName -NotMatch '\\.git\\' | Where-Object -Property FullName -NotMatch '\\.vscode\\' | Where-Object -Property FullName -NotMatch '\\.gitignore\\' | Where-Object -Property FullName -NotMatch '\\.github\\' | Where-Object -Property FullName -NotMatch '\\mimetype\\' | ForEach-Object {
     $relativePath = $_.FullName.Substring((Get-Item ".").FullName.Length + 1).Replace('\', '/')
     write-output "Adding file: $relativePath"
     $fileEntry = $zip.CreateEntry($relativePath, [System.IO.Compression.CompressionLevel]::Optimal)
