@@ -344,16 +344,8 @@
     <item id="Ros_Jue_5_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Jue_6_01" href="OEBPS/Resos/Salve-Regina.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Jue_6_02" href="OEBPS/Resos/Letania-de-la-Virgen-Maria.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_Jue_6_03" href="OEBPS/Resos/Soberano-Santuario.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_Jue_6_04" href="OEBPS/Resos/Divina-Providencia.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_Jue_6_05" href="OEBPS/Resos/Angel-de-la-guarda.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_Jue_6_06" href="OEBPS/Resos/San-Miguel-Arcangel.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_Jue_6_07" href="OEBPS/Resos/Bajo-tu-amparo.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_Jue_6_08" href="OEBPS/Resos/Santa-Gertrudis.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_Jue_6_09" href="OEBPS/Resos/San-Jose.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_Jue_6_10" href="OEBPS/Resos/Oh-Senora-Mia.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_Jue_6_11" href="OEBPS/Resos/Oracion-del-Alma-de-Cristo.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_Jue_6_12" href="OEBPS/Resos/Dulce-Madre.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_6_03" href="OEBPS/Resos/Oracion-del-Alma-de-Cristo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Jue_6_04" href="OEBPS/Resos/Dulce-Madre.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Vie_0_01" href="OEBPS/Navigation/Viernes.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Vie_0_02" href="OEBPS/Resos/Senal-de-la-santa-cruz.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Vie_0_03" href="OEBPS/Resos/Oracion-Al-Espiritu-Santo.xhtml" media-type="application/xhtml+xml" />
@@ -990,14 +982,6 @@
     <itemref idref="Ros_Jue_6_02" />
     <itemref idref="Ros_Jue_6_03" />
     <itemref idref="Ros_Jue_6_04" />
-    <itemref idref="Ros_Jue_6_05" />
-    <itemref idref="Ros_Jue_6_06" />
-    <itemref idref="Ros_Jue_6_07" />
-    <itemref idref="Ros_Jue_6_08" />
-    <itemref idref="Ros_Jue_6_09" />
-    <itemref idref="Ros_Jue_6_10" />
-    <itemref idref="Ros_Jue_6_11" />
-    <itemref idref="Ros_Jue_6_12" />
     <itemref idref="Ros_Vie_0_01" />
     <itemref idref="Ros_Vie_0_02" />
     <itemref idref="Ros_Vie_0_03" />
