@@ -6,6 +6,9 @@
 # Visual Studio 2015/2017 cache/options directory
 .vscode/
 
+# Resource files for working out the project
+.resources/
+
 # generated products used in build
 epub/
 !mimetype

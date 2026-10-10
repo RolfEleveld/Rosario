@@ -4,6 +4,21 @@ body {
   page-break-before: always;
   margin: 0 5pt
 }
+/* Navigation styles needs to be a full width page block like a ruler on top of the page */
+body nav {
+  display: block;
+  margin: 0 5pt;
+  height: 1rem;
+}
+body nav ul {
+  padding-right: 1rem;
+  clear: both;
+}
+body nav ul li {
+  float: right;
+  padding: 0 5pt;
+  list-style: none;
+}
 
 h1 {
   display: block;

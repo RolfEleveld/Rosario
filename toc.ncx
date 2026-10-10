@@ -16,48 +16,372 @@
                 <text>Rosario</text>
             </navLabel>
             <content src="OEBPS/main.xhtml" />
-        </navPoint>
-        <navPoint class="chapter" id="f20c6c29-9826-4892-bd52-5fc9a5306ed0" playOrder="2">
-            <navLabel>
-                <text>Gozosos - Lunes</text>
-            </navLabel>
-            <content src="OEBPS/Navigation/Lunes.xhtml" />
-        </navPoint>
-        <navPoint class="chapter" id="a87a1eb8-2adf-4d90-a9a7-b88604ebebd5" playOrder="3">
-            <navLabel>
-                <text>Dolorosos - Martes</text>
-            </navLabel>
-            <content src="OEBPS/Navigation/Martes.xhtml" />
-        </navPoint>
-        <navPoint class="chapter" id="c0902509-9a0b-4b2f-8088-6878756076ca" playOrder="4">
-            <navLabel>
-                <text>Gloriosos - Miercoles</text>
-            </navLabel>
-            <content src="OEBPS/Navigation/Miercoles.xhtml" />
-        </navPoint>
-        <navPoint class="chapter" id="d8df717-6371-401d-8ef9-38cd950a18e7" playOrder="5">
-            <navLabel>
-                <text>Luminosos - Jueves</text>
-            </navLabel>
-            <content src="OEBPS/Navigation/Jueves.xhtml" />
-        </navPoint>
-        <navPoint class="chapter" id="b90e9163-1ca3-4002-89b7-b6dc635f9d8c" playOrder="6">
-            <navLabel>
-                <text>Dolorosos - Viernes</text>
-            </navLabel>
-            <content src="OEBPS/Navigation/Viernes.xhtml" />
-        </navPoint>
-        <navPoint class="chapter" id="b6dc635f-9ca3-4002-89b7-990e91631ca3" playOrder="7">
-            <navLabel>
-                <text>Gozosos - Sabado</text>
-            </navLabel>
-            <content src="OEBPS/Navigation/Sabado.xhtml" />
-        </navPoint>
-        <navPoint class="chapter" id="c1b2c3d4-5678-90ab-cdef-1234567890ab" playOrder="8">
-            <navLabel>
-                <text>Gloriosos - Domingo</text>
-            </navLabel>
-            <content src="OEBPS/Navigation/Domingo.xhtml" />
+            <navPoint class="section" id="c1971de1-c3eb-407d-a30b-e309a493de74" playOrder="2">
+                <navLabel>
+                    <text>Español</text>
+                </navLabel>
+                <content src="OEBPS/main.xhtml" />
+                <navPoint class="chapter" id="f20c6c29-9826-4892-bd52-5fc9a5306ed0" playOrder="3">
+                    <navLabel>
+                        <text>Gozosos - Lunes</text>
+                    </navLabel>
+                    <content src="OEBPS/Navigation/Lunes.xhtml" />
+                </navPoint>
+                <navPoint class="chapter" id="a87a1eb8-2adf-4d90-a9a7-b88604ebebd5" playOrder="4">
+                    <navLabel>
+                        <text>Dolorosos - Martes</text>
+                    </navLabel>
+                    <content src="OEBPS/Navigation/Martes.xhtml" />
+                </navPoint>
+                <navPoint class="chapter" id="c0902509-9a0b-4b2f-8088-6878756076ca" playOrder="5">
+                    <navLabel>
+                        <text>Gloriosos - Miercoles</text>
+                    </navLabel>
+                    <content src="OEBPS/Navigation/Miercoles.xhtml" />
+                </navPoint>
+                <navPoint class="chapter" id="d8df717-6371-401d-8ef9-38cd950a18e7" playOrder="6">
+                    <navLabel>
+                        <text>Luminosos - Jueves</text>
+                    </navLabel>
+                    <content src="OEBPS/Navigation/Jueves.xhtml" />
+                </navPoint>
+                <navPoint class="chapter" id="b90e9163-1ca3-4002-89b7-b6dc635f9d8c" playOrder="7">
+                    <navLabel>
+                        <text>Dolorosos - Viernes</text>
+                    </navLabel>
+                    <content src="OEBPS/Navigation/Viernes.xhtml" />
+                </navPoint>
+                <navPoint class="chapter" id="b6dc635f-9ca3-4002-89b7-990e91631ca3" playOrder="8">
+                    <navLabel>
+                        <text>Gozosos - Sabado</text>
+                    </navLabel>
+                    <content src="OEBPS/Navigation/Sabado.xhtml" />
+                </navPoint>
+                <navPoint class="chapter" id="c1b2c3d4-5678-90ab-cdef-1234567890ab" playOrder="9">
+                    <navLabel>
+                        <text>Gloriosos - Domingo</text>
+                    </navLabel>
+                    <content src="OEBPS/Navigation/Domingo.xhtml" />
+                </navPoint>
+            </navPoint>
+            <navPoint class="section" id="a8534d38-1d09-41ed-ae25-63edefe4c4bf" playOrder="10">
+                <navLabel>
+                    <text>Latine</text>
+                </navLabel>
+                <content src="OEBPS/main.xhtml" />
+                <navPoint class="chapter" id="c9121228-3271-49af-90d8-24c518be732e" playOrder="11">
+                    <navLabel>
+                        <text>Gaudiosa - Feria secunda</text>
+                    </navLabel>
+                    <content src="OEBPS/Navigation/Lunes-la.xhtml" />
+                </navPoint>
+                <navPoint class="chapter" id="b449c243-1342-493f-a37c-6f64d3f2bc75" playOrder="12">
+                    <navLabel>
+                        <text>Dolorosa - Feria tertia</text>
+                    </navLabel>
+                    <content src="OEBPS/Navigation/Martes-la.xhtml" />
+                </navPoint>
+                <navPoint class="chapter" id="a272b080-c51a-4819-a8ee-94d61bc4fc32" playOrder="13">
+                    <navLabel>
+                        <text>Gloriosa - Feria quarta</text>
+                    </navLabel>
+                    <content src="OEBPS/Navigation/Miercoles-la.xhtml" />
+                </navPoint>
+                <navPoint class="chapter" id="d637daa9-173f-46f0-8451-8d198c00772e" playOrder="14">
+                    <navLabel>
+                        <text>Luminosa - Feria quinta</text>
+                    </navLabel>
+                    <content src="OEBPS/Navigation/Jueves-la.xhtml" />
+                </navPoint>
+                <navPoint class="chapter" id="ae879887-ea95-4fe3-85f7-5eca260104d1" playOrder="15">
+                    <navLabel>
+                        <text>Dolorosa - Feria sexta</text>
+                    </navLabel>
+                    <content src="OEBPS/Navigation/Viernes-la.xhtml" />
+                </navPoint>
+                <navPoint class="chapter" id="b7d11d67-c0c4-464c-af24-3136e53ce936" playOrder="16">
+                    <navLabel>
+                        <text>Gaudiosa - Sabbatum</text>
+                    </navLabel>
+                    <content src="OEBPS/Navigation/Sabado-la.xhtml" />
+                </navPoint>
+                <navPoint class="chapter" id="deaadeb4-5b29-4585-a079-85b698947084" playOrder="17">
+                    <navLabel>
+                        <text>Gloriosa - Dominica</text>
+                    </navLabel>
+                    <content src="OEBPS/Navigation/Domingo-la.xhtml" />
+                </navPoint>
+            </navPoint>
+            <navPoint class="section" id="b94871e9-b901-4811-8280-a431ff85d5ca" playOrder="18">
+                <navLabel>
+                    <text>Resos</text>
+                </navLabel>
+                <content src="OEBPS/main.xhtml" />
+                <navPoint class="section" id="fec11d4c-cdca-4cd9-98cb-5ba54ebe4d81" playOrder="19">
+                    <navLabel>
+                        <text>Español</text>
+                    </navLabel>
+                    <content src="OEBPS/main.xhtml" />
+                    <navPoint class="chapter" id="faa2f066-50e8-4e63-9a68-35a04f10b598" playOrder="20">
+                        <navLabel>
+                            <text>Angel de la guarda</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Angel-de-la-guarda.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="c40ce51e-e264-4fd3-86f5-66b40943c54d" playOrder="21">
+                        <navLabel>
+                            <text>Ave Maria</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Avemaria.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="a5f387fc-5bdc-47c0-9ecf-3e53c4a30a73" playOrder="22">
+                        <navLabel>
+                            <text>Bajo tu amparo</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Bajo-tu-amparo.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="aca4f9e9-e1ab-499d-9c83-9d854683875c" playOrder="23">
+                        <navLabel>
+                            <text>Consagración a San José</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Consagracion-a-San-Jose.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="f4656c9f-1392-4027-a74f-1e47c35fb79e" playOrder="24">
+                        <navLabel>
+                            <text>Credo</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Credo.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="fb03a329-9e3b-4842-a0ed-9a83024226b6" playOrder="25">
+                        <navLabel>
+                            <text>Divina Providencia</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Divina-Providencia.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="eb3032f3-5e7a-4076-b446-c3d1d1ea4b3a" playOrder="26">
+                        <navLabel>
+                            <text>Dulce Madre</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Dulce-Madre.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="ef875c80-9af0-4270-b013-a949da5146d4" playOrder="27">
+                        <navLabel>
+                            <text>Gloria</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Gloria.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="f1d33b8b-4f00-42f7-ac12-9132cd795303" playOrder="28">
+                        <navLabel>
+                            <text>Jaculatoria</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Jaculatoria.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="ff087045-0808-41b3-a587-a82bbc784a08" playOrder="29">
+                        <navLabel>
+                            <text>Letania de la Virgen Maria</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Letania-de-la-Virgen-Maria.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="e42ae72a-edc5-4bce-b4eb-d52afcbe7349" playOrder="30">
+                        <navLabel>
+                            <text>Letania de San Jose</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Letania-de-San-Jose.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="ffaa3543-cab1-4f17-9d9c-fe94190dd282" playOrder="31">
+                        <navLabel>
+                            <text>Oh Señora Mia</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Oh-Senora-Mia.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="e1c3b62e-9651-487d-ba61-5a9717722d53" playOrder="32">
+                        <navLabel>
+                            <text>Oracion Al Espiritu Santo</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Oracion-Al-Espiritu-Santo.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="efe27a22-745d-4526-b4c1-ccfd2571ac26" playOrder="33">
+                        <navLabel>
+                            <text>Oracion del Alma de Cristo</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Oracion-del-Alma-de-Cristo.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="f490470c-c71f-48c9-a104-fe2099084b43" playOrder="34">
+                        <navLabel>
+                            <text>Padre Nuestro</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Padre-Nuestro.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="a26aa5c1-0891-4ffd-96d8-fd337c3bf07d" playOrder="35">
+                        <navLabel>
+                            <text>Salve Regina</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Salve-Regina.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="a9260b49-1707-4577-9d39-d4146bba8206" playOrder="36">
+                        <navLabel>
+                            <text>San Jose</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/San-Jose.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="e55ad79a-e547-4f97-9786-158421f4f8fc" playOrder="37">
+                        <navLabel>
+                            <text>San Miguel Arcangel</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/San-Miguel-Arcangel.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="e98aacec-dbe0-44fc-b04a-cc4384139f78" playOrder="38">
+                        <navLabel>
+                            <text>Santa Gertrudis</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Santa-Gertrudis.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="dcd2d89a-6e1b-4506-b8ed-0ffb752a63e0" playOrder="39">
+                        <navLabel>
+                            <text>Señal de la Cruz</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Senal-de-la-santa-cruz.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="da02524f-f35f-473b-b626-4aa4b89da687" playOrder="40">
+                        <navLabel>
+                            <text>Soberano Santuario</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Soberano-Santuario.xhtml" />
+                    </navPoint>
+                </navPoint>
+                <navPoint class="section" id="acff3307-f78b-4f0d-8765-741daeb103c3" playOrder="41">
+                    <navLabel>
+                        <text>Latine</text>
+                    </navLabel>
+                    <content src="OEBPS/main.xhtml" />
+                    <navPoint class="chapter" id="cac643f8-9125-44f2-aee9-b2c14b024982" playOrder="42">
+                        <navLabel>
+                            <text>Angele Custos</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Angel-de-la-guarda-la.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="f4f31372-8b1c-480d-9579-e2a2d486ba6d" playOrder="43">
+                        <navLabel>
+                            <text>Ave Maria</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Avemaria-la.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="d1bc5097-62e5-49c7-acf8-cfec142b4450" playOrder="44">
+                        <navLabel>
+                            <text>Sub tuum praesidium</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Bajo-tu-amparo-la.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="f7d526bb-6bce-4a3b-9c8b-1477d19d796f" playOrder="45">
+                        <navLabel>
+                            <text>Consecratio ad Sanctum Ioseph</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Consagracion-a-San-Jose-la.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="b3dc644f-41ee-465f-87d5-d6cbd110e296" playOrder="46">
+                        <navLabel>
+                            <text>Credo</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Credo-la.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="e4ccb828-1287-4f69-85bd-546c6a294dc8" playOrder="47">
+                        <navLabel>
+                            <text>Divina Providentia</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Divina-Providencia-la.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="e884a7a5-a529-476f-aadd-500606ee3059" playOrder="48">
+                        <navLabel>
+                            <text>Mater dulcissima</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Dulce-Madre-la.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="adc9183c-9669-4fe0-9067-c1866f55289f" playOrder="49">
+                        <navLabel>
+                            <text>Gloria Patri</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Gloria-la.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="a56b6000-d050-497f-b462-3519e9dac509" playOrder="50">
+                        <navLabel>
+                            <text>Oratio iaculatoria</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Jaculatoria-la.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="a7899d3e-d644-484c-a347-49e925b948d0" playOrder="51">
+                        <navLabel>
+                            <text>Litaniae Beatae Mariae Virginis</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Letania-de-la-Virgen-Maria-la.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="ea7e663c-0080-4a16-a0d5-6a9c3f681e1b" playOrder="52">
+                        <navLabel>
+                            <text>Litaniae Sancti Ioseph</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Letania-de-San-Jose-la.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="b9cb4ee5-9dce-4d9f-a864-e2037abb0ea3" playOrder="53">
+                        <navLabel>
+                            <text>O Domina mea</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Oh-Senora-Mia-la.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="dc7de55b-b9d8-4a4e-822d-c19fee343333" playOrder="54">
+                        <navLabel>
+                            <text>Oratio ad Spiritum Sanctum</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Oracion-Al-Espiritu-Santo-la.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="afc34d52-7078-4142-b108-76ce77a2ddeb" playOrder="55">
+                        <navLabel>
+                            <text>Anima Christi</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Oracion-del-Alma-de-Cristo-la.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="d1ad467d-a708-48be-94e1-269389d4c779" playOrder="56">
+                        <navLabel>
+                            <text>Pater Noster</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Padre-Nuestro-la.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="f4ab58f1-9b48-4016-9406-09a67ded7b38" playOrder="57">
+                        <navLabel>
+                            <text>Salve Regina</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Salve-Regina-la.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="fd56339b-3328-496b-9610-d78f0d7c51d6" playOrder="58">
+                        <navLabel>
+                            <text>Sancte Ioseph</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/San-Jose-la.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="e8e55707-e011-4ad2-94bb-e2d50ac7e1eb" playOrder="59">
+                        <navLabel>
+                            <text>Sancte Michael Archangele</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/San-Miguel-Arcangel-la.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="dceda96d-a517-4f0f-b525-737c5bb7dbbf" playOrder="60">
+                        <navLabel>
+                            <text>Oratio Sanctae Gertrudis</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Santa-Gertrudis-la.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="e17f7f63-0d0e-4870-8ff8-8f1da714fe4c" playOrder="61">
+                        <navLabel>
+                            <text>Signum Crucis</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Senal-de-la-santa-cruz-la.xhtml" />
+                    </navPoint>
+                    <navPoint class="chapter" id="dfa58a07-9e2a-40c7-89d1-be99e608235a" playOrder="62">
+                        <navLabel>
+                            <text>O Sanctuarium Augustum</text>
+                        </navLabel>
+                        <content src="OEBPS/Resos/Soberano-Santuario-la.xhtml" />
+                    </navPoint>
+                </navPoint>
+            </navPoint>
         </navPoint>
     </navMap>
 </ncx>
