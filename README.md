@@ -1,50 +1,81 @@
 # Rosario
-A means to produce a rosario epub book one can read beginning to end completing the Rosario in Spanish
 
-## ePUB
+An EPUB of the Holy Rosary that can be read from beginning to end. The Spanish edition is the source. Companion editions follow it in Latin, German, Italian, and English.
 
-Using the ePub publication container to allow for repeating structures without consuming duplicate pages.
-The binder will allocate all pages in sequence, and segment each weekday to practice the Rosario.
+## Languages
 
-The pages of W3C for epub specification are used as reference: https://www.w3.org/publishing/epub3/epub-spec.html
+Each prayer, mystery, intention, and weekday page exists in five languages. File names keep the Spanish base name and add a language suffix:
+
+| Code | Language | Suffix | Example |
+| --- | --- | --- | --- |
+| es | Español | *(none)* | `Resos/Avemaria.xhtml` |
+| la | Latine | `-la` | `Resos/Avemaria-la.xhtml` |
+| de | Deutsch | `-de` | `Resos/Avemaria-de.xhtml` |
+| it | Italiano | `-it` | `Resos/Avemaria-it.xhtml` |
+| en | English | `-en` | `Resos/Avemaria-en.xhtml` |
+
+Every page starts with a language switch (`es`, `la`, `de`, `it`, `en`) so the same prayer or mystery can be opened in another language. Weekday pages also link to the sibling day that uses the same mysteries.
+
+The book opens on [OEBPS/main.xhtml](OEBPS/main.xhtml), which lists the seven weekdays for each language. [OEBPS/nav.xhtml](OEBPS/nav.xhtml) lists the weekdays and the prayers. [toc.ncx](toc.ncx) follows the same order: mysteries by language, then prayers by language.
+
+## Contents
+
+| Folder | What it holds |
+| --- | --- |
+| `OEBPS/Navigation` | One page per weekday, and the same page in each companion language |
+| `OEBPS/Misterios` | The twenty mysteries: Gozoso, Doloroso, Glorioso, and Luminoso |
+| `OEBPS/Resos` | The prayers recited during the Rosary |
+| `OEBPS/Intensiones` | Intentions for the Rosary |
+| `OEBPS/styles` | The shared stylesheet |
+
+Weekday mysteries:
+
+| Day | Mysteries |
+| --- | --- |
+| Monday and Saturday | Joyful (Gozoso) |
+| Tuesday and Friday | Sorrowful (Doloroso) |
+| Wednesday and Sunday | Glorious (Glorioso) |
+| Thursday | Luminous (Luminoso) |
 
 ## Sequence
 
-1. Señal de la cruz
-2. Credo
-3. Padrenuestro
-4. Ave Maria
-5. Ave Maria 
-6. Ave Maria 
-7. Gloria
-8. Mysterio 1
-9. Padre Nuestro
-10. Ave Maria x10
-11. Gloria
-12. Jaculatoria
-13. Mysterio 2
-14. ...9-12
-15. Mysterio 3
-16. ... 9-12
-17. Mysterio 4
-18. ...9-12
-19. Mysterio 5
-20. ..9-12
-21. Letanías de la virgen
-22. Ángel de la Guarda
-23. Oración de San Miguel Arcángel 
+The spine repeats the same source pages so each weekday can be read straight through without duplicating the files.
 
-## Challenge
+1. Sign of the Cross
+2. Prayer to the Holy Spirit
+3. Creed
+4. Our Father
+5. Hail Mary
+6. Hail Mary
+7. Hail Mary
+8. Glory Be
+9. Mystery 1
+10. Our Father
+11. Hail Mary ×10
+12. Glory Be
+13. Aspiration
+14. Mysteries 2 to 5, each with steps 10 to 13
+15. Litany of the Blessed Virgin Mary
+16. Closing of the mysteries
+17. Divine Providence
+18. Guardian Angel
+19. Prayer to Saint Michael the Archangel
+20. Under Your Protection
+21. Prayer of Saint Gertrude
+22. Saint Joseph
 
-I do not want to include any page more than once. I could generate teh book by a powershell and duplicate teh content for each page in sequence and make sure each page is unique. Since teh file zips the content and the content can be sufficiently compact, the zip will compress a lot. An Epub is a website in a box. I would like to use javascript to get the next page at any time. It can also be used asa progress meter. In essense the following scenario:
+## ePUB
 
-Choose Day Sun-Sat (preselected based on today!)-> senal de la cruz -> Credo -> Padre Nuestro -> Ave Maria (the javascript will indicate the next page is back to the same page but now with a second index).
+The publication uses the EPUB container so the same page can appear more than once in the reading order without storing a second copy. The binder places every page in sequence and groups each weekday as one Rosary.
 
-Thought process is to have a page query ?day=sun&mysterio=0&step=1 this means this is the first step before mysterios on a sunday reading. further in teh process the query might be: ?day=sun&mysterio=3&step=7 this means reading the 7th Ave Maria on a sunday after the third mystery.  
+Reference: [EPUB 3 specification](https://www.w3.org/publishing/epub3/epub-spec.html).
+
+`content.opf` is the manifest and spine. `Manifest.xlsx` and `ManifestManipulations.ps1` are the source used to regenerate it. Regenerating the package from the workbook drops any language rows that have not been added there.
 
 ## Compile
 
-Create file with: 
+Create the book with:
+
 ```PowerShell
 Compress-Archive -Path . -DestinationPath ./Rosario.epub -Force
 ```
