@@ -10,6 +10,12 @@ body nav {
   margin: 0 5pt;
   height: 1rem;
 }
+body > segment > nav {
+  display: block;
+  margin: 0 5pt;
+  height: 7rem;
+}
+
 body nav ul {
   padding-right: 1rem;
   clear: both;
