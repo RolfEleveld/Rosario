@@ -4,26 +4,55 @@ body {
   page-break-before: always;
   margin: 0 5pt
 }
-/* Navigation styles needs to be a full width page block like a ruler on top of the page */
-body nav {
+/* Language switch: floated to the right edge. A block with no
+   set width fills the line when float is ignored, so text-align
+   still keeps the links on the right. */
+nav.langs {
+  float: right;
   display: block;
-  margin: 0 5pt;
-  height: 1rem;
+  margin: 0 0 0.3em 0;
+  padding: 0;
+  height: auto;
+  text-align: right;
+  line-height: 1.2;
 }
+nav.langs a {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+nav.langs a + a {
+  margin-left: 0.55em;
+}
+
+/* Letanía switch: floated to the left, one link per line. */
+nav.letanias {
+  float: left;
+  display: block;
+  margin: 0 1em 0.3em 0;
+  padding: 0;
+  height: auto;
+  text-align: left;
+  font-size: 0.72em;
+  line-height: 1.05;
+}
+nav.letanias a {
+  display: block;
+  margin: 0;
+  padding: 0;
+  line-height: 1.15;
+}
+nav.letanias a.here {
+  font-weight: bold;
+}
+nav.langs + * {
+  clear: both;
+}
+
 body > segment > nav {
   display: block;
   margin: 0 5pt;
   height: 7rem;
-}
-
-body nav ul {
-  padding-right: 1rem;
-  clear: both;
-}
-body nav ul li {
-  float: right;
-  padding: 0 5pt;
-  list-style: none;
 }
 
 h1 {

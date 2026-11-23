@@ -90,7 +90,7 @@
     <item id="Ros_Lun_5_13" href="OEBPS/Resos/Gloria.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_5_14" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_6_01" href="OEBPS/Resos/Salve-Regina.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_Lun_6_02" href="OEBPS/Resos/Letania-de-la-Virgen-Maria.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_6_02" href="OEBPS/Resos/Letania-del-Espiritu-Santo.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_6_03" href="OEBPS/Resos/Divina-Providencia.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_6_04" href="OEBPS/Resos/Dulce-Madre.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Mar_0_01" href="OEBPS/Navigation/Martes.xhtml" media-type="application/xhtml+xml" />
@@ -631,19 +631,23 @@
     <item id="Ros_r_s_09" href="OEBPS/Resos/Jaculatoria.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_r_s_10" href="OEBPS/Resos/Letania-de-la-Virgen-Maria.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_r_s_11" href="OEBPS/Resos/Letania-de-San-Jose.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_r_s_12" href="OEBPS/Resos/Oh-Senora-Mia.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_r_s_13" href="OEBPS/Resos/Oracion-Al-Espiritu-Santo.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_r_s_14" href="OEBPS/Resos/San-Gabriel-Arcangel.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_r_s_15" href="OEBPS/Resos/San-Miguel-Arcangel.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_r_s_16" href="OEBPS/Resos/San-Rafael-Arcangel.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_r_s_17" href="OEBPS/Resos/Santa-Gertrudis.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_r_s_18" href="OEBPS/Resos/Oracion-del-Alma-de-Cristo.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_r_s_19" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_r_s_20" href="OEBPS/Resos/Salve-Regina.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_r_s_21" href="OEBPS/Resos/San-Jose.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_r_s_22" href="OEBPS/Resos/Senal-de-la-santa-cruz.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_r_s_23" href="OEBPS/Resos/Soberano-Santuario.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_r_s_24" href="OEBPS/Resos/Ven-Espiritu-Santo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_12" href="OEBPS/Resos/Letania-del-Espiritu-Santo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_13" href="OEBPS/Resos/Letania-del-Sagrado-Corazon-de-Jesus.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_14" href="OEBPS/Resos/Letania-del-Santo-Nombre-de-Jesus.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_15" href="OEBPS/Resos/Oh-Senora-Mia.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_16" href="OEBPS/Resos/Oracion-Al-Espiritu-Santo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_17" href="OEBPS/Resos/San-Gabriel-Arcangel.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_18" href="OEBPS/Resos/San-Miguel-Arcangel.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_19" href="OEBPS/Resos/San-Rafael-Arcangel.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_20" href="OEBPS/Resos/Santa-Gertrudis.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_21" href="OEBPS/Resos/Oracion-del-Alma-de-Cristo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_22" href="OEBPS/Resos/Padre-Nuestro.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_23" href="OEBPS/Resos/Salve-Regina.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_24" href="OEBPS/Resos/San-Jose.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_25" href="OEBPS/Resos/Senal-de-la-santa-cruz.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_26" href="OEBPS/Resos/Soberano-Santuario.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_27" href="OEBPS/Resos/Ven-Espiritu-Santo.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_s_28" href="OEBPS/Resos/Ave-Maris-Stella.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_la_0_01" href="OEBPS/Navigation/Lunes-la.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_la_0_02" href="OEBPS/Resos/Senal-de-la-santa-cruz-la.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_la_0_03" href="OEBPS/Resos/Ven-Espiritu-Santo-la.xhtml" media-type="application/xhtml+xml" />
@@ -725,7 +729,7 @@
     <item id="Ros_Lun_la_5_13" href="OEBPS/Resos/Gloria-la.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_la_5_14" href="OEBPS/Resos/Jaculatoria-la.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_la_6_01" href="OEBPS/Resos/Salve-Regina-la.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_Lun_la_6_02" href="OEBPS/Resos/Letania-de-la-Virgen-Maria-la.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_la_6_02" href="OEBPS/Resos/Letania-del-Espiritu-Santo-la.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_la_6_03" href="OEBPS/Resos/Divina-Providencia-la.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_la_6_04" href="OEBPS/Resos/Dulce-Madre-la.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Mar_la_0_01" href="OEBPS/Navigation/Martes-la.xhtml" media-type="application/xhtml+xml" />
@@ -1279,6 +1283,10 @@
     <item id="Ros_r_la_s_22" href="OEBPS/Resos/Senal-de-la-santa-cruz-la.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_r_la_s_23" href="OEBPS/Resos/Bajo-tu-amparo-la.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_r_la_s_24" href="OEBPS/Resos/Ven-Espiritu-Santo-la.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_la_s_25" href="OEBPS/Resos/Letania-del-Espiritu-Santo-la.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_la_s_26" href="OEBPS/Resos/Letania-del-Sagrado-Corazon-de-Jesus-la.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_la_s_27" href="OEBPS/Resos/Letania-del-Santo-Nombre-de-Jesus-la.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_la_s_28" href="OEBPS/Resos/Ave-Maris-Stella-la.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_de_0_01" href="OEBPS/Navigation/Lunes-de.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_de_0_02" href="OEBPS/Resos/Senal-de-la-santa-cruz-de.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_de_0_03" href="OEBPS/Resos/Ven-Espiritu-Santo-de.xhtml" media-type="application/xhtml+xml" />
@@ -1360,7 +1368,7 @@
     <item id="Ros_Lun_de_5_13" href="OEBPS/Resos/Gloria-de.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_de_5_14" href="OEBPS/Resos/Jaculatoria-de.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_de_6_01" href="OEBPS/Resos/Salve-Regina-de.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_Lun_de_6_02" href="OEBPS/Resos/Letania-de-la-Virgen-Maria-de.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_de_6_02" href="OEBPS/Resos/Letania-del-Espiritu-Santo-de.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_de_6_03" href="OEBPS/Resos/Divina-Providencia-de.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_de_6_04" href="OEBPS/Resos/Dulce-Madre-de.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Mar_de_0_01" href="OEBPS/Navigation/Martes-de.xhtml" media-type="application/xhtml+xml" />
@@ -1914,6 +1922,10 @@
     <item id="Ros_r_de_s_22" href="OEBPS/Resos/Padre-Nuestro-de.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_r_de_s_23" href="OEBPS/Resos/Consagracion-a-San-Jose-de.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_r_de_s_24" href="OEBPS/Resos/San-Jose-de.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_de_s_25" href="OEBPS/Resos/Letania-del-Espiritu-Santo-de.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_de_s_26" href="OEBPS/Resos/Letania-del-Sagrado-Corazon-de-Jesus-de.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_de_s_27" href="OEBPS/Resos/Letania-del-Santo-Nombre-de-Jesus-de.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_de_s_28" href="OEBPS/Resos/Ave-Maris-Stella-de.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_it_0_01" href="OEBPS/Navigation/Lunes-it.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_it_0_02" href="OEBPS/Resos/Senal-de-la-santa-cruz-it.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_it_0_03" href="OEBPS/Resos/Ven-Espiritu-Santo-it.xhtml" media-type="application/xhtml+xml" />
@@ -1995,7 +2007,7 @@
     <item id="Ros_Lun_it_5_13" href="OEBPS/Resos/Gloria-it.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_it_5_14" href="OEBPS/Resos/Jaculatoria-it.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_it_6_01" href="OEBPS/Resos/Salve-Regina-it.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_Lun_it_6_02" href="OEBPS/Resos/Letania-de-la-Virgen-Maria-it.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_it_6_02" href="OEBPS/Resos/Letania-del-Espiritu-Santo-it.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_it_6_03" href="OEBPS/Resos/Divina-Providencia-it.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_it_6_04" href="OEBPS/Resos/Dulce-Madre-it.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Mar_it_0_01" href="OEBPS/Navigation/Martes-it.xhtml" media-type="application/xhtml+xml" />
@@ -2549,6 +2561,10 @@
     <item id="Ros_r_it_s_22" href="OEBPS/Resos/Senal-de-la-santa-cruz-it.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_r_it_s_23" href="OEBPS/Resos/Bajo-tu-amparo-it.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_r_it_s_24" href="OEBPS/Resos/Ven-Espiritu-Santo-it.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_it_s_25" href="OEBPS/Resos/Letania-del-Espiritu-Santo-it.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_it_s_26" href="OEBPS/Resos/Letania-del-Sagrado-Corazon-de-Jesus-it.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_it_s_27" href="OEBPS/Resos/Letania-del-Santo-Nombre-de-Jesus-it.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_it_s_28" href="OEBPS/Resos/Ave-Maris-Stella-it.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_en_0_01" href="OEBPS/Navigation/Lunes-en.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_en_0_02" href="OEBPS/Resos/Senal-de-la-santa-cruz-en.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_en_0_03" href="OEBPS/Resos/Ven-Espiritu-Santo-en.xhtml" media-type="application/xhtml+xml" />
@@ -2630,7 +2646,7 @@
     <item id="Ros_Lun_en_5_13" href="OEBPS/Resos/Gloria-en.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_en_5_14" href="OEBPS/Resos/Jaculatoria-en.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_en_6_01" href="OEBPS/Resos/Salve-Regina-en.xhtml" media-type="application/xhtml+xml" />
-    <item id="Ros_Lun_en_6_02" href="OEBPS/Resos/Letania-de-la-Virgen-Maria-en.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_Lun_en_6_02" href="OEBPS/Resos/Letania-del-Espiritu-Santo-en.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_en_6_03" href="OEBPS/Resos/Divina-Providencia-en.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Lun_en_6_04" href="OEBPS/Resos/Dulce-Madre-en.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_Mar_en_0_01" href="OEBPS/Navigation/Martes-en.xhtml" media-type="application/xhtml+xml" />
@@ -3184,6 +3200,10 @@
     <item id="Ros_r_en_s_22" href="OEBPS/Resos/Senal-de-la-santa-cruz-en.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_r_en_s_23" href="OEBPS/Resos/Dulce-Madre-en.xhtml" media-type="application/xhtml+xml" />
     <item id="Ros_r_en_s_24" href="OEBPS/Resos/Bajo-tu-amparo-en.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_en_s_25" href="OEBPS/Resos/Letania-del-Espiritu-Santo-en.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_en_s_26" href="OEBPS/Resos/Letania-del-Sagrado-Corazon-de-Jesus-en.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_en_s_27" href="OEBPS/Resos/Letania-del-Santo-Nombre-de-Jesus-en.xhtml" media-type="application/xhtml+xml" />
+    <item id="Ros_r_en_s_28" href="OEBPS/Resos/Ave-Maris-Stella-en.xhtml" media-type="application/xhtml+xml" />
     <item id="css" href="OEBPS/styles/stylesheet.css" media-type="text/css" />
     <item id="toc" href="toc.ncx" media-type="application/x-dtbncx+xml" />
     <item id="nav" href="OEBPS/nav.xhtml" media-type="application/xhtml+xml" />
@@ -3826,6 +3846,10 @@
     <itemref idref="Ros_r_s_22" />
     <itemref idref="Ros_r_s_23" />
     <itemref idref="Ros_r_s_24" />
+    <itemref idref="Ros_r_s_25" />
+    <itemref idref="Ros_r_s_26" />
+    <itemref idref="Ros_r_s_27" />
+    <itemref idref="Ros_r_s_28" />
     <itemref idref="nav" />
     <itemref idref="Ros_Lun_la_0_01" />
     <itemref idref="Ros_Lun_la_0_02" />
@@ -4462,6 +4486,10 @@
     <itemref idref="Ros_r_la_s_22" />
     <itemref idref="Ros_r_la_s_23" />
     <itemref idref="Ros_r_la_s_24" />
+    <itemref idref="Ros_r_la_s_25" />
+    <itemref idref="Ros_r_la_s_26" />
+    <itemref idref="Ros_r_la_s_27" />
+    <itemref idref="Ros_r_la_s_28" />
     <itemref idref="Ros_Lun_de_0_01" />
     <itemref idref="Ros_Lun_de_0_02" />
     <itemref idref="Ros_Lun_de_0_03" />
@@ -5097,6 +5125,10 @@
     <itemref idref="Ros_r_de_s_22" />
     <itemref idref="Ros_r_de_s_23" />
     <itemref idref="Ros_r_de_s_24" />
+    <itemref idref="Ros_r_de_s_25" />
+    <itemref idref="Ros_r_de_s_26" />
+    <itemref idref="Ros_r_de_s_27" />
+    <itemref idref="Ros_r_de_s_28" />
     <itemref idref="Ros_Lun_it_0_01" />
     <itemref idref="Ros_Lun_it_0_02" />
     <itemref idref="Ros_Lun_it_0_03" />
@@ -5732,6 +5764,10 @@
     <itemref idref="Ros_r_it_s_22" />
     <itemref idref="Ros_r_it_s_23" />
     <itemref idref="Ros_r_it_s_24" />
+    <itemref idref="Ros_r_it_s_25" />
+    <itemref idref="Ros_r_it_s_26" />
+    <itemref idref="Ros_r_it_s_27" />
+    <itemref idref="Ros_r_it_s_28" />
     <itemref idref="Ros_Lun_en_0_01" />
     <itemref idref="Ros_Lun_en_0_02" />
     <itemref idref="Ros_Lun_en_0_03" />
@@ -6367,6 +6403,10 @@
     <itemref idref="Ros_r_en_s_22" />
     <itemref idref="Ros_r_en_s_23" />
     <itemref idref="Ros_r_en_s_24" />
+    <itemref idref="Ros_r_en_s_25" />
+    <itemref idref="Ros_r_en_s_26" />
+    <itemref idref="Ros_r_en_s_27" />
+    <itemref idref="Ros_r_en_s_28" />
   </spine>
   <guide>
     <reference href="OEBPS/main.xhtml" type="index" title="Main" />
